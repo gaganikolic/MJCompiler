@@ -1,0 +1,205 @@
+INFO  11:58:49,074 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  11:58:49,129 - #2 program
+INFO  11:58:49,130 - #49 test302
+INFO  11:58:49,130 - #6 const
+INFO  11:58:49,131 - #49 int
+INFO  11:58:49,131 - #49 jedan
+INFO  11:58:49,132 - #7 =
+INFO  11:58:49,132 - #48 1
+INFO  11:58:49,132 - #8 ;
+INFO  11:58:49,132 - #49 int
+INFO  11:58:49,132 - #49 mat
+INFO  11:58:49,132 - #10 [
+INFO  11:58:49,133 - #11 ]
+INFO  11:58:49,133 - #10 [
+INFO  11:58:49,134 - #11 ]
+INFO  11:58:49,135 - #8 ;
+INFO  11:58:49,135 - #49 int
+INFO  11:58:49,135 - #49 niz
+INFO  11:58:49,135 - #10 [
+INFO  11:58:49,135 - #11 ]
+INFO  11:58:49,135 - #8 ;
+INFO  11:58:49,136 - #4 {
+INFO  11:58:49,136 - #41 void
+INFO  11:58:49,137 - #49 main
+INFO  11:58:49,137 - #20 (
+INFO  11:58:49,137 - #21 )
+INFO  11:58:49,138 - #4 {
+INFO  11:58:49,138 - #49 mat
+INFO  11:58:49,138 - #7 =
+INFO  11:58:49,138 - #29 new
+INFO  11:58:49,139 - #49 int
+INFO  11:58:49,139 - #10 [
+INFO  11:58:49,139 - #48 3
+INFO  11:58:49,139 - #11 ]
+INFO  11:58:49,140 - #8 ;
+INFO  11:58:49,140 - #19 read
+INFO  11:58:49,140 - #20 (
+INFO  11:58:49,141 - #49 mat
+INFO  11:58:49,141 - #10 [
+INFO  11:58:49,141 - #48 0
+INFO  11:58:49,141 - #11 ]
+INFO  11:58:49,142 - #10 [
+INFO  11:58:49,142 - #48 0
+INFO  11:58:49,142 - #11 ]
+INFO  11:58:49,142 - #21 )
+INFO  11:58:49,142 - #8 ;
+INFO  11:58:49,142 - #5 }
+INFO  11:58:49,143 - #5 }
+INFO  11:58:49,153 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstNum(
+               jedan
+               1
+              ) [ConstNum]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarMatrix(
+              Arr(
+                VarName(
+                 mat
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               mat
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNew(
+                        Type(
+                         int
+                        ) [Type]
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorNum(
+                                 3
+                                ) [FactorNum]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [FactorNew]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementRead(
+            DesignatorExpr(
+              DesignatorName(
+               mat
+              ) [DesignatorName]
+              MatrixDecl(
+                ArrayDecl(
+                  ExprPositive(
+                    AddopEnd(
+                      Term(
+                        MulopEnd(
+                          FactorNum(
+                           0
+                          ) [FactorNum]
+                        ) [MulopEnd]
+                      ) [Term]
+                    ) [AddopEnd]
+                  ) [ExprPositive]
+                ) [ArrayDecl]
+                ExprPositive(
+                  AddopEnd(
+                    Term(
+                      MulopEnd(
+                        FactorNum(
+                         0
+                        ) [FactorNum]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopEnd]
+                ) [ExprPositive]
+              ) [MatrixDecl]
+            ) [DesignatorExpr]
+          ) [StatementRead]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  11:58:49,153 - ===================================
+INFO  11:58:49,154 - Pocetak programa test302.
+INFO  11:58:49,154 - Deklarisana je konstanta jedan na liniji 5
+INFO  11:58:49,154 - Deklarisana je promenljiva mat na liniji 7
+INFO  11:58:49,154 - Deklarisana je promenljiva niz na liniji 8
+INFO  11:58:49,154 - Obradjuje se funkcija main na liniji 12
+ERROR 11:58:49,154 - Greska na liniji 14 designator i expr nisu istog tipa
+INFO  11:58:49,154 - Kreiran/promenjen element matrice mat
+ERROR 11:58:49,154 - Greska na liniji 15 promenljiva prosledjena funkciji READ nije odgovarajuceg tipa (niz)
+INFO  11:58:49,154 - Funkciji READ je prosledjen element niza 
+INFO  11:58:49,155 - ===================================
+ERROR 11:58:49,155 - Parsiranje NIJE uspesno zavrseno!

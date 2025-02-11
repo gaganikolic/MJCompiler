@@ -1,0 +1,109 @@
+INFO  19:07:09,611 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  19:07:09,669 - #2 program
+INFO  19:07:09,669 - #49 test4
+INFO  19:07:09,670 - #6 const
+INFO  19:07:09,671 - #49 int
+INFO  19:07:09,671 - #49 i
+INFO  19:07:09,671 - #7 =
+INFO  19:07:09,671 - #48 5
+INFO  19:07:09,672 - #9 ,
+INFO  19:07:09,672 - #49 j
+INFO  19:07:09,672 - #7 =
+INFO  19:07:09,672 - #48 3
+INFO  19:07:09,673 - #8 ;
+INFO  19:07:09,673 - #6 const
+INFO  19:07:09,673 - #49 char
+INFO  19:07:09,673 - #49 c
+INFO  19:07:09,673 - #7 =
+INFO  19:07:09,674 - #50 a
+INFO  19:07:09,674 - #8 ;
+INFO  19:07:09,674 - #49 int
+INFO  19:07:09,674 - #49 k
+INFO  19:07:09,674 - #10 [
+INFO  19:07:09,675 - #11 ]
+INFO  19:07:09,675 - #9 ,
+INFO  19:07:09,675 - #49 l
+INFO  19:07:09,675 - #10 [
+INFO  19:07:09,675 - #11 ]
+INFO  19:07:09,675 - #8 ;
+INFO  19:07:09,675 - #4 {
+INFO  19:07:09,676 - #5 }
+INFO  19:07:09,683 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarations(
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 i
+                  ConstNum(
+                   5
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+              ConstListPart(
+               j
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarations]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           char
+          ) [Type]
+          ConstDeclarationsEnd(
+            ConstListPart(
+             c
+              ConstChar(
+               a
+              ) [ConstChar]
+            ) [ConstListPart]
+          ) [ConstDeclarationsEnd]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarArr(
+           k
+          ) [VarArr]
+          VarDeclarationsEnd(
+            VarArr(
+             l
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  19:07:09,683 - ===================================
+INFO  19:07:09,685 - Pocetak programa test4.
+INFO  19:07:09,686 - Deklarisana je konstanta i na liniji 3
+INFO  19:07:09,686 - Deklarisana je konstanta j na liniji 3
+INFO  19:07:09,686 - Deklarisana je konstanta c na liniji 4
+INFO  19:07:09,686 - Deklarisan je niz k na liniji 5
+INFO  19:07:09,686 - Deklarisan je niz l na liniji 5
+INFO  19:07:09,686 - ===================================
+INFO  19:07:09,687 - Parsiranje uspesno zavrseno!

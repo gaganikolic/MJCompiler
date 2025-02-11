@@ -1,0 +1,346 @@
+INFO  12:43:12,568 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\testGreske.mj
+INFO  12:43:12,639 - #2 program
+INFO  12:43:12,639 - #53 greske
+INFO  12:43:12,640 - #6 const
+INFO  12:43:12,641 - #53 int
+INFO  12:43:12,641 - #53 nula
+INFO  12:43:12,641 - #7 =
+INFO  12:43:12,642 - #52 0
+INFO  12:43:12,642 - #8 ;
+INFO  12:43:12,642 - #6 const
+INFO  12:43:12,642 - #53 int
+INFO  12:43:12,642 - #53 jedan
+INFO  12:43:12,643 - #7 =
+INFO  12:43:12,643 - #52 1
+INFO  12:43:12,643 - #8 ;
+INFO  12:43:12,643 - #6 const
+INFO  12:43:12,643 - #53 int
+INFO  12:43:12,643 - #53 pet
+INFO  12:43:12,643 - #7 =
+INFO  12:43:12,644 - #52 5
+INFO  12:43:12,644 - #8 ;
+INFO  12:43:12,644 - #6 const
+INFO  12:43:12,644 - #53 int
+INFO  12:43:12,644 - #53 pet
+INFO  12:43:12,645 - #7 =
+INFO  12:43:12,645 - #52 5
+INFO  12:43:12,645 - #8 ;
+INFO  12:43:12,645 - #53 int
+INFO  12:43:12,645 - #53 niz
+INFO  12:43:12,645 - #10 [
+INFO  12:43:12,646 - #11 ]
+INFO  12:43:12,647 - #8 ;
+INFO  12:43:12,648 - #53 char
+INFO  12:43:12,648 - #53 nizch
+INFO  12:43:12,648 - #10 [
+INFO  12:43:12,648 - #11 ]
+INFO  12:43:12,648 - #8 ;
+INFO  12:43:12,649 - #4 {
+INFO  12:43:12,649 - #41 void
+INFO  12:43:12,650 - #53 main
+INFO  12:43:12,650 - #20 (
+INFO  12:43:12,650 - #21 )
+INFO  12:43:12,651 - #53 int
+INFO  12:43:12,651 - #53 bodovi
+INFO  12:43:12,651 - #8 ;
+INFO  12:43:12,651 - #53 int
+INFO  12:43:12,652 - #54 a
+ERROR 12:43:12,652 - 
+Sintaksna greska na liniji 17
+INFO  12:43:12,652 - #54 s
+INFO  12:43:12,652 - #54 d
+INFO  12:43:12,652 - #8 ;
+INFO  12:43:12,653 - #53 int
+INFO  12:43:12,653 - #53 nizerror
+INFO  12:43:12,653 - #10 [
+ERROR 12:43:12,653 - Uspesan oporavak od greske na liniji 17 pri definisanju promenjive
+INFO  12:43:12,654 - #8 ;
+ERROR 12:43:12,654 - 
+Sintaksna greska na liniji 18
+INFO  12:43:12,654 - #4 {
+INFO  12:43:12,654 - #53 bodovi
+INFO  12:43:12,654 - #7 =
+ERROR 12:43:12,655 - Uspesan oporavak od greske na liniji 18 pri definisanju promenjive
+INFO  12:43:12,655 - #54 a
+INFO  12:43:12,656 - #8 ;
+INFO  12:43:12,657 - #53 niz
+INFO  12:43:12,657 - #7 =
+INFO  12:43:12,657 - #29 new
+INFO  12:43:12,657 - #53 int
+INFO  12:43:12,657 - #10 [
+INFO  12:43:12,657 - #52 3
+INFO  12:43:12,658 - #11 ]
+INFO  12:43:12,658 - #8 ;
+INFO  12:43:12,658 - #53 niz
+INFO  12:43:12,658 - #10 [
+INFO  12:43:12,659 - #53 nula
+INFO  12:43:12,659 - #11 ]
+INFO  12:43:12,659 - #7 =
+INFO  12:43:12,659 - #54 a
+INFO  12:43:12,659 - #8 ;
+INFO  12:43:12,659 - #5 }
+INFO  12:43:12,660 - #5 }
+INFO  12:43:12,673 - Program(
+  ProgramName(
+   greske
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDeclaration(
+                ConstDeclarationList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsEnd(
+                    ConstNum(
+                     nula
+                     0
+                    ) [ConstNum]
+                  ) [ConstDeclarationsEnd]
+                ) [ConstDeclarationList]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstNum(
+                   jedan
+                   1
+                  ) [ConstNum]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstNum(
+                 pet
+                 5
+                ) [ConstNum]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstNum(
+               pet
+               5
+              ) [ConstNum]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarArr(
+              Arr(
+                VarName(
+                 niz
+                ) [VarName]
+              ) [Arr]
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               nizch
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclaration(
+              VarDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarationsEnd(
+                  VarIdent(
+                    VarName(
+                     bodovi
+                    ) [VarName]
+                  ) [VarIdent]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarationList]
+            ) [VarDeclaration]
+          ) [Declarations]
+          VarDeclaration(
+            VarDeclarationError(
+            ) [VarDeclarationError]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationError(
+          ) [VarDeclarationError]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               bodovi
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorChar(
+                       a
+                      ) [FactorChar]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementMatched(
+              DesignatorStatementAssignop(
+                DesignatorIdent(
+                 niz
+                ) [DesignatorIdent]
+                Assignop(
+                ) [Assignop]
+                ExprPositive(
+                  AddopEnd(
+                    Term(
+                      MulopEnd(
+                        FactorNew(
+                          Type(
+                           int
+                          ) [Type]
+                          ExprPositive(
+                            AddopEnd(
+                              Term(
+                                MulopEnd(
+                                  FactorNum(
+                                   3
+                                  ) [FactorNum]
+                                ) [MulopEnd]
+                              ) [Term]
+                            ) [AddopEnd]
+                          ) [ExprPositive]
+                        ) [FactorNew]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopEnd]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssignop]
+            ) [DesignatorStatementMatched]
+          ) [StatementDesignator]
+          Statements(
+            StatementDesignator(
+              DesignatorStatementMatched(
+                DesignatorStatementAssignop(
+                  DesignatorExpr(
+                    DesignatorName(
+                     niz
+                    ) [DesignatorName]
+                    ArrayDecl(
+                      ExprPositive(
+                        AddopEnd(
+                          Term(
+                            MulopEnd(
+                              FactorDesignator(
+                                DesignatorIdent(
+                                 nula
+                                ) [DesignatorIdent]
+                              ) [FactorDesignator]
+                            ) [MulopEnd]
+                          ) [Term]
+                        ) [AddopEnd]
+                      ) [ExprPositive]
+                    ) [ArrayDecl]
+                  ) [DesignatorExpr]
+                  Assignop(
+                  ) [Assignop]
+                  ExprPositive(
+                    AddopEnd(
+                      Term(
+                        MulopEnd(
+                          FactorChar(
+                           a
+                          ) [FactorChar]
+                        ) [MulopEnd]
+                      ) [Term]
+                    ) [AddopEnd]
+                  ) [ExprPositive]
+                ) [DesignatorStatementAssignop]
+              ) [DesignatorStatementMatched]
+            ) [StatementDesignator]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  12:43:12,673 - ===================================
+INFO  12:43:12,674 - Pocetak programa greske.
+INFO  12:43:12,674 - Deklarisana je konstanta nula na liniji 5
+INFO  12:43:12,674 - Deklarisana je konstanta jedan na liniji 6
+INFO  12:43:12,674 - Deklarisana je konstanta pet na liniji 7
+ERROR 12:43:12,675 - GRESKA: Vec postoji identifikator pet
+INFO  12:43:12,675 - Deklarisana je konstanta pet na liniji 8
+INFO  12:43:12,675 - Deklarisana je promenljiva niz na liniji 10
+INFO  12:43:12,675 - Deklarisana je promenljiva nizch na liniji 11
+INFO  12:43:12,675 - Obradjuje se funkcija main na liniji 15
+INFO  12:43:12,675 - Deklarisana je promenljiva bodovi na liniji 16
+ERROR 12:43:12,675 - GRESKA: Designator i expr nisu istog tipa na liniji 20
+INFO  12:43:12,676 - Designator i expr su odgovarajuceg tipa na liniji 22
+INFO  12:43:12,676 - Kreiran/promenjen element niza niz
+ERROR 12:43:12,676 - GRESKA: Designator i expr nisu istog tipa na liniji 23
+ERROR 12:43:12,677 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,84 @@
+INFO  13:52:37,169 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  13:52:37,282 - #2 program
+INFO  13:52:37,282 - #49 test4
+INFO  13:52:37,282 - #6 const
+INFO  13:52:37,286 - #49 int
+INFO  13:52:37,286 - #49 i
+INFO  13:52:37,288 - #7 =
+INFO  13:52:37,288 - #48 5
+INFO  13:52:37,288 - #9 ,
+INFO  13:52:37,291 - #49 j
+INFO  13:52:37,292 - #7 =
+INFO  13:52:37,292 - #48 3
+INFO  13:52:37,293 - #8 ;
+INFO  13:52:37,293 - #49 int
+INFO  13:52:37,294 - #49 k
+INFO  13:52:37,294 - #9 ,
+INFO  13:52:37,295 - #49 l
+INFO  13:52:37,295 - #9 ,
+INFO  13:52:37,296 - #49 n
+INFO  13:52:37,297 - #8 ;
+INFO  13:52:37,298 - #4 {
+INFO  13:52:37,299 - #5 }
+INFO  13:52:37,318 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclarations(
+            ConstDeclarationsEnd(
+              ConstListPart(
+               i
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarationsEnd]
+            ConstListPart(
+             j
+              ConstNum(
+               3
+              ) [ConstNum]
+            ) [ConstListPart]
+          ) [ConstDeclarations]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarIdent(
+           k
+          ) [VarIdent]
+          VarDeclarations(
+            VarIdent(
+             l
+            ) [VarIdent]
+            VarDeclarationsEnd(
+              VarIdent(
+               n
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  13:52:37,319 - ===================================
+INFO  13:52:37,324 - Pocetak programa test4.
+INFO  13:52:37,325 - ===================================
+INFO  13:52:37,325 - Parsiranje uspesno zavrseno!

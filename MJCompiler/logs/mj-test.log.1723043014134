@@ -1,0 +1,153 @@
+INFO  17:03:24,632 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  17:03:24,740 - #2 program
+INFO  17:03:24,740 - #49 test301
+INFO  17:03:24,740 - #4 {
+INFO  17:03:24,742 - #49 int
+INFO  17:03:24,743 - #49 verify
+INFO  17:03:24,744 - #20 (
+INFO  17:03:24,744 - #49 int
+INFO  17:03:24,745 - #49 x
+INFO  17:03:24,745 - #21 )
+INFO  17:03:24,745 - #4 {
+INFO  17:03:24,746 - #18 return
+INFO  17:03:24,746 - #28 -
+INFO  17:03:24,746 - #48 1
+INFO  17:03:24,746 - #8 ;
+INFO  17:03:24,748 - #5 }
+INFO  17:03:24,750 - #41 void
+INFO  17:03:24,752 - #49 main
+INFO  17:03:24,752 - #20 (
+INFO  17:03:24,753 - #21 )
+INFO  17:03:24,754 - #49 int
+INFO  17:03:24,755 - #49 bodovi
+INFO  17:03:24,757 - #8 ;
+INFO  17:03:24,759 - #49 char
+INFO  17:03:24,760 - #49 c
+INFO  17:03:24,760 - #8 ;
+INFO  17:03:24,760 - #4 {
+INFO  17:03:24,760 - #22 print
+INFO  17:03:24,760 - #20 (
+INFO  17:03:24,760 - #48 1
+INFO  17:03:24,760 - #21 )
+INFO  17:03:24,760 - #8 ;
+INFO  17:03:24,760 - #5 }
+INFO  17:03:24,761 - #5 }
+INFO  17:03:24,776 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDecl(
+        MethodNameAnyType(
+          Type(
+           int
+          ) [Type]
+         verify
+        ) [MethodNameAnyType]
+        MethodParameters(
+          FormParsEnd(
+            FormParsVar(
+              Type(
+               int
+              ) [Type]
+             x
+            ) [FormParsVar]
+          ) [FormParsEnd]
+        ) [MethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        Statements(
+          StatementReturnExpr(
+            ExprNegativ(
+              AddopEnd(
+                Term(
+                  MulopEnd(
+                    FactorNum(
+                     1
+                    ) [FactorNum]
+                  ) [MulopEnd]
+                ) [Term]
+              ) [AddopEnd]
+            ) [ExprNegativ]
+          ) [StatementReturnExpr]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarationList]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   bodovi
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             char
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 c
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementPrint(
+          ExprPositive(
+            AddopEnd(
+              Term(
+                MulopEnd(
+                  FactorNum(
+                   1
+                  ) [FactorNum]
+                ) [MulopEnd]
+              ) [Term]
+            ) [AddopEnd]
+          ) [ExprPositive]
+        ) [StatementPrint]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  17:03:24,777 - ===================================
+INFO  17:03:24,778 - Pocetak programa test301.
+INFO  17:03:24,778 - Obradjuje se funkcija verify na liniji 5
+INFO  17:03:24,778 - Deklarisan je parametar funkcije x na liniji 5
+INFO  17:03:24,778 - Dobra povratna vrednost funkcije na liniji 6
+INFO  17:03:24,779 - Obradjuje se funkcija main na liniji 8
+INFO  17:03:24,779 - Deklarisana je promenljiva bodovi na liniji 9
+INFO  17:03:24,779 - Deklarisana je promenljiva c na liniji 10
+INFO  17:03:24,780 - Obradjena funkcija PRINT na liniji 13
+INFO  17:03:24,780 - ===================================
+INFO  17:03:24,789 - Parsiranje uspesno zavrseno!

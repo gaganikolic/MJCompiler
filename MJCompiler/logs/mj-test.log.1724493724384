@@ -1,0 +1,193 @@
+INFO  18:55:36,594 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  18:55:36,656 - #2 program
+INFO  18:55:36,656 - #53 test
+INFO  18:55:36,656 - #53 int
+INFO  18:55:36,657 - #53 niz
+INFO  18:55:36,658 - #10 [
+INFO  18:55:36,658 - #11 ]
+INFO  18:55:36,658 - #8 ;
+INFO  18:55:36,659 - #53 int
+INFO  18:55:36,659 - #53 mat
+INFO  18:55:36,660 - #10 [
+INFO  18:55:36,660 - #11 ]
+INFO  18:55:36,660 - #10 [
+INFO  18:55:36,660 - #11 ]
+INFO  18:55:36,660 - #8 ;
+INFO  18:55:36,660 - #6 const
+INFO  18:55:36,660 - #53 int
+INFO  18:55:36,660 - #53 i
+INFO  18:55:36,661 - #7 =
+INFO  18:55:36,661 - #52 1
+INFO  18:55:36,661 - #8 ;
+INFO  18:55:36,661 - #4 {
+INFO  18:55:36,662 - #41 void
+INFO  18:55:36,663 - #53 main
+INFO  18:55:36,663 - #20 (
+INFO  18:55:36,663 - #21 )
+INFO  18:55:36,664 - #53 int
+INFO  18:55:36,664 - #53 a
+INFO  18:55:36,664 - #8 ;
+INFO  18:55:36,664 - #53 int
+INFO  18:55:36,664 - #53 b
+INFO  18:55:36,664 - #8 ;
+INFO  18:55:36,665 - #4 {
+INFO  18:55:36,665 - #22 print
+INFO  18:55:36,665 - #20 (
+INFO  18:55:36,665 - #52 10
+INFO  18:55:36,665 - #21 )
+INFO  18:55:36,667 - #8 ;
+INFO  18:55:36,667 - #22 print
+INFO  18:55:36,667 - #20 (
+INFO  18:55:36,667 - #53 eol
+INFO  18:55:36,667 - #21 )
+INFO  18:55:36,668 - #8 ;
+INFO  18:55:36,668 - #5 }
+INFO  18:55:36,669 - #5 }
+INFO  18:55:36,679 - Program(
+  ProgramName(
+   test
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarArr(
+                Arr(
+                  VarName(
+                   niz
+                  ) [VarName]
+                ) [Arr]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarMatrix(
+              Arr(
+                VarName(
+                 mat
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    ConstDeclaration(
+      ConstDeclarationList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclarationsEnd(
+          ConstNum(
+           i
+           1
+          ) [ConstNum]
+        ) [ConstDeclarationsEnd]
+      ) [ConstDeclarationList]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   a
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 b
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementPrint(
+          ExprPositive(
+            AddopEnd(
+              Term(
+                MulopEnd(
+                  FactorNum(
+                   10
+                  ) [FactorNum]
+                ) [MulopEnd]
+              ) [Term]
+            ) [AddopEnd]
+          ) [ExprPositive]
+        ) [StatementPrint]
+        Statements(
+          StatementPrint(
+            ExprPositive(
+              AddopEnd(
+                Term(
+                  MulopEnd(
+                    FactorDesignator(
+                      DesignatorIdent(
+                       eol
+                      ) [DesignatorIdent]
+                    ) [FactorDesignator]
+                  ) [MulopEnd]
+                ) [Term]
+              ) [AddopEnd]
+            ) [ExprPositive]
+          ) [StatementPrint]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  18:55:36,680 - ===================================
+INFO  18:55:36,680 - Pocetak programa test.
+INFO  18:55:36,680 - Deklarisana je promenljiva niz na liniji 3
+INFO  18:55:36,681 - Deklarisana je promenljiva mat na liniji 4
+INFO  18:55:36,681 - Deklarisana je konstanta i na liniji 6
+INFO  18:55:36,681 - Obradjuje se funkcija main na liniji 9
+INFO  18:55:36,681 - Deklarisana je promenljiva a na liniji 10
+INFO  18:55:36,681 - Deklarisana je promenljiva b na liniji 11
+INFO  18:55:36,682 - Obradjena funkcija PRINT na liniji 13
+INFO  18:55:36,682 - Obradjena funkcija PRINT na liniji 14
+INFO  18:55:36,688 - Parsiranje uspesno zavrseno!

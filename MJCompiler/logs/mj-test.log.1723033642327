@@ -1,0 +1,130 @@
+INFO  14:27:12,812 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  14:27:12,914 - #2 program
+INFO  14:27:12,914 - #49 test301
+INFO  14:27:12,914 - #4 {
+INFO  14:27:12,917 - #49 int
+INFO  14:27:12,918 - #49 verify
+INFO  14:27:12,919 - #20 (
+INFO  14:27:12,919 - #49 char
+INFO  14:27:12,919 - #49 x
+INFO  14:27:12,919 - #21 )
+INFO  14:27:12,920 - #4 {
+INFO  14:27:12,920 - #18 return
+INFO  14:27:12,920 - #28 -
+INFO  14:27:12,920 - #48 1
+INFO  14:27:12,920 - #8 ;
+INFO  14:27:12,922 - #5 }
+INFO  14:27:12,924 - #41 void
+INFO  14:27:12,926 - #49 main
+INFO  14:27:12,926 - #20 (
+INFO  14:27:12,926 - #21 )
+INFO  14:27:12,927 - #49 int
+INFO  14:27:12,928 - #49 bodovi
+INFO  14:27:12,928 - #8 ;
+INFO  14:27:12,930 - #4 {
+INFO  14:27:12,931 - #49 verify
+INFO  14:27:12,931 - #20 (
+INFO  14:27:12,931 - #21 )
+INFO  14:27:12,932 - #8 ;
+INFO  14:27:12,933 - #5 }
+INFO  14:27:12,933 - #5 }
+INFO  14:27:12,943 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDecl(
+        MethodNameAnyType(
+          Type(
+           int
+          ) [Type]
+         verify
+        ) [MethodNameAnyType]
+        MethodParameters(
+          FormParsEnd(
+            FormParsVar(
+              Type(
+               char
+              ) [Type]
+             x
+            ) [FormParsVar]
+          ) [FormParsEnd]
+        ) [MethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        Statements(
+          StatementReturnExpr(
+            ExprNegativ(
+              AddopEnd(
+                Term(
+                  MulopEnd(
+                    FactorNum(
+                     1
+                    ) [FactorNum]
+                  ) [MulopEnd]
+                ) [Term]
+              ) [AddopEnd]
+            ) [ExprNegativ]
+          ) [StatementReturnExpr]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarationList]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 bodovi
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementActPars(
+              DesignatorIdent(
+               verify
+              ) [DesignatorIdent]
+              NoActPars(
+              ) [NoActPars]
+            ) [DesignatorStatementActPars]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:27:12,943 - ===================================
+INFO  14:27:12,943 - Pocetak programa test301.
+INFO  14:27:12,944 - Obradjuje se funkcija verify na liniji 5
+INFO  14:27:12,944 - Deklarisan je parametar funkcije x na liniji 5
+INFO  14:27:12,944 - Dobra povratna vrednost funkcije na liniji 6
+INFO  14:27:12,944 - Obradjuje se funkcija main na liniji 8
+INFO  14:27:12,944 - Deklarisana je promenljiva bodovi na liniji 9
+ERROR 14:27:12,944 - Greska, neodgovarajuci broj parametara pozvane funkcije na liniji 12
+INFO  14:27:12,944 - ===================================
+ERROR 14:27:12,945 - Parsiranje NIJE uspesno zavrseno!

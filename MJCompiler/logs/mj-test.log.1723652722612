@@ -1,0 +1,328 @@
+INFO  18:23:46,006 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  18:23:46,076 - #2 program
+INFO  18:23:46,077 - #49 test302
+INFO  18:23:46,077 - #6 const
+INFO  18:23:46,080 - #49 int
+INFO  18:23:46,080 - #49 jedan
+INFO  18:23:46,081 - #7 =
+INFO  18:23:46,081 - #48 1
+INFO  18:23:46,082 - #8 ;
+INFO  18:23:46,082 - #49 int
+INFO  18:23:46,082 - #49 mat
+INFO  18:23:46,083 - #10 [
+INFO  18:23:46,083 - #11 ]
+INFO  18:23:46,084 - #10 [
+INFO  18:23:46,085 - #11 ]
+INFO  18:23:46,085 - #8 ;
+INFO  18:23:46,085 - #49 int
+INFO  18:23:46,086 - #49 niz
+INFO  18:23:46,086 - #10 [
+INFO  18:23:46,086 - #11 ]
+INFO  18:23:46,086 - #9 ,
+INFO  18:23:46,086 - #49 niz1
+INFO  18:23:46,089 - #10 [
+INFO  18:23:46,089 - #11 ]
+INFO  18:23:46,089 - #8 ;
+INFO  18:23:46,089 - #49 int
+INFO  18:23:46,089 - #49 a
+INFO  18:23:46,089 - #8 ;
+INFO  18:23:46,089 - #4 {
+INFO  18:23:46,090 - #41 void
+INFO  18:23:46,090 - #49 main
+INFO  18:23:46,091 - #20 (
+INFO  18:23:46,091 - #21 )
+INFO  18:23:46,092 - #4 {
+INFO  18:23:46,092 - #49 mat
+INFO  18:23:46,092 - #7 =
+INFO  18:23:46,092 - #29 new
+INFO  18:23:46,093 - #49 int
+INFO  18:23:46,093 - #10 [
+INFO  18:23:46,093 - #48 4
+INFO  18:23:46,093 - #11 ]
+INFO  18:23:46,095 - #10 [
+INFO  18:23:46,095 - #48 2
+INFO  18:23:46,095 - #11 ]
+INFO  18:23:46,095 - #8 ;
+INFO  18:23:46,097 - #49 mat
+INFO  18:23:46,097 - #10 [
+INFO  18:23:46,098 - #48 0
+INFO  18:23:46,098 - #11 ]
+INFO  18:23:46,098 - #10 [
+INFO  18:23:46,098 - #48 0
+INFO  18:23:46,098 - #11 ]
+INFO  18:23:46,099 - #7 =
+INFO  18:23:46,099 - #48 1
+INFO  18:23:46,099 - #8 ;
+INFO  18:23:46,099 - #22 print
+INFO  18:23:46,099 - #20 (
+INFO  18:23:46,099 - #49 mat
+INFO  18:23:46,100 - #10 [
+INFO  18:23:46,100 - #48 0
+INFO  18:23:46,100 - #11 ]
+INFO  18:23:46,100 - #10 [
+INFO  18:23:46,100 - #48 0
+INFO  18:23:46,100 - #11 ]
+INFO  18:23:46,100 - #21 )
+INFO  18:23:46,100 - #8 ;
+INFO  18:23:46,101 - #5 }
+INFO  18:23:46,102 - #5 }
+INFO  18:23:46,119 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstNum(
+                 jedan
+                 1
+                ) [ConstNum]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarMatrix(
+                Arr(
+                  VarName(
+                   mat
+                  ) [VarName]
+                ) [Arr]
+              ) [VarMatrix]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarArr(
+              Arr(
+                VarName(
+                 niz
+                ) [VarName]
+              ) [Arr]
+            ) [VarArr]
+            VarDeclarationsEnd(
+              VarArr(
+                Arr(
+                  VarName(
+                   niz1
+                  ) [VarName]
+                ) [Arr]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+            VarName(
+             a
+            ) [VarName]
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               mat
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNewMatrix(
+                        Type(
+                         int
+                        ) [Type]
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorNum(
+                                 4
+                                ) [FactorNum]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                        MatrixNewSecondSquares(
+                          ExprPositive(
+                            AddopEnd(
+                              Term(
+                                MulopEnd(
+                                  FactorNum(
+                                   2
+                                  ) [FactorNum]
+                                ) [MulopEnd]
+                              ) [Term]
+                            ) [AddopEnd]
+                          ) [ExprPositive]
+                        ) [MatrixNewSecondSquares]
+                      ) [FactorNewMatrix]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementMatched(
+              DesignatorStatementAssignop(
+                DesignatorExpr(
+                  DesignatorName(
+                   mat
+                  ) [DesignatorName]
+                  MatrixDecl(
+                    ArrayDecl(
+                      ExprPositive(
+                        AddopEnd(
+                          Term(
+                            MulopEnd(
+                              FactorNum(
+                               0
+                              ) [FactorNum]
+                            ) [MulopEnd]
+                          ) [Term]
+                        ) [AddopEnd]
+                      ) [ExprPositive]
+                    ) [ArrayDecl]
+                    ExprPositive(
+                      AddopEnd(
+                        Term(
+                          MulopEnd(
+                            FactorNum(
+                             0
+                            ) [FactorNum]
+                          ) [MulopEnd]
+                        ) [Term]
+                      ) [AddopEnd]
+                    ) [ExprPositive]
+                  ) [MatrixDecl]
+                ) [DesignatorExpr]
+                Assignop(
+                ) [Assignop]
+                ExprPositive(
+                  AddopEnd(
+                    Term(
+                      MulopEnd(
+                        FactorNum(
+                         1
+                        ) [FactorNum]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopEnd]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssignop]
+            ) [DesignatorStatementMatched]
+          ) [StatementDesignator]
+          Statements(
+            StatementPrint(
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorDesignator(
+                        DesignatorExpr(
+                          DesignatorName(
+                           mat
+                          ) [DesignatorName]
+                          MatrixDecl(
+                            ArrayDecl(
+                              ExprPositive(
+                                AddopEnd(
+                                  Term(
+                                    MulopEnd(
+                                      FactorNum(
+                                       0
+                                      ) [FactorNum]
+                                    ) [MulopEnd]
+                                  ) [Term]
+                                ) [AddopEnd]
+                              ) [ExprPositive]
+                            ) [ArrayDecl]
+                            ExprPositive(
+                              AddopEnd(
+                                Term(
+                                  MulopEnd(
+                                    FactorNum(
+                                     0
+                                    ) [FactorNum]
+                                  ) [MulopEnd]
+                                ) [Term]
+                              ) [AddopEnd]
+                            ) [ExprPositive]
+                          ) [MatrixDecl]
+                        ) [DesignatorExpr]
+                      ) [FactorDesignator]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [StatementPrint]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  18:23:46,119 - ===================================
+INFO  18:23:46,120 - Pocetak programa test302.
+INFO  18:23:46,120 - Deklarisana je konstanta jedan na liniji 5
+INFO  18:23:46,120 - Deklarisana je promenljiva mat na liniji 7
+INFO  18:23:46,121 - Deklarisana je promenljiva niz na liniji 8
+INFO  18:23:46,121 - Deklarisana je promenljiva niz1 na liniji 8
+INFO  18:23:46,121 - Deklarisana je promenljiva a na liniji 9
+INFO  18:23:46,121 - Obradjuje se funkcija main na liniji 13
+INFO  18:23:46,121 - Designator i expr su odgovarajuceg tipa na liniji 15
+INFO  18:23:46,122 - Kreiran/promenjen element matrice mat
+INFO  18:23:46,122 - Designator i expr su odgovarajuceg tipa na liniji 16
+INFO  18:23:46,122 - Kreiran/promenjen element matrice mat
+INFO  18:23:46,122 - Obradjena funkcija PRINT na liniji 17
+INFO  18:23:46,122 - ===================================
+INFO  18:23:46,130 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,64 @@
+INFO  15:22:12,963 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test2.mj
+INFO  15:22:13,052 - #2 program
+INFO  15:22:13,052 - #3 test301
+INFO  15:22:13,052 - #7 const
+INFO  15:22:13,053 - #3 int
+INFO  15:22:13,053 - #3 a
+INFO  15:22:13,055 - #8 =
+INFO  15:22:13,055 - #42 10
+INFO  15:22:13,056 - #9 ;
+INFO  15:22:13,057 - #4 {
+INFO  15:22:13,058 - #45 void
+INFO  15:22:13,059 - #3 main
+INFO  15:22:13,059 - #21 (
+INFO  15:22:13,059 - #22 )
+INFO  15:22:13,061 - #4 {
+INFO  15:22:13,061 - #11 [
+INFO  15:22:13,061 - #3 b
+INFO  15:22:13,061 - #10 ,
+INFO  15:22:13,062 - #39 *
+INFO  15:22:13,062 - #3 a
+INFO  15:22:13,062 - #12 ]
+INFO  15:22:13,062 - #8 =
+INFO  15:22:13,063 - #42 5
+ERROR 15:22:13,063 - 
+Sintaksna greska na liniji 7
+INFO  15:22:13,063 - #9 ;
+INFO  15:22:13,063 - #5 }
+INFO  15:22:13,063 - #5 }
+ERROR 15:22:13,065 - Uspesan oporavak od greske na liniji 7 pri konstrukciji iskaza dodele do ;
+INFO  15:22:13,071 - Program(
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDeclaration(
+      ConstDeclarationList(
+        TypeName(
+        ) [TypeName]
+        ConstDeclarationsEnd(
+          ConstPart(
+            ConstNum(
+            ) [ConstNum]
+          ) [ConstPart]
+        ) [ConstDeclarationsEnd]
+      ) [ConstDeclarationList]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDeclarationVoidType(
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementError(
+        ) [StatementError]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDeclarationVoidType]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:22:13,072 - ===================================

@@ -1,0 +1,128 @@
+INFO  21:15:15,154 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  21:15:15,245 - #2 program
+INFO  21:15:15,246 - #49 test301
+INFO  21:15:15,246 - #49 int
+INFO  21:15:15,248 - #49 mat
+INFO  21:15:15,250 - #10 [
+INFO  21:15:15,251 - #11 ]
+INFO  21:15:15,251 - #10 [
+INFO  21:15:15,252 - #11 ]
+INFO  21:15:15,252 - #8 ;
+INFO  21:15:15,252 - #49 char
+INFO  21:15:15,253 - #49 nizch
+INFO  21:15:15,253 - #10 [
+INFO  21:15:15,253 - #11 ]
+INFO  21:15:15,253 - #8 ;
+INFO  21:15:15,253 - #4 {
+INFO  21:15:15,254 - #41 void
+INFO  21:15:15,255 - #49 main
+INFO  21:15:15,256 - #20 (
+INFO  21:15:15,256 - #21 )
+INFO  21:15:15,257 - #49 int
+INFO  21:15:15,258 - #49 bodovi
+INFO  21:15:15,261 - #8 ;
+INFO  21:15:15,262 - #49 bool
+INFO  21:15:15,262 - #49 bt
+INFO  21:15:15,262 - #8 ;
+INFO  21:15:15,262 - #4 {
+INFO  21:15:15,262 - #5 }
+INFO  21:15:15,264 - #5 }
+INFO  21:15:15,281 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarMatrix(
+              Arr(
+                VarName(
+                 mat
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               nizch
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   bodovi
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             bool
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 bt
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  21:15:15,282 - ===================================
+INFO  21:15:15,282 - Pocetak programa test301.
+INFO  21:15:15,282 - Deklarisana je promenljiva mat na liniji 6
+INFO  21:15:15,283 - Deklarisana je promenljiva nizch na liniji 7
+INFO  21:15:15,283 - Obradjuje se funkcija main na liniji 10
+INFO  21:15:15,283 - Deklarisana je promenljiva bodovi na liniji 11
+INFO  21:15:15,283 - Deklarisana je promenljiva bt na liniji 12
+INFO  21:15:15,284 - ===================================
+INFO  21:15:15,298 - Parsiranje uspesno zavrseno!

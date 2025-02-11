@@ -1,0 +1,46 @@
+// Test2
+
+program test2
+
+int mat[][], niz[];
+char matc[][], nizc[];
+bool provera;
+	
+	
+{
+	void main()	
+		int bodovi;
+		bool provera1;
+	{
+		mat = new int[3][1];
+		read(mat[0][0]);
+		mat[1][0] = 2;
+		mat[2][0] = 2001;
+		print(mat[0][0]);
+		print(mat[1][0]);
+		print(mat[2][0]); 
+		
+		print(eol);	
+	
+		matc = new char[4][1];
+		matc[0][0] = 'g';
+		matc[1][0] = 'a';
+		matc[2][0] = 'g';
+		matc[3][0] = 'a';
+		print(matc[0][0]);
+		print(matc[1][0]);
+		print(matc[2][0]); 
+		print(matc[3][0]); 
+		
+		print(eol);
+		
+		niz = new int[1];
+		niz[0] = 1;
+		print(niz[0]);
+		nizc = new char[1];
+		nizc[0] = 'a';
+		print(nizc[0]);
+	}
+}
+
+

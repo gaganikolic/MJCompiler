@@ -1,0 +1,281 @@
+INFO  01:25:28,895 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  01:25:28,951 - #2 program
+INFO  01:25:28,952 - #49 test301
+INFO  01:25:28,952 - #6 const
+INFO  01:25:28,953 - #49 int
+INFO  01:25:28,953 - #49 nula
+INFO  01:25:28,953 - #7 =
+INFO  01:25:28,953 - #48 0
+INFO  01:25:28,954 - #8 ;
+INFO  01:25:28,954 - #6 const
+INFO  01:25:28,954 - #49 int
+INFO  01:25:28,954 - #49 jedan
+INFO  01:25:28,954 - #7 =
+INFO  01:25:28,954 - #48 1
+INFO  01:25:28,954 - #8 ;
+INFO  01:25:28,955 - #6 const
+INFO  01:25:28,955 - #49 int
+INFO  01:25:28,955 - #49 pet
+INFO  01:25:28,955 - #7 =
+INFO  01:25:28,955 - #48 5
+INFO  01:25:28,955 - #8 ;
+INFO  01:25:28,955 - #49 int
+INFO  01:25:28,957 - #49 niz
+INFO  01:25:28,957 - #10 [
+INFO  01:25:28,957 - #11 ]
+INFO  01:25:28,957 - #9 ,
+INFO  01:25:28,958 - #49 niz2
+INFO  01:25:28,958 - #10 [
+INFO  01:25:28,958 - #11 ]
+INFO  01:25:28,958 - #9 ,
+INFO  01:25:28,958 - #49 niz_3
+INFO  01:25:28,958 - #10 [
+INFO  01:25:28,958 - #11 ]
+INFO  01:25:28,958 - #8 ;
+INFO  01:25:28,958 - #49 char
+INFO  01:25:28,959 - #49 nizch
+INFO  01:25:28,959 - #10 [
+INFO  01:25:28,959 - #11 ]
+INFO  01:25:28,959 - #8 ;
+INFO  01:25:28,959 - #49 char
+INFO  01:25:28,959 - #49 c
+INFO  01:25:28,959 - #8 ;
+INFO  01:25:28,959 - #4 {
+INFO  01:25:28,959 - #49 bool
+INFO  01:25:28,960 - #49 verify
+INFO  01:25:28,960 - #20 (
+INFO  01:25:28,961 - #21 )
+INFO  01:25:28,962 - #4 {
+INFO  01:25:28,962 - #22 print
+INFO  01:25:28,962 - #20 (
+INFO  01:25:28,962 - #50 v
+INFO  01:25:28,962 - #21 )
+INFO  01:25:28,963 - #8 ;
+INFO  01:25:28,964 - #18 return
+INFO  01:25:28,964 - #51 false
+INFO  01:25:28,964 - #8 ;
+INFO  01:25:28,964 - #5 }
+INFO  01:25:28,965 - #41 void
+INFO  01:25:28,966 - #49 main
+INFO  01:25:28,966 - #20 (
+INFO  01:25:28,966 - #21 )
+INFO  01:25:28,966 - #49 int
+INFO  01:25:28,966 - #49 i
+INFO  01:25:28,966 - #8 ;
+INFO  01:25:28,966 - #4 {
+INFO  01:25:28,966 - #10 [
+INFO  01:25:28,966 - #49 nizch
+INFO  01:25:28,967 - #10 [
+INFO  01:25:28,967 - #11 ]
+ERROR 01:25:28,968 - 
+Sintaksna greska na liniji 23
+INFO  01:25:28,968 - #9 ,
+INFO  01:25:28,968 - #38 *
+INFO  01:25:28,968 - #49 niz2
+INFO  01:25:28,968 - #11 ]
+INFO  01:25:28,969 - #7 =
+INFO  01:25:28,969 - #49 niz_3
+INFO  01:25:28,969 - #8 ;
+INFO  01:25:28,969 - #5 }
+INFO  01:25:28,969 - #5 }
+ERROR 01:25:28,969 - Uspesan oporavak od greske na liniji 23 pri konstrukciji iskaza dodele
+INFO  01:25:28,978 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDeclaration(
+                ConstDeclarationList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsEnd(
+                    ConstNum(
+                     nula
+                     0
+                    ) [ConstNum]
+                  ) [ConstDeclarationsEnd]
+                ) [ConstDeclarationList]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstNum(
+                   jedan
+                   1
+                  ) [ConstNum]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstNum(
+                 pet
+                 5
+                ) [ConstNum]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              VarArr(
+               niz
+              ) [VarArr]
+              VarDeclarations(
+                VarArr(
+                 niz2
+                ) [VarArr]
+                VarDeclarationsEnd(
+                  VarArr(
+                   niz_3
+                  ) [VarArr]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarations]
+            ) [VarDeclarations]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           char
+          ) [Type]
+          VarDeclarationsEnd(
+            VarArr(
+             nizch
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+           c
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDecl(
+        MethodNameAnyType(
+          Type(
+           bool
+          ) [Type]
+         verify
+        ) [MethodNameAnyType]
+        NoMethodParameters(
+        ) [NoMethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        Statements(
+          StatementPrint(
+            ExprPositive(
+              AddopEnd(
+                Term(
+                  MulopEnd(
+                    FactorChar(
+                     v
+                    ) [FactorChar]
+                  ) [MulopEnd]
+                ) [Term]
+              ) [AddopEnd]
+            ) [ExprPositive]
+          ) [StatementPrint]
+          Statements(
+            StatementReturnExpr(
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorBool(
+                       false
+                      ) [FactorBool]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [StatementReturnExpr]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarationList]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+               i
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementError(
+        ) [StatementError]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  01:25:28,978 - ===================================
+INFO  01:25:28,978 - Pocetak programa test301.
+INFO  01:25:28,979 - Deklarisana je konstanta nula na liniji 5
+INFO  01:25:28,979 - Deklarisana je konstanta jedan na liniji 6
+INFO  01:25:28,979 - Deklarisana je konstanta pet na liniji 7
+INFO  01:25:28,979 - Deklarisan je niz niz na liniji 9
+INFO  01:25:28,979 - Deklarisan je niz niz2 na liniji 9
+INFO  01:25:28,979 - Deklarisan je niz niz_3 na liniji 9
+INFO  01:25:28,979 - Deklarisan je niz nizch na liniji 10
+INFO  01:25:28,979 - Deklarisana je promenljiva c na liniji 11
+INFO  01:25:28,979 - Obradjuje se funkcija verify na liniji 15
+INFO  01:25:28,979 - Obradjena funkcija PRINT na liniji 16
+INFO  01:25:28,979 - Dobra povratna vrednost funkcije na liniji 17
+INFO  01:25:28,980 - Obradjuje se funkcija main na liniji 20
+INFO  01:25:28,980 - Deklarisana je promenljiva i na liniji 21
+INFO  01:25:28,980 - ===================================
+INFO  01:25:28,980 - Parsiranje uspesno zavrseno!

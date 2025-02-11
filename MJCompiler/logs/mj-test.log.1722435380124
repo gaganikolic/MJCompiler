@@ -1,0 +1,343 @@
+INFO  15:29:58,717 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  15:29:58,822 - #2 program
+INFO  15:29:58,823 - #49 test301
+INFO  15:29:58,823 - #6 const
+INFO  15:29:58,825 - #49 int
+INFO  15:29:58,825 - #49 nula
+INFO  15:29:58,826 - #7 =
+INFO  15:29:58,826 - #48 0
+INFO  15:29:58,826 - #8 ;
+INFO  15:29:58,827 - #6 const
+INFO  15:29:58,828 - #49 int
+INFO  15:29:58,828 - #49 jedan
+INFO  15:29:58,828 - #7 =
+INFO  15:29:58,828 - #48 1
+INFO  15:29:58,829 - #8 ;
+INFO  15:29:58,829 - #6 const
+INFO  15:29:58,829 - #49 int
+INFO  15:29:58,829 - #49 pet
+INFO  15:29:58,829 - #7 =
+INFO  15:29:58,829 - #48 5
+INFO  15:29:58,829 - #8 ;
+INFO  15:29:58,830 - #49 int
+INFO  15:29:58,831 - #49 niz
+INFO  15:29:58,831 - #10 [
+INFO  15:29:58,831 - #11 ]
+INFO  15:29:58,832 - #9 ,
+INFO  15:29:58,832 - #49 niz2
+INFO  15:29:58,832 - #10 [
+INFO  15:29:58,832 - #11 ]
+INFO  15:29:58,832 - #8 ;
+INFO  15:29:58,833 - #49 char
+INFO  15:29:58,833 - #49 c
+INFO  15:29:58,833 - #8 ;
+INFO  15:29:58,833 - #4 {
+INFO  15:29:58,833 - #49 int
+INFO  15:29:58,835 - #49 sum
+INFO  15:29:58,835 - #20 (
+INFO  15:29:58,835 - #49 int
+INFO  15:29:58,835 - #49 z
+INFO  15:29:58,836 - #9 ,
+INFO  15:29:58,836 - #49 int
+INFO  15:29:58,836 - #49 d
+INFO  15:29:58,836 - #21 )
+INFO  15:29:58,837 - #4 {
+INFO  15:29:58,837 - #18 return
+INFO  15:29:58,837 - #49 z
+INFO  15:29:58,837 - #37 +
+INFO  15:29:58,840 - #49 d
+INFO  15:29:58,842 - #8 ;
+INFO  15:29:58,843 - #5 }
+INFO  15:29:58,844 - #49 int
+INFO  15:29:58,846 - #49 inkrement
+INFO  15:29:58,846 - #20 (
+INFO  15:29:58,846 - #49 int
+INFO  15:29:58,846 - #49 a
+INFO  15:29:58,846 - #9 ,
+INFO  15:29:58,846 - #49 int
+INFO  15:29:58,846 - #49 inc
+INFO  15:29:58,847 - #21 )
+INFO  15:29:58,847 - #49 int
+INFO  15:29:58,847 - #49 pom
+INFO  15:29:58,847 - #8 ;
+INFO  15:29:58,847 - #4 {
+INFO  15:29:58,848 - #18 return
+INFO  15:29:58,848 - #49 sum
+INFO  15:29:58,848 - #20 (
+INFO  15:29:58,849 - #49 a
+INFO  15:29:58,849 - #9 ,
+INFO  15:29:58,849 - #49 pom
+INFO  15:29:58,849 - #21 )
+INFO  15:29:58,849 - #8 ;
+INFO  15:29:58,850 - #5 }
+INFO  15:29:58,850 - #5 }
+INFO  15:29:58,863 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstListPart(
+                   nula
+                    ConstNum(
+                     0
+                    ) [ConstNum]
+                  ) [ConstListPart]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 jedan
+                  ConstNum(
+                   1
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstListPart(
+               pet
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarArr(
+             niz
+            ) [VarArr]
+            VarDeclarationsEnd(
+              VarArr(
+               niz2
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+           c
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDecl(
+        MethodNameAnyType(
+          Type(
+           int
+          ) [Type]
+         sum
+        ) [MethodNameAnyType]
+        MethodParameters(
+          FormParsList(
+            FormParsVar(
+              Type(
+               int
+              ) [Type]
+             z
+            ) [FormParsVar]
+            FormParsEnd(
+              FormParsVar(
+                Type(
+                 int
+                ) [Type]
+               d
+              ) [FormParsVar]
+            ) [FormParsEnd]
+          ) [FormParsList]
+        ) [MethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        Statements(
+          StatementReturnExpr(
+            ExprPositive(
+              AddopList(
+                AddopEnd(
+                  Term(
+                    FactorDesignator(
+                      DesignatorIdent(
+                       z
+                      ) [DesignatorIdent]
+                    ) [FactorDesignator]
+                    NoMulop(
+                    ) [NoMulop]
+                  ) [Term]
+                ) [AddopEnd]
+                Plus(
+                ) [Plus]
+                Term(
+                  FactorDesignator(
+                    DesignatorIdent(
+                     d
+                    ) [DesignatorIdent]
+                  ) [FactorDesignator]
+                  NoMulop(
+                  ) [NoMulop]
+                ) [Term]
+              ) [AddopList]
+            ) [ExprPositive]
+          ) [StatementReturnExpr]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarationList]
+    MethodDecl(
+      MethodNameAnyType(
+        Type(
+         int
+        ) [Type]
+       inkrement
+      ) [MethodNameAnyType]
+      MethodParameters(
+        FormParsList(
+          FormParsVar(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormParsVar]
+          FormParsEnd(
+            FormParsVar(
+              Type(
+               int
+              ) [Type]
+             inc
+            ) [FormParsVar]
+          ) [FormParsEnd]
+        ) [FormParsList]
+      ) [MethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+               pom
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementReturnExpr(
+          ExprPositive(
+            AddopEnd(
+              Term(
+                FactorDesignatorActPars(
+                  DesignatorIdent(
+                   sum
+                  ) [DesignatorIdent]
+                  ActualParsList(
+                    ActParsList(
+                      ActParsEnd(
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              FactorDesignator(
+                                DesignatorIdent(
+                                 a
+                                ) [DesignatorIdent]
+                              ) [FactorDesignator]
+                              NoMulop(
+                              ) [NoMulop]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [ActParsEnd]
+                      ExprPositive(
+                        AddopEnd(
+                          Term(
+                            FactorDesignator(
+                              DesignatorIdent(
+                               pom
+                              ) [DesignatorIdent]
+                            ) [FactorDesignator]
+                            NoMulop(
+                            ) [NoMulop]
+                          ) [Term]
+                        ) [AddopEnd]
+                      ) [ExprPositive]
+                    ) [ActParsList]
+                  ) [ActualParsList]
+                ) [FactorDesignatorActPars]
+                NoMulop(
+                ) [NoMulop]
+              ) [Term]
+            ) [AddopEnd]
+          ) [ExprPositive]
+        ) [StatementReturnExpr]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:29:58,864 - ===================================
+INFO  15:29:58,864 - Pocetak programa test301.
+INFO  15:29:58,864 - Deklarisana je konstanta nula na liniji 5
+INFO  15:29:58,865 - Deklarisana je konstanta jedan na liniji 6
+INFO  15:29:58,865 - Deklarisana je konstanta pet na liniji 7
+INFO  15:29:58,865 - Deklarisan je niz niz na liniji 9
+INFO  15:29:58,865 - Deklarisan je niz niz2 na liniji 9
+INFO  15:29:58,865 - Deklarisana je promenljiva c na liniji 10
+INFO  15:29:58,865 - Obradjuje se funkcija sum na liniji 13
+INFO  15:29:58,865 - Deklarisan je parametar funkcije z na liniji 13
+INFO  15:29:58,866 - Deklarisan je parametar funkcije d na liniji 13
+INFO  15:29:58,866 - Poklapanje povratne vrednosti funkcije i onoga sto je vraceno na liniji 15
+INFO  15:29:58,866 - Obradjuje se funkcija inkrement na liniji 18
+INFO  15:29:58,866 - Deklarisan je parametar funkcije a na liniji 18
+INFO  15:29:58,866 - Deklarisan je parametar funkcije inc na liniji 18
+INFO  15:29:58,866 - Deklarisana je promenljiva pom na liniji 19
+INFO  15:29:58,867 - Pronadjen poziv funkcije sum na liniji 22
+INFO  15:29:58,867 - Poklapanje povratne vrednosti funkcije i onoga sto je vraceno na liniji 22
+INFO  15:29:58,867 - ===================================
+INFO  15:29:58,868 - Parsiranje uspesno zavrseno!

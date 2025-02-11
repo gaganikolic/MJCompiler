@@ -1,0 +1,268 @@
+INFO  17:45:27,494 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  17:45:27,567 - #2 program
+INFO  17:45:27,567 - #49 test301
+INFO  17:45:27,567 - #6 const
+INFO  17:45:27,568 - #49 int
+INFO  17:45:27,569 - #49 nula
+INFO  17:45:27,569 - #7 =
+INFO  17:45:27,570 - #48 0
+INFO  17:45:27,570 - #8 ;
+INFO  17:45:27,570 - #6 const
+INFO  17:45:27,570 - #49 int
+INFO  17:45:27,570 - #49 jedan
+INFO  17:45:27,571 - #7 =
+INFO  17:45:27,571 - #48 1
+INFO  17:45:27,571 - #8 ;
+INFO  17:45:27,571 - #6 const
+INFO  17:45:27,571 - #49 int
+INFO  17:45:27,571 - #49 pet
+INFO  17:45:27,571 - #7 =
+INFO  17:45:27,571 - #48 5
+INFO  17:45:27,571 - #8 ;
+INFO  17:45:27,571 - #49 int
+INFO  17:45:27,572 - #49 niz
+INFO  17:45:27,572 - #10 [
+INFO  17:45:27,573 - #11 ]
+INFO  17:45:27,573 - #8 ;
+INFO  17:45:27,574 - #49 char
+INFO  17:45:27,574 - #49 nizch
+INFO  17:45:27,574 - #10 [
+INFO  17:45:27,575 - #11 ]
+INFO  17:45:27,575 - #8 ;
+INFO  17:45:27,575 - #49 int
+INFO  17:45:27,575 - #49 mat
+INFO  17:45:27,575 - #10 [
+INFO  17:45:27,575 - #11 ]
+INFO  17:45:27,575 - #10 [
+INFO  17:45:27,575 - #11 ]
+INFO  17:45:27,575 - #8 ;
+INFO  17:45:27,575 - #49 int
+INFO  17:45:27,575 - #49 a
+INFO  17:45:27,576 - #8 ;
+INFO  17:45:27,576 - #4 {
+INFO  17:45:27,576 - #41 void
+INFO  17:45:27,577 - #49 main
+INFO  17:45:27,577 - #20 (
+INFO  17:45:27,577 - #21 )
+INFO  17:45:27,578 - #49 int
+INFO  17:45:27,578 - #49 bodovi
+INFO  17:45:27,578 - #8 ;
+INFO  17:45:27,579 - #49 bool
+INFO  17:45:27,579 - #49 bt
+INFO  17:45:27,579 - #8 ;
+INFO  17:45:27,579 - #4 {
+INFO  17:45:27,579 - #49 l
+INFO  17:45:27,579 - #7 =
+INFO  17:45:27,579 - #48 2
+INFO  17:45:27,580 - #8 ;
+INFO  17:45:27,582 - #5 }
+INFO  17:45:27,583 - #5 }
+INFO  17:45:27,593 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              Declarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDeclaration(
+                  ConstDeclarationList(
+                    Type(
+                     int
+                    ) [Type]
+                    ConstDeclarationsEnd(
+                      ConstNum(
+                       nula
+                       0
+                      ) [ConstNum]
+                    ) [ConstDeclarationsEnd]
+                  ) [ConstDeclarationList]
+                ) [ConstDeclaration]
+              ) [Declarations]
+              ConstDeclaration(
+                ConstDeclarationList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsEnd(
+                    ConstNum(
+                     jedan
+                     1
+                    ) [ConstNum]
+                  ) [ConstDeclarationsEnd]
+                ) [ConstDeclarationList]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstNum(
+                   pet
+                   5
+                  ) [ConstNum]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarArr(
+                  Arr(
+                    VarName(
+                     niz
+                    ) [VarName]
+                  ) [Arr]
+                ) [VarArr]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             char
+            ) [Type]
+            VarDeclarationsEnd(
+              VarArr(
+                Arr(
+                  VarName(
+                   nizch
+                  ) [VarName]
+                ) [Arr]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarMatrix(
+              Arr(
+                VarName(
+                 mat
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+            VarName(
+             a
+            ) [VarName]
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   bodovi
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             bool
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 bt
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               l
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNum(
+                       2
+                      ) [FactorNum]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  17:45:27,594 - ===================================
+INFO  17:45:27,594 - Pocetak programa test301.
+INFO  17:45:27,595 - Deklarisana je konstanta nula na liniji 5
+INFO  17:45:27,595 - Deklarisana je konstanta jedan na liniji 6
+INFO  17:45:27,595 - Deklarisana je konstanta pet na liniji 7
+INFO  17:45:27,596 - Deklarisana je promenljiva niz na liniji 9
+INFO  17:45:27,596 - Deklarisana je promenljiva nizch na liniji 10
+INFO  17:45:27,596 - Deklarisana je promenljiva mat na liniji 11
+INFO  17:45:27,596 - Deklarisana je promenljiva a na liniji 13
+INFO  17:45:27,597 - Obradjuje se funkcija main na liniji 16
+INFO  17:45:27,597 - Deklarisana je promenljiva bodovi na liniji 17
+INFO  17:45:27,597 - Deklarisana je promenljiva bt na liniji 18
+ERROR 17:45:27,597 - GRESKA: Ime l nije deklarisano na liniji 20
+ERROR 17:45:27,597 - GRESKA: Designator i expr nisu istog tipa na liniji 20
+INFO  17:45:27,598 - ===================================
+ERROR 17:45:27,599 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,267 @@
+INFO  20:37:04,270 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  20:37:04,338 - #2 program
+INFO  20:37:04,338 - #53 test301
+INFO  20:37:04,338 - #6 const
+INFO  20:37:04,340 - #53 int
+INFO  20:37:04,340 - #53 nula
+INFO  20:37:04,340 - #7 =
+INFO  20:37:04,341 - #52 0
+INFO  20:37:04,341 - #8 ;
+INFO  20:37:04,341 - #6 const
+INFO  20:37:04,341 - #53 int
+INFO  20:37:04,341 - #53 jedan
+INFO  20:37:04,341 - #7 =
+INFO  20:37:04,342 - #52 1
+INFO  20:37:04,342 - #8 ;
+INFO  20:37:04,342 - #6 const
+INFO  20:37:04,342 - #53 int
+INFO  20:37:04,342 - #53 pet
+INFO  20:37:04,342 - #7 =
+INFO  20:37:04,342 - #52 5
+INFO  20:37:04,342 - #8 ;
+INFO  20:37:04,342 - #53 int
+INFO  20:37:04,343 - #53 niz
+INFO  20:37:04,343 - #10 [
+INFO  20:37:04,344 - #11 ]
+INFO  20:37:04,344 - #8 ;
+INFO  20:37:04,345 - #53 char
+INFO  20:37:04,345 - #53 nizch
+INFO  20:37:04,346 - #10 [
+INFO  20:37:04,346 - #11 ]
+INFO  20:37:04,346 - #8 ;
+INFO  20:37:04,346 - #4 {
+INFO  20:37:04,346 - #41 void
+INFO  20:37:04,347 - #53 main
+INFO  20:37:04,347 - #20 (
+INFO  20:37:04,347 - #21 )
+INFO  20:37:04,348 - #53 int
+INFO  20:37:04,348 - #53 bodovi
+INFO  20:37:04,348 - #8 ;
+INFO  20:37:04,348 - #53 int
+INFO  20:37:04,349 - #48 eol
+ERROR 20:37:04,349 - 
+Sintaksna greska na liniji 15
+INFO  20:37:04,349 - #8 ;
+INFO  20:37:04,349 - #4 {
+INFO  20:37:04,349 - #53 bodovi
+INFO  20:37:04,350 - #7 =
+ERROR 20:37:04,350 - Uspesan oporavak od greske na liniji 15 pri definisanju promenjive
+INFO  20:37:04,351 - #52 0
+INFO  20:37:04,352 - #8 ;
+INFO  20:37:04,353 - #22 print
+INFO  20:37:04,353 - #20 (
+INFO  20:37:04,353 - #52 0
+INFO  20:37:04,353 - #21 )
+INFO  20:37:04,353 - #8 ;
+INFO  20:37:04,353 - #22 print
+INFO  20:37:04,353 - #20 (
+INFO  20:37:04,354 - #48 eol
+ERROR 20:37:04,354 - 
+Sintaksna greska na liniji 22
+INFO  20:37:04,354 - #21 )
+INFO  20:37:04,354 - #8 ;
+INFO  20:37:04,354 - #22 print
+INFO  20:37:04,354 - #20 (
+INFO  20:37:04,354 - #52 1
+ERROR 20:37:04,354 - Uspesan oporavak od greske na liniji 22 pri konstrukciji iskaza dodele
+INFO  20:37:04,356 - #21 )
+INFO  20:37:04,356 - #8 ;
+INFO  20:37:04,356 - #5 }
+INFO  20:37:04,357 - #5 }
+INFO  20:37:04,368 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstNum(
+                   nula
+                   0
+                  ) [ConstNum]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstNum(
+                 jedan
+                 1
+                ) [ConstNum]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstNum(
+               pet
+               5
+              ) [ConstNum]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarArr(
+              Arr(
+                VarName(
+                 niz
+                ) [VarName]
+              ) [Arr]
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               nizch
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   bodovi
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationError(
+          ) [VarDeclarationError]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               bodovi
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNum(
+                       0
+                      ) [FactorNum]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementPrint(
+            ExprPositive(
+              AddopEnd(
+                Term(
+                  MulopEnd(
+                    FactorNum(
+                     0
+                    ) [FactorNum]
+                  ) [MulopEnd]
+                ) [Term]
+              ) [AddopEnd]
+            ) [ExprPositive]
+          ) [StatementPrint]
+          Statements(
+            StatementError(
+            ) [StatementError]
+            Statements(
+              StatementPrint(
+                ExprPositive(
+                  AddopEnd(
+                    Term(
+                      MulopEnd(
+                        FactorNum(
+                         1
+                        ) [FactorNum]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopEnd]
+                ) [ExprPositive]
+              ) [StatementPrint]
+              NoStatement(
+              ) [NoStatement]
+            ) [Statements]
+          ) [Statements]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  20:37:04,368 - ===================================
+INFO  20:37:04,368 - Pocetak programa test301.
+INFO  20:37:04,368 - Deklarisana je konstanta nula na liniji 5
+INFO  20:37:04,368 - Deklarisana je konstanta jedan na liniji 6
+INFO  20:37:04,369 - Deklarisana je konstanta pet na liniji 7
+INFO  20:37:04,369 - Deklarisana je promenljiva niz na liniji 9
+INFO  20:37:04,369 - Deklarisana je promenljiva nizch na liniji 10
+INFO  20:37:04,369 - Obradjuje se funkcija main na liniji 13
+INFO  20:37:04,369 - Deklarisana je promenljiva bodovi na liniji 14
+INFO  20:37:04,369 - Designator i expr su odgovarajuceg tipa na liniji 20
+INFO  20:37:04,369 - Obradjena funkcija PRINT na liniji 21
+INFO  20:37:04,370 - Obradjena funkcija PRINT na liniji 23
+INFO  20:37:04,370 - ===================================
+INFO  20:37:04,381 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,391 @@
+INFO  19:09:29,384 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  19:09:29,470 - #2 program
+INFO  19:09:29,470 - #49 test302
+INFO  19:09:29,470 - #6 const
+INFO  19:09:29,472 - #49 int
+INFO  19:09:29,472 - #49 jedan
+INFO  19:09:29,473 - #7 =
+INFO  19:09:29,474 - #48 1
+INFO  19:09:29,474 - #8 ;
+INFO  19:09:29,474 - #49 int
+INFO  19:09:29,475 - #49 i
+INFO  19:09:29,475 - #8 ;
+INFO  19:09:29,476 - #49 bool
+INFO  19:09:29,477 - #49 ibool
+INFO  19:09:29,477 - #8 ;
+INFO  19:09:29,477 - #49 int
+INFO  19:09:29,477 - #49 niz2
+INFO  19:09:29,477 - #8 ;
+INFO  19:09:29,478 - #49 int
+INFO  19:09:29,478 - #49 niz
+INFO  19:09:29,478 - #10 [
+INFO  19:09:29,478 - #11 ]
+INFO  19:09:29,479 - #9 ,
+INFO  19:09:29,479 - #49 niz_2
+INFO  19:09:29,479 - #10 [
+INFO  19:09:29,479 - #11 ]
+INFO  19:09:29,479 - #9 ,
+INFO  19:09:29,479 - #49 niz_3
+INFO  19:09:29,479 - #10 [
+INFO  19:09:29,479 - #11 ]
+INFO  19:09:29,479 - #8 ;
+INFO  19:09:29,480 - #49 int
+INFO  19:09:29,480 - #49 a
+INFO  19:09:29,481 - #8 ;
+INFO  19:09:29,481 - #4 {
+INFO  19:09:29,481 - #41 void
+INFO  19:09:29,482 - #49 main
+INFO  19:09:29,482 - #20 (
+INFO  19:09:29,482 - #21 )
+INFO  19:09:29,484 - #4 {
+INFO  19:09:29,484 - #49 i
+INFO  19:09:29,484 - #7 =
+INFO  19:09:29,484 - #48 0
+INFO  19:09:29,486 - #8 ;
+INFO  19:09:29,488 - #23 for
+INFO  19:09:29,488 - #20 (
+INFO  19:09:29,490 - #49 i
+INFO  19:09:29,490 - #7 =
+INFO  19:09:29,490 - #48 0
+INFO  19:09:29,490 - #8 ;
+INFO  19:09:29,490 - #49 i
+INFO  19:09:29,492 - #35 <
+INFO  19:09:29,492 - #48 10
+INFO  19:09:29,493 - #8 ;
+INFO  19:09:29,494 - #49 i
+INFO  19:09:29,494 - #24 ++
+INFO  19:09:29,494 - #21 )
+INFO  19:09:29,494 - #4 {
+INFO  19:09:29,495 - #14 if
+INFO  19:09:29,495 - #20 (
+INFO  19:09:29,495 - #49 i
+INFO  19:09:29,496 - #31 ==
+INFO  19:09:29,496 - #48 2
+INFO  19:09:29,497 - #21 )
+INFO  19:09:29,497 - #49 ibool
+INFO  19:09:29,498 - #7 =
+INFO  19:09:29,498 - #51 true
+INFO  19:09:29,498 - #8 ;
+INFO  19:09:29,498 - #49 i
+INFO  19:09:29,499 - #24 ++
+INFO  19:09:29,499 - #8 ;
+INFO  19:09:29,499 - #5 }
+INFO  19:09:29,500 - #5 }
+INFO  19:09:29,500 - #5 }
+INFO  19:09:29,511 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDeclaration(
+                ConstDeclarationList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsEnd(
+                    ConstNum(
+                     jedan
+                     1
+                    ) [ConstNum]
+                  ) [ConstDeclarationsEnd]
+                ) [ConstDeclarationList]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            VarDeclaration(
+              VarDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarationsEnd(
+                  VarIdent(
+                    VarName(
+                     i
+                    ) [VarName]
+                  ) [VarIdent]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarationList]
+            ) [VarDeclaration]
+          ) [Declarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               bool
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   ibool
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 niz2
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarArr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [VarArr]
+            VarDeclarations(
+              VarArr(
+                VarName(
+                 niz_2
+                ) [VarName]
+              ) [VarArr]
+              VarDeclarationsEnd(
+                VarArr(
+                  VarName(
+                   niz_3
+                  ) [VarName]
+                ) [VarArr]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarations]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+            VarName(
+             a
+            ) [VarName]
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               i
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNum(
+                       0
+                      ) [FactorNum]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementForCondFact(
+            ForSt(
+            ) [ForSt]
+            DesignatorStatementOne(
+              DesignatorStatementMatched(
+                DesignatorStatementAssignop(
+                  DesignatorIdent(
+                   i
+                  ) [DesignatorIdent]
+                  Assignop(
+                  ) [Assignop]
+                  ExprPositive(
+                    AddopEnd(
+                      Term(
+                        MulopEnd(
+                          FactorNum(
+                           0
+                          ) [FactorNum]
+                        ) [MulopEnd]
+                      ) [Term]
+                    ) [AddopEnd]
+                  ) [ExprPositive]
+                ) [DesignatorStatementAssignop]
+              ) [DesignatorStatementMatched]
+            ) [DesignatorStatementOne]
+            LSemiFor(
+            ) [LSemiFor]
+            CondFactRelop(
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorDesignator(
+                        DesignatorIdent(
+                         i
+                        ) [DesignatorIdent]
+                      ) [FactorDesignator]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+              Less(
+              ) [Less]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNum(
+                       10
+                      ) [FactorNum]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [CondFactRelop]
+            DesignatorStatementOne(
+              DesignatorStatementMatched(
+                DesignatorStatementIncrement(
+                  DesignatorIdent(
+                   i
+                  ) [DesignatorIdent]
+                ) [DesignatorStatementIncrement]
+              ) [DesignatorStatementMatched]
+            ) [DesignatorStatementOne]
+            RParenFor(
+            ) [RParenFor]
+            StatementStatementList(
+              Statements(
+                StatementIf(
+                  LParenIf(
+                  ) [LParenIf]
+                  OneCondTerm(
+                    OneCondFact(
+                      CondFactRelop(
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorDesignator(
+                                  DesignatorIdent(
+                                   i
+                                  ) [DesignatorIdent]
+                                ) [FactorDesignator]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                        EqualTo(
+                        ) [EqualTo]
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorNum(
+                                 2
+                                ) [FactorNum]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [CondFactRelop]
+                    ) [OneCondFact]
+                  ) [OneCondTerm]
+                  RParenIf(
+                  ) [RParenIf]
+                  StatementDesignator(
+                    DesignatorStatementMatched(
+                      DesignatorStatementAssignop(
+                        DesignatorIdent(
+                         ibool
+                        ) [DesignatorIdent]
+                        Assignop(
+                        ) [Assignop]
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorBool(
+                                 true
+                                ) [FactorBool]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [DesignatorStatementAssignop]
+                    ) [DesignatorStatementMatched]
+                  ) [StatementDesignator]
+                ) [StatementIf]
+                Statements(
+                  StatementDesignator(
+                    DesignatorStatementMatched(
+                      DesignatorStatementIncrement(
+                        DesignatorIdent(
+                         i
+                        ) [DesignatorIdent]
+                      ) [DesignatorStatementIncrement]
+                    ) [DesignatorStatementMatched]
+                  ) [StatementDesignator]
+                  NoStatement(
+                  ) [NoStatement]
+                ) [Statements]
+              ) [Statements]
+            ) [StatementStatementList]
+          ) [StatementForCondFact]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  19:09:29,512 - ===================================
+INFO  19:09:29,512 - Pocetak programa test302.
+INFO  19:09:29,512 - Deklarisana je konstanta jedan na liniji 5
+INFO  19:09:29,513 - Deklarisana je promenljiva i na liniji 7
+INFO  19:09:29,513 - Deklarisana je promenljiva ibool na liniji 8
+INFO  19:09:29,513 - Deklarisana je promenljiva niz2 na liniji 10
+INFO  19:09:29,513 - Deklarisana je promenljiva niz na liniji 12
+INFO  19:09:29,513 - Deklarisana je promenljiva niz_2 na liniji 12
+INFO  19:09:29,513 - Deklarisana je promenljiva niz_3 na liniji 12
+INFO  19:09:29,514 - Deklarisana je promenljiva a na liniji 13
+INFO  19:09:29,514 - Obradjuje se funkcija main na liniji 19
+INFO  19:09:29,514 - Designator i expr su odgovarajuceg tipa na liniji 22
+INFO  19:09:29,514 - Designator i expr su odgovarajuceg tipa na liniji 23
+INFO  19:09:29,514 - Designator i expr su odgovarajuceg tipa na liniji 24
+INFO  19:09:29,514 - ===================================
+INFO  19:09:29,522 - Parsiranje uspesno zavrseno!

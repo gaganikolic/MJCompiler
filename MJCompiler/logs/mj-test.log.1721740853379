@@ -1,0 +1,138 @@
+INFO  15:20:38,237 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\mojTest.mj
+INFO  15:20:38,287 - #2 program
+INFO  15:20:38,288 - #3 test301
+INFO  15:20:38,288 - #7 const
+INFO  15:20:38,289 - #3 int
+INFO  15:20:38,289 - #3 b
+INFO  15:20:38,290 - #8 =
+INFO  15:20:38,290 - #42 7
+INFO  15:20:38,290 - #10 ,
+INFO  15:20:38,291 - #3 d
+INFO  15:20:38,291 - #8 =
+INFO  15:20:38,291 - #42 8
+INFO  15:20:38,291 - #10 ,
+INFO  15:20:38,292 - #3 e
+INFO  15:20:38,292 - #8 =
+INFO  15:20:38,292 - #44 true
+INFO  15:20:38,292 - #9 ;
+INFO  15:20:38,293 - #3 int
+INFO  15:20:38,293 - #3 x
+INFO  15:20:38,293 - #29 -
+ERROR 15:20:38,293 - 
+Sintaksna greska na liniji 5
+INFO  15:20:38,293 - #10 ,
+INFO  15:20:38,293 - #3 j
+INFO  15:20:38,294 - #9 ;
+INFO  15:20:38,294 - #4 {
+ERROR 15:20:38,295 - Uspesan oporavak od greske na liniji 5 pri definisanju promenjive do ,
+INFO  15:20:38,297 - #45 void
+INFO  15:20:38,297 - #3 main
+INFO  15:20:38,297 - #21 (
+INFO  15:20:38,298 - #3 int
+INFO  15:20:38,298 - #3 i
+INFO  15:20:38,298 - #10 ,
+INFO  15:20:38,298 - #3 int
+INFO  15:20:38,298 - #3 c
+INFO  15:20:38,298 - #22 )
+INFO  15:20:38,298 - #4 {
+INFO  15:20:38,298 - #3 x
+INFO  15:20:38,298 - #8 =
+INFO  15:20:38,299 - #42 5
+INFO  15:20:38,300 - #9 ;
+INFO  15:20:38,302 - #5 }
+INFO  15:20:38,303 - #5 }
+INFO  15:20:38,303 - ProgramDerived1(
+  DeclListDerived1(
+    DeclListDerived1(
+      DeclListDerived2(
+      ) [DeclListDerived2]
+      DeclDerived1(
+        ConstDeclDerived1(
+          TypeDerived2(
+          ) [TypeDerived2]
+          ConstListDerived1(
+            ConstListDerived1(
+              ConstListDerived2(
+                ConstListPartDerived1(
+                  ConstDerived1(
+                  ) [ConstDerived1]
+                ) [ConstListPartDerived1]
+              ) [ConstListDerived2]
+              ConstListPartDerived1(
+                ConstDerived1(
+                ) [ConstDerived1]
+              ) [ConstListPartDerived1]
+            ) [ConstListDerived1]
+            ConstListPartDerived1(
+              ConstDerived3(
+              ) [ConstDerived3]
+            ) [ConstListPartDerived1]
+          ) [ConstListDerived1]
+        ) [ConstDeclDerived1]
+      ) [DeclDerived1]
+    ) [DeclListDerived1]
+    DeclDerived2(
+      VarDeclDerived1(
+        TypeDerived2(
+        ) [TypeDerived2]
+        VarListDerived1(
+          VarDerived3(
+          ) [VarDerived3]
+          VarListDerived2(
+            VarDerived1(
+            ) [VarDerived1]
+          ) [VarListDerived2]
+        ) [VarListDerived1]
+      ) [VarDeclDerived1]
+    ) [DeclDerived2]
+  ) [DeclListDerived1]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclDerived2(
+      MethodParsDerived1(
+        FormParsDerived1(
+          FormParsContinueDerived2(
+            TypeDerived2(
+            ) [TypeDerived2]
+          ) [FormParsContinueDerived2]
+          FormParsDerived2(
+            FormParsContinueDerived2(
+              TypeDerived2(
+              ) [TypeDerived2]
+            ) [FormParsContinueDerived2]
+          ) [FormParsDerived2]
+        ) [FormParsDerived1]
+      ) [MethodParsDerived1]
+      DeclListDerived2(
+      ) [DeclListDerived2]
+      StatementListDerived1(
+        StatementDerived1(
+          DesignatorStatementDerived1(
+            DesignatorDerived2(
+              DesignatorContinueListDerived2(
+              ) [DesignatorContinueListDerived2]
+            ) [DesignatorDerived2]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            ExprDerived2(
+              TermDerived1(
+                FactorDerived5(
+                ) [FactorDerived5]
+                MulopFactorsDerived2(
+                ) [MulopFactorsDerived2]
+              ) [TermDerived1]
+              AddopTermsDerived2(
+              ) [AddopTermsDerived2]
+            ) [ExprDerived2]
+          ) [DesignatorStatementDerived1]
+        ) [StatementDerived1]
+        StatementListDerived2(
+        ) [StatementListDerived2]
+      ) [StatementListDerived1]
+    ) [MethodDeclDerived2]
+  ) [MethodDeclListDerived1]
+) [ProgramDerived1]
+INFO  15:20:38,304 - ===================================
+INFO  15:20:38,307 -  Deklarisanih varDecl promenljivih ima = 0
+INFO  15:20:38,307 -  Deklarisanih varDeclArr promenljivih ima = 0

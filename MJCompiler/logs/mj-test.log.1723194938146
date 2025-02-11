@@ -1,0 +1,302 @@
+INFO  11:14:31,470 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  11:14:31,522 - #2 program
+INFO  11:14:31,523 - #49 test301
+INFO  11:14:31,523 - #6 const
+INFO  11:14:31,524 - #49 int
+INFO  11:14:31,524 - #49 nula
+INFO  11:14:31,525 - #7 =
+INFO  11:14:31,525 - #48 0
+INFO  11:14:31,525 - #8 ;
+INFO  11:14:31,526 - #6 const
+INFO  11:14:31,526 - #49 int
+INFO  11:14:31,526 - #49 jedan
+INFO  11:14:31,526 - #7 =
+INFO  11:14:31,526 - #48 1
+INFO  11:14:31,526 - #8 ;
+INFO  11:14:31,526 - #6 const
+INFO  11:14:31,527 - #49 int
+INFO  11:14:31,527 - #49 pet
+INFO  11:14:31,527 - #7 =
+INFO  11:14:31,527 - #48 5
+INFO  11:14:31,527 - #8 ;
+INFO  11:14:31,527 - #4 {
+INFO  11:14:31,528 - #41 void
+INFO  11:14:31,528 - #49 main
+INFO  11:14:31,529 - #20 (
+INFO  11:14:31,529 - #21 )
+INFO  11:14:31,529 - #49 int
+INFO  11:14:31,529 - #49 i
+INFO  11:14:31,529 - #9 ,
+INFO  11:14:31,530 - #49 y
+INFO  11:14:31,530 - #9 ,
+INFO  11:14:31,530 - #49 z
+INFO  11:14:31,530 - #8 ;
+INFO  11:14:31,531 - #4 {
+INFO  11:14:31,531 - #49 i
+INFO  11:14:31,531 - #7 =
+INFO  11:14:31,531 - #48 3
+INFO  11:14:31,532 - #8 ;
+INFO  11:14:31,533 - #23 for
+INFO  11:14:31,533 - #20 (
+INFO  11:14:31,534 - #8 ;
+INFO  11:14:31,534 - #8 ;
+INFO  11:14:31,534 - #21 )
+INFO  11:14:31,535 - #4 {
+INFO  11:14:31,535 - #14 if
+INFO  11:14:31,535 - #20 (
+INFO  11:14:31,535 - #49 i
+INFO  11:14:31,535 - #35 <
+INFO  11:14:31,536 - #48 3
+INFO  11:14:31,537 - #21 )
+INFO  11:14:31,537 - #4 {
+INFO  11:14:31,538 - #22 print
+INFO  11:14:31,538 - #20 (
+INFO  11:14:31,538 - #50 u
+INFO  11:14:31,538 - #21 )
+INFO  11:14:31,539 - #8 ;
+INFO  11:14:31,539 - #49 i
+INFO  11:14:31,539 - #24 ++
+INFO  11:14:31,539 - #8 ;
+INFO  11:14:31,539 - #5 }
+INFO  11:14:31,540 - #5 }
+INFO  11:14:31,540 - #22 print
+INFO  11:14:31,541 - #20 (
+INFO  11:14:31,541 - #48 2
+INFO  11:14:31,541 - #21 )
+INFO  11:14:31,541 - #8 ;
+INFO  11:14:31,541 - #5 }
+INFO  11:14:31,541 - #5 }
+INFO  11:14:31,551 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstNum(
+               nula
+               0
+              ) [ConstNum]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclarationsEnd(
+            ConstNum(
+             jedan
+             1
+            ) [ConstNum]
+          ) [ConstDeclarationsEnd]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    ConstDeclaration(
+      ConstDeclarationList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclarationsEnd(
+          ConstNum(
+           pet
+           5
+          ) [ConstNum]
+        ) [ConstDeclarationsEnd]
+      ) [ConstDeclarationList]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              VarIdent(
+                VarName(
+                 i
+                ) [VarName]
+              ) [VarIdent]
+              VarDeclarations(
+                VarIdent(
+                  VarName(
+                   y
+                  ) [VarName]
+                ) [VarIdent]
+                VarDeclarationsEnd(
+                  VarIdent(
+                    VarName(
+                     z
+                    ) [VarName]
+                  ) [VarIdent]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarations]
+            ) [VarDeclarations]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               i
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNum(
+                       3
+                      ) [FactorNum]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementFor(
+            ForSt(
+            ) [ForSt]
+            DesignatorStatementEnd(
+            ) [DesignatorStatementEnd]
+            DesignatorStatementEnd(
+            ) [DesignatorStatementEnd]
+            StatementStatementList(
+              Statements(
+                StatementIf(
+                  LParenIf(
+                  ) [LParenIf]
+                  OneCondTerm(
+                    OneCondFact(
+                      CondFactRelop(
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorDesignator(
+                                  DesignatorIdent(
+                                   i
+                                  ) [DesignatorIdent]
+                                ) [FactorDesignator]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                        Less(
+                        ) [Less]
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorNum(
+                                 3
+                                ) [FactorNum]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [CondFactRelop]
+                    ) [OneCondFact]
+                  ) [OneCondTerm]
+                  RParenIf(
+                  ) [RParenIf]
+                  StatementStatementList(
+                    Statements(
+                      StatementPrint(
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorChar(
+                                 u
+                                ) [FactorChar]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [StatementPrint]
+                      Statements(
+                        StatementDesignator(
+                          DesignatorStatementMatched(
+                            DesignatorStatementIncrement(
+                              DesignatorIdent(
+                               i
+                              ) [DesignatorIdent]
+                            ) [DesignatorStatementIncrement]
+                          ) [DesignatorStatementMatched]
+                        ) [StatementDesignator]
+                        NoStatement(
+                        ) [NoStatement]
+                      ) [Statements]
+                    ) [Statements]
+                  ) [StatementStatementList]
+                ) [StatementIf]
+                NoStatement(
+                ) [NoStatement]
+              ) [Statements]
+            ) [StatementStatementList]
+          ) [StatementFor]
+          Statements(
+            StatementPrint(
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNum(
+                       2
+                      ) [FactorNum]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [StatementPrint]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  11:14:31,552 - ===================================
+INFO  11:14:31,552 - Pocetak programa test301.
+INFO  11:14:31,552 - Deklarisana je konstanta nula na liniji 5
+INFO  11:14:31,552 - Deklarisana je konstanta jedan na liniji 6
+INFO  11:14:31,552 - Deklarisana je konstanta pet na liniji 7
+INFO  11:14:31,552 - Obradjuje se funkcija main na liniji 13
+INFO  11:14:31,552 - Deklarisana je promenljiva i na liniji 14
+INFO  11:14:31,553 - Deklarisana je promenljiva y na liniji 14
+INFO  11:14:31,553 - Deklarisana je promenljiva z na liniji 14
+INFO  11:14:31,553 - Designator i expr su odgovarajuceg tipa na liniji 16
+INFO  11:14:31,553 - Obradjena funkcija PRINT na liniji 19
+INFO  11:14:31,553 - Obradjena funkcija PRINT na liniji 23
+INFO  11:14:31,553 - ===================================
+INFO  11:14:31,561 - Parsiranje uspesno zavrseno!

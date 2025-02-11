@@ -1,0 +1,101 @@
+INFO  20:22:43,657 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  20:22:43,769 - #2 program
+INFO  20:22:43,769 - #49 test301
+INFO  20:22:43,769 - #6 const
+INFO  20:22:43,771 - #49 int
+INFO  20:22:43,771 - #49 pet
+INFO  20:22:43,772 - #7 =
+INFO  20:22:43,772 - #48 5
+INFO  20:22:43,773 - #8 ;
+INFO  20:22:43,773 - #49 int
+INFO  20:22:43,774 - #49 niz
+INFO  20:22:43,774 - #10 [
+INFO  20:22:43,775 - #11 ]
+INFO  20:22:43,775 - #8 ;
+INFO  20:22:43,776 - #49 char
+INFO  20:22:43,776 - #49 nizch
+INFO  20:22:43,776 - #10 [
+INFO  20:22:43,776 - #11 ]
+INFO  20:22:43,776 - #8 ;
+INFO  20:22:43,777 - #4 {
+INFO  20:22:43,777 - #41 void
+INFO  20:22:43,778 - #49 main
+INFO  20:22:43,779 - #20 (
+INFO  20:22:43,779 - #21 )
+INFO  20:22:43,780 - #4 {
+INFO  20:22:43,780 - #5 }
+INFO  20:22:43,781 - #5 }
+INFO  20:22:43,833 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstNum(
+               pet
+               5
+              ) [ConstNum]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarArr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            VarName(
+             nizch
+            ) [VarName]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  20:22:43,834 - ===================================
+INFO  20:22:43,834 - Pocetak programa test301.
+INFO  20:23:00,901 - Deklarisana je konstanta pet na liniji 8
+INFO  20:23:32,933 - Deklarisana je promenljiva niz na liniji 10
+INFO  20:24:02,543 - Deklarisana je promenljiva nizch na liniji 11

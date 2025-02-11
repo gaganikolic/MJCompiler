@@ -1,0 +1,261 @@
+INFO  15:07:26,354 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  15:07:26,422 - #2 program
+INFO  15:07:26,422 - #49 test301
+INFO  15:07:26,422 - #6 const
+INFO  15:07:26,424 - #47 in
+ERROR 15:07:26,424 - 
+Sintaksna greska na liniji 5
+INFO  15:07:26,424 - #49 N
+INFO  15:07:26,424 - #7 =
+INFO  15:07:26,424 - #48 2
+INFO  15:07:26,425 - #8 ;
+INFO  15:07:26,425 - #49 int
+INFO  15:07:26,425 - #49 mat
+INFO  15:07:26,425 - #10 [
+ERROR 15:07:26,425 - Uspesan oporavak od greske na liniji 5 pri definisanju konstante
+INFO  15:07:26,428 - #11 ]
+INFO  15:07:26,428 - #10 [
+INFO  15:07:26,429 - #11 ]
+INFO  15:07:26,429 - #8 ;
+INFO  15:07:26,429 - #49 int
+INFO  15:07:26,430 - #49 niz
+INFO  15:07:26,430 - #10 [
+INFO  15:07:26,430 - #11 ]
+INFO  15:07:26,430 - #8 ;
+INFO  15:07:26,430 - #4 {
+INFO  15:07:26,430 - #41 void
+INFO  15:07:26,431 - #49 main
+INFO  15:07:26,431 - #20 (
+INFO  15:07:26,432 - #21 )
+INFO  15:07:26,433 - #4 {
+INFO  15:07:26,433 - #49 niz
+INFO  15:07:26,433 - #7 =
+INFO  15:07:26,433 - #29 new
+INFO  15:07:26,434 - #49 int
+INFO  15:07:26,434 - #10 [
+INFO  15:07:26,434 - #49 N
+INFO  15:07:26,434 - #11 ]
+INFO  15:07:26,435 - #8 ;
+INFO  15:07:26,435 - #49 niz
+INFO  15:07:26,436 - #10 [
+INFO  15:07:26,436 - #49 N
+INFO  15:07:26,437 - #28 -
+INFO  15:07:26,437 - #48 2
+INFO  15:07:26,438 - #11 ]
+INFO  15:07:26,438 - #7 =
+INFO  15:07:26,438 - #48 1
+INFO  15:07:26,439 - #8 ;
+INFO  15:07:26,439 - #22 print
+INFO  15:07:26,439 - #20 (
+INFO  15:07:26,439 - #49 niz
+INFO  15:07:26,440 - #10 [
+INFO  15:07:26,440 - #48 0
+INFO  15:07:26,440 - #11 ]
+INFO  15:07:26,440 - #21 )
+INFO  15:07:26,440 - #8 ;
+INFO  15:07:26,440 - #5 }
+INFO  15:07:26,441 - #5 }
+INFO  15:07:26,452 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationError(
+          ) [ConstDeclarationError]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarMatrix(
+              Arr(
+                VarName(
+                 mat
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               niz
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNew(
+                        Type(
+                         int
+                        ) [Type]
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorDesignator(
+                                  DesignatorIdent(
+                                   N
+                                  ) [DesignatorIdent]
+                                ) [FactorDesignator]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [FactorNew]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementMatched(
+              DesignatorStatementAssignop(
+                DesignatorExpr(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  ArrayDecl(
+                    ExprPositive(
+                      AddopList(
+                        AddopEnd(
+                          Term(
+                            MulopEnd(
+                              FactorDesignator(
+                                DesignatorIdent(
+                                 N
+                                ) [DesignatorIdent]
+                              ) [FactorDesignator]
+                            ) [MulopEnd]
+                          ) [Term]
+                        ) [AddopEnd]
+                        Minus(
+                        ) [Minus]
+                        Term(
+                          MulopEnd(
+                            FactorNum(
+                             2
+                            ) [FactorNum]
+                          ) [MulopEnd]
+                        ) [Term]
+                      ) [AddopList]
+                    ) [ExprPositive]
+                  ) [ArrayDecl]
+                ) [DesignatorExpr]
+                Assignop(
+                ) [Assignop]
+                ExprPositive(
+                  AddopEnd(
+                    Term(
+                      MulopEnd(
+                        FactorNum(
+                         1
+                        ) [FactorNum]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopEnd]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssignop]
+            ) [DesignatorStatementMatched]
+          ) [StatementDesignator]
+          Statements(
+            StatementPrint(
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorDesignator(
+                        DesignatorExpr(
+                          DesignatorName(
+                           niz
+                          ) [DesignatorName]
+                          ArrayDecl(
+                            ExprPositive(
+                              AddopEnd(
+                                Term(
+                                  MulopEnd(
+                                    FactorNum(
+                                     0
+                                    ) [FactorNum]
+                                  ) [MulopEnd]
+                                ) [Term]
+                              ) [AddopEnd]
+                            ) [ExprPositive]
+                          ) [ArrayDecl]
+                        ) [DesignatorExpr]
+                      ) [FactorDesignator]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [StatementPrint]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:07:26,454 - ===================================
+INFO  15:07:26,454 - Pocetak programa test301.
+INFO  15:07:26,454 - Deklarisana je promenljiva mat na liniji 7
+INFO  15:07:26,454 - Deklarisana je promenljiva niz na liniji 8
+INFO  15:07:26,455 - Obradjuje se funkcija main na liniji 10
+ERROR 15:07:26,455 - Greska na liniji 13 : ime N nije deklarisano! 
+ERROR 15:07:26,455 - Greska pri kreiranju niza na liniji 13, expr za niz nije int na liniji 13
+ERROR 15:07:26,455 - Greska na liniji 13 designator i expr nisu istog tipa
+ERROR 15:07:26,455 - Greska na liniji 14 : ime N nije deklarisano! 
+ERROR 15:07:26,455 - Greska u sabiranju, tipovi operanada su razliciti  na liniji 14
+ERROR 15:07:26,456 - Greska na liniji 14. Expr nije int!
+INFO  15:07:26,456 - Kreiran/promenjen element niza niz
+INFO  15:07:26,456 - Designator i expr su odgovarajuceg tipa na liniji 14
+INFO  15:07:26,456 - Kreiran/promenjen element niza niz
+INFO  15:07:26,456 - Obradjena funkcija PRINT na liniji 15
+INFO  15:07:26,456 - ===================================
+ERROR 15:07:26,457 - Parsiranje NIJE uspesno zavrseno!

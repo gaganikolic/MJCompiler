@@ -1,0 +1,113 @@
+INFO  15:25:17,366 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test2.mj
+INFO  15:25:17,417 - #2 program
+INFO  15:25:17,417 - #3 test301
+INFO  15:25:17,418 - #7 const
+INFO  15:25:17,418 - #3 int
+INFO  15:25:17,418 - #3 a
+INFO  15:25:17,419 - #8 =
+INFO  15:25:17,419 - #42 10
+INFO  15:25:17,420 - #9 ;
+INFO  15:25:17,420 - #4 {
+INFO  15:25:17,421 - #45 void
+INFO  15:25:17,421 - #3 main
+INFO  15:25:17,422 - #21 (
+INFO  15:25:17,422 - #22 )
+INFO  15:25:17,422 - #4 {
+INFO  15:25:17,422 - #11 [
+INFO  15:25:17,423 - #3 b
+INFO  15:25:17,423 - #10 ,
+INFO  15:25:17,424 - #39 *
+INFO  15:25:17,424 - #3 a
+INFO  15:25:17,424 - #12 ]
+INFO  15:25:17,424 - #8 =
+INFO  15:25:17,424 - #3 c
+INFO  15:25:17,425 - #9 ;
+INFO  15:25:17,425 - #11 [
+INFO  15:25:17,425 - #39 *
+INFO  15:25:17,425 - #3 x
+INFO  15:25:17,425 - #12 ]
+INFO  15:25:17,425 - #8 =
+INFO  15:25:17,425 - #3 y
+INFO  15:25:17,425 - #9 ;
+INFO  15:25:17,426 - #3 l
+INFO  15:25:17,426 - #8 =
+INFO  15:25:17,426 - #29 -
+INFO  15:25:17,427 - #9 ;
+ERROR 15:25:17,427 - 
+Sintaksna greska na liniji 10
+INFO  15:25:17,427 - #5 }
+INFO  15:25:17,427 - #5 }
+ERROR 15:25:17,428 - Uspesan oporavak od greske na liniji 10 pri konstrukciji iskaza dodele do ;
+INFO  15:25:17,431 - Program(
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDeclaration(
+      ConstDeclarationList(
+        TypeName(
+        ) [TypeName]
+        ConstDeclarationsEnd(
+          ConstPart(
+            ConstNum(
+            ) [ConstNum]
+          ) [ConstPart]
+        ) [ConstDeclarationsEnd]
+      ) [ConstDeclarationList]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDeclarationVoidType(
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementUnmatched(
+            UnmatchedMoreThanOne(
+              UnmachedListEnd(
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+              ) [UnmachedListEnd]
+              DesignatorName(
+                DesignatorListEnd(
+                ) [DesignatorListEnd]
+              ) [DesignatorName]
+              DesignatorName(
+                DesignatorListEnd(
+                ) [DesignatorListEnd]
+              ) [DesignatorName]
+            ) [UnmatchedMoreThanOne]
+          ) [DesignatorStatementUnmatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementUnmatched(
+              UnmatchedOne(
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+              ) [UnmatchedOne]
+            ) [DesignatorStatementUnmatched]
+          ) [StatementDesignator]
+          Statements(
+            StatementError(
+            ) [StatementError]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDeclarationVoidType]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:25:17,431 - ===================================

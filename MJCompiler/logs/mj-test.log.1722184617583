@@ -1,0 +1,75 @@
+INFO  18:27:24,335 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  18:27:24,390 - #2 program
+INFO  18:27:24,390 - #49 test4
+INFO  18:27:24,391 - #6 const
+INFO  18:27:24,392 - #49 int
+INFO  18:27:24,392 - #49 i
+INFO  18:27:24,393 - #7 =
+INFO  18:27:24,393 - #48 5
+INFO  18:27:24,393 - #9 ,
+INFO  18:27:24,393 - #49 j
+INFO  18:27:24,394 - #7 =
+INFO  18:27:24,394 - #48 3
+INFO  18:27:24,394 - #8 ;
+INFO  18:27:24,394 - #49 int
+INFO  18:27:24,394 - #49 k
+INFO  18:27:24,394 - #10 [
+INFO  18:27:24,395 - #11 ]
+INFO  18:27:24,395 - #8 ;
+INFO  18:27:24,395 - #4 {
+INFO  18:27:24,395 - #5 }
+INFO  18:27:24,402 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclarations(
+            ConstDeclarationsEnd(
+              ConstListPart(
+               i
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarationsEnd]
+            ConstListPart(
+             j
+              ConstNum(
+               3
+              ) [ConstNum]
+            ) [ConstListPart]
+          ) [ConstDeclarations]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+           k
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  18:27:24,403 - ===================================
+INFO  18:27:24,405 - Pocetak programa test4.
+INFO  18:27:24,405 - Deklarisana je konstanta i na liniji 3
+INFO  18:27:24,405 - Deklarisana je konstanta j na liniji 3
+INFO  18:27:24,405 - Deklarisan je niz k na liniji 4
+INFO  18:27:24,405 - ===================================
+INFO  18:27:24,406 - Parsiranje uspesno zavrseno!

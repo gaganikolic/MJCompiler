@@ -1,0 +1,236 @@
+INFO  14:18:35,210 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  14:18:35,282 - #2 program
+INFO  14:18:35,282 - #49 test4
+INFO  14:18:35,283 - #6 const
+INFO  14:18:35,284 - #49 int
+INFO  14:18:35,285 - #49 i
+INFO  14:18:35,286 - #7 =
+INFO  14:18:35,286 - #48 5
+INFO  14:18:35,286 - #9 ,
+INFO  14:18:35,287 - #49 j
+INFO  14:18:35,287 - #7 =
+INFO  14:18:35,288 - #48 3
+INFO  14:18:35,288 - #8 ;
+INFO  14:18:35,288 - #6 const
+INFO  14:18:35,288 - #49 bool
+INFO  14:18:35,288 - #49 c
+INFO  14:18:35,288 - #7 =
+INFO  14:18:35,289 - #51 true
+INFO  14:18:35,289 - #8 ;
+INFO  14:18:35,289 - #49 int
+INFO  14:18:35,289 - #49 k
+INFO  14:18:35,289 - #10 [
+INFO  14:18:35,289 - #11 ]
+INFO  14:18:35,290 - #9 ,
+INFO  14:18:35,290 - #49 l
+INFO  14:18:35,290 - #10 [
+INFO  14:18:35,290 - #11 ]
+INFO  14:18:35,290 - #8 ;
+INFO  14:18:35,290 - #4 {
+INFO  14:18:35,291 - #41 void
+INFO  14:18:35,291 - #49 main
+INFO  14:18:35,292 - #20 (
+INFO  14:18:35,292 - #21 )
+INFO  14:18:35,293 - #49 int
+INFO  14:18:35,293 - #49 bodovi
+INFO  14:18:35,293 - #8 ;
+INFO  14:18:35,293 - #49 char
+INFO  14:18:35,294 - #49 a
+INFO  14:18:35,294 - #8 ;
+INFO  14:18:35,294 - #4 {
+INFO  14:18:35,294 - #49 bodovi
+INFO  14:18:35,294 - #7 =
+INFO  14:18:35,296 - #48 0
+INFO  14:18:35,296 - #8 ;
+INFO  14:18:35,298 - #49 a
+INFO  14:18:35,298 - #7 =
+INFO  14:18:35,299 - #50 d
+INFO  14:18:35,299 - #8 ;
+INFO  14:18:35,299 - #49 bodovi
+INFO  14:18:35,299 - #7 =
+INFO  14:18:35,299 - #48 1
+INFO  14:18:35,299 - #37 +
+INFO  14:18:35,299 - #49 a
+INFO  14:18:35,301 - #8 ;
+ERROR 14:18:35,301 - 
+Sintaksna greska na liniji 14
+INFO  14:18:35,301 - #5 }
+INFO  14:18:35,301 - #5 }
+ERROR 14:18:35,302 - Uspesan oporavak od greske na liniji 14 pri konstrukciji iskaza dodele do ;
+INFO  14:18:35,315 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarations(
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 i
+                  ConstNum(
+                   5
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+              ConstListPart(
+               j
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarations]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           bool
+          ) [Type]
+          ConstDeclarationsEnd(
+            ConstListPart(
+             c
+              ConstBool(
+               true
+              ) [ConstBool]
+            ) [ConstListPart]
+          ) [ConstDeclarationsEnd]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarArr(
+           k
+          ) [VarArr]
+          VarDeclarationsEnd(
+            VarArr(
+             l
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                 bodovi
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             char
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+               a
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              Designator(
+               bodovi
+                NoDesignatorList(
+                ) [NoDesignatorList]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              ExprOneTerm(
+                Term(
+                  FactorNum(
+                   0
+                  ) [FactorNum]
+                  NoMulop(
+                  ) [NoMulop]
+                ) [Term]
+              ) [ExprOneTerm]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementMatched(
+              DesignatorStatementAssignop(
+                Designator(
+                 a
+                  NoDesignatorList(
+                  ) [NoDesignatorList]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                ExprOneTerm(
+                  Term(
+                    FactorChar(
+                     d
+                    ) [FactorChar]
+                    NoMulop(
+                    ) [NoMulop]
+                  ) [Term]
+                ) [ExprOneTerm]
+              ) [DesignatorStatementAssignop]
+            ) [DesignatorStatementMatched]
+          ) [StatementDesignator]
+          Statements(
+            StatementError(
+            ) [StatementError]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:18:35,317 - ===================================
+INFO  14:18:35,317 - Pocetak programa test4.
+INFO  14:18:35,318 - Deklarisana je konstanta i na liniji 3
+INFO  14:18:35,318 - Deklarisana je konstanta j na liniji 3
+INFO  14:18:35,318 - Deklarisana je konstanta c na liniji 4
+INFO  14:18:35,319 - Deklarisan je niz k na liniji 5
+INFO  14:18:35,319 - Deklarisan je niz l na liniji 5
+INFO  14:18:35,319 - Obradjuje se funkcija main na liniji 8
+INFO  14:18:35,319 - Deklarisana je promenljiva bodovi na liniji 9
+INFO  14:18:35,319 - Deklarisana je promenljiva a na liniji 10
+INFO  14:18:35,319 - Obradjuje se ds  na liniji 12
+INFO  14:18:35,319 - Obradjuje se ds  na liniji 13
+INFO  14:18:35,320 - ===================================
+INFO  14:18:35,320 - Parsiranje uspesno zavrseno!

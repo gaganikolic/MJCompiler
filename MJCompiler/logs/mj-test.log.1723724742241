@@ -1,0 +1,155 @@
+INFO  14:24:37,183 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  14:24:37,320 - #2 program
+INFO  14:24:37,321 - #49 test301
+INFO  14:24:37,321 - #49 int
+INFO  14:24:37,325 - #49 mat
+INFO  14:24:37,326 - #10 [
+INFO  14:24:37,328 - #11 ]
+INFO  14:24:37,328 - #10 [
+INFO  14:24:37,330 - #11 ]
+INFO  14:24:37,330 - #8 ;
+INFO  14:24:37,330 - #49 int
+INFO  14:24:37,331 - #49 niz
+INFO  14:24:37,331 - #10 [
+INFO  14:24:37,331 - #11 ]
+INFO  14:24:37,331 - #8 ;
+INFO  14:24:37,331 - #4 {
+INFO  14:24:37,331 - #41 void
+INFO  14:24:37,333 - #49 main
+INFO  14:24:37,333 - #20 (
+INFO  14:24:37,333 - #21 )
+INFO  14:24:37,335 - #4 {
+INFO  14:24:37,335 - #14 if
+INFO  14:24:37,337 - #20 (
+INFO  14:24:37,337 - #49 niz
+INFO  14:24:37,339 - #10 [
+INFO  14:24:37,340 - #48 0
+INFO  14:24:37,340 - #11 ]
+INFO  14:24:37,342 - #33 >
+INFO  14:24:37,343 - #48 1
+INFO  14:24:37,345 - #21 )
+INFO  14:24:37,345 - #18 return
+INFO  14:24:37,346 - #8 ;
+INFO  14:24:37,347 - #5 }
+INFO  14:24:37,349 - #5 }
+INFO  14:24:37,390 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarMatrix(
+              Arr(
+                VarName(
+                 mat
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementIf(
+          LParenIf(
+          ) [LParenIf]
+          OneCondTerm(
+            OneCondFact(
+              CondFactRelop(
+                ExprPositive(
+                  AddopEnd(
+                    Term(
+                      MulopEnd(
+                        FactorDesignator(
+                          DesignatorExpr(
+                            DesignatorName(
+                             niz
+                            ) [DesignatorName]
+                            ArrayDecl(
+                              ExprPositive(
+                                AddopEnd(
+                                  Term(
+                                    MulopEnd(
+                                      FactorNum(
+                                       0
+                                      ) [FactorNum]
+                                    ) [MulopEnd]
+                                  ) [Term]
+                                ) [AddopEnd]
+                              ) [ExprPositive]
+                            ) [ArrayDecl]
+                          ) [DesignatorExpr]
+                        ) [FactorDesignator]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopEnd]
+                ) [ExprPositive]
+                Greater(
+                ) [Greater]
+                ExprPositive(
+                  AddopEnd(
+                    Term(
+                      MulopEnd(
+                        FactorNum(
+                         1
+                        ) [FactorNum]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopEnd]
+                ) [ExprPositive]
+              ) [CondFactRelop]
+            ) [OneCondFact]
+          ) [OneCondTerm]
+          RParenIf(
+          ) [RParenIf]
+          StatementReturn(
+          ) [StatementReturn]
+        ) [StatementIf]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:24:37,393 - ===================================
+INFO  14:24:37,394 - Pocetak programa test301.
+INFO  14:24:37,394 - Deklarisana je promenljiva mat na liniji 5
+INFO  14:24:37,395 - Deklarisana je promenljiva niz na liniji 6
+INFO  14:24:37,395 - Obradjuje se funkcija main na liniji 8
+INFO  14:24:41,192 - Kreiran/promenjen element niza niz

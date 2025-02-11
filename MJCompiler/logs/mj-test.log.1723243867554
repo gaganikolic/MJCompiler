@@ -1,0 +1,259 @@
+INFO  00:49:24,713 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  00:49:24,799 - #2 program
+INFO  00:49:24,799 - #49 test302
+INFO  00:49:24,799 - #6 const
+INFO  00:49:24,800 - #49 int
+INFO  00:49:24,800 - #49 jedan
+INFO  00:49:24,801 - #7 =
+INFO  00:49:24,801 - #48 1
+INFO  00:49:24,801 - #8 ;
+INFO  00:49:24,801 - #49 int
+INFO  00:49:24,802 - #49 i
+INFO  00:49:24,802 - #8 ;
+INFO  00:49:24,802 - #49 bool
+INFO  00:49:24,803 - #49 ibool
+INFO  00:49:24,803 - #8 ;
+INFO  00:49:24,803 - #49 int
+INFO  00:49:24,803 - #49 niz2
+INFO  00:49:24,803 - #8 ;
+INFO  00:49:24,803 - #49 int
+INFO  00:49:24,804 - #49 niz
+INFO  00:49:24,804 - #10 [
+INFO  00:49:24,804 - #11 ]
+INFO  00:49:24,806 - #9 ,
+INFO  00:49:24,806 - #49 niz_2
+INFO  00:49:24,806 - #10 [
+INFO  00:49:24,807 - #11 ]
+INFO  00:49:24,807 - #9 ,
+INFO  00:49:24,807 - #49 niz_3
+INFO  00:49:24,807 - #10 [
+INFO  00:49:24,807 - #11 ]
+INFO  00:49:24,807 - #8 ;
+INFO  00:49:24,807 - #49 int
+INFO  00:49:24,807 - #49 a
+INFO  00:49:24,807 - #8 ;
+INFO  00:49:24,808 - #4 {
+INFO  00:49:24,808 - #41 void
+INFO  00:49:24,809 - #49 main
+INFO  00:49:24,809 - #20 (
+INFO  00:49:24,809 - #21 )
+INFO  00:49:24,810 - #4 {
+INFO  00:49:24,810 - #49 a
+INFO  00:49:24,810 - #7 =
+INFO  00:49:24,811 - #49 ord
+INFO  00:49:24,812 - #20 (
+INFO  00:49:24,812 - #50 A
+INFO  00:49:24,812 - #21 )
+INFO  00:49:24,814 - #8 ;
+INFO  00:49:24,814 - #22 print
+INFO  00:49:24,814 - #20 (
+INFO  00:49:24,814 - #49 a
+INFO  00:49:24,814 - #21 )
+INFO  00:49:24,815 - #8 ;
+INFO  00:49:24,815 - #5 }
+INFO  00:49:24,816 - #5 }
+INFO  00:49:24,827 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDeclaration(
+                ConstDeclarationList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsEnd(
+                    ConstNum(
+                     jedan
+                     1
+                    ) [ConstNum]
+                  ) [ConstDeclarationsEnd]
+                ) [ConstDeclarationList]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            VarDeclaration(
+              VarDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarationsEnd(
+                  VarIdent(
+                    VarName(
+                     i
+                    ) [VarName]
+                  ) [VarIdent]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarationList]
+            ) [VarDeclaration]
+          ) [Declarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               bool
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   ibool
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 niz2
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarArr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [VarArr]
+            VarDeclarations(
+              VarArr(
+                VarName(
+                 niz_2
+                ) [VarName]
+              ) [VarArr]
+              VarDeclarationsEnd(
+                VarArr(
+                  VarName(
+                   niz_3
+                  ) [VarName]
+                ) [VarArr]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarations]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+            VarName(
+             a
+            ) [VarName]
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               a
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorDesignatorActPars(
+                        DesignatorIdent(
+                         ord
+                        ) [DesignatorIdent]
+                        ActualParsList(
+                          ActParsEnd(
+                            ExprPositive(
+                              AddopEnd(
+                                Term(
+                                  MulopEnd(
+                                    FactorChar(
+                                     A
+                                    ) [FactorChar]
+                                  ) [MulopEnd]
+                                ) [Term]
+                              ) [AddopEnd]
+                            ) [ExprPositive]
+                          ) [ActParsEnd]
+                        ) [ActualParsList]
+                      ) [FactorDesignatorActPars]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementPrint(
+            ExprPositive(
+              AddopEnd(
+                Term(
+                  MulopEnd(
+                    FactorDesignator(
+                      DesignatorIdent(
+                       a
+                      ) [DesignatorIdent]
+                    ) [FactorDesignator]
+                  ) [MulopEnd]
+                ) [Term]
+              ) [AddopEnd]
+            ) [ExprPositive]
+          ) [StatementPrint]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  00:49:24,827 - ===================================
+INFO  00:49:24,828 - Pocetak programa test302.
+INFO  00:49:24,828 - Deklarisana je konstanta jedan na liniji 5
+INFO  00:49:24,828 - Deklarisana je promenljiva i na liniji 7
+INFO  00:49:24,828 - Deklarisana je promenljiva ibool na liniji 8
+INFO  00:49:24,828 - Deklarisana je promenljiva niz2 na liniji 10
+INFO  00:49:24,828 - Deklarisana je promenljiva niz na liniji 12
+INFO  00:49:24,828 - Deklarisana je promenljiva niz_2 na liniji 12
+INFO  00:49:24,829 - Deklarisana je promenljiva niz_3 na liniji 12
+INFO  00:49:24,829 - Deklarisana je promenljiva a na liniji 13
+INFO  00:49:24,829 - Obradjuje se funkcija main na liniji 20
+INFO  00:49:24,829 - Pronadjen poziv funkcije ord na liniji 22
+INFO  00:49:24,829 - Designator i expr su odgovarajuceg tipa na liniji 22
+INFO  00:49:24,829 - Obradjena funkcija PRINT na liniji 23
+INFO  00:49:24,829 - ===================================
+INFO  00:49:24,835 - Parsiranje uspesno zavrseno!

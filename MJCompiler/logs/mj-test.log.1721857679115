@@ -1,0 +1,162 @@
+INFO  23:47:25,119 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test2.mj
+INFO  23:47:25,175 - #2 program
+INFO  23:47:25,176 - #3 test301
+INFO  23:47:25,176 - #7 const
+INFO  23:47:25,176 - #3 int
+INFO  23:47:25,176 - #3 a
+INFO  23:47:25,177 - #8 =
+INFO  23:47:25,177 - #42 10
+INFO  23:47:25,177 - #29 -
+ERROR 23:47:25,177 - 
+Sintaksna greska na liniji 3
+INFO  23:47:25,177 - #9 ;
+INFO  23:47:25,178 - #4 {
+INFO  23:47:25,178 - #45 void
+INFO  23:47:25,178 - #3 main
+ERROR 23:47:25,178 - Uspesan oporavak od greske na liniji 3 pri definisanju konstante
+INFO  23:47:25,180 - #21 (
+INFO  23:47:25,180 - #22 )
+INFO  23:47:25,181 - #4 {
+INFO  23:47:25,181 - #11 [
+INFO  23:47:25,181 - #3 b
+INFO  23:47:25,181 - #10 ,
+INFO  23:47:25,182 - #39 *
+INFO  23:47:25,183 - #3 a
+INFO  23:47:25,183 - #12 ]
+INFO  23:47:25,183 - #8 =
+INFO  23:47:25,183 - #3 c
+INFO  23:47:25,183 - #9 ;
+INFO  23:47:25,183 - #11 [
+INFO  23:47:25,183 - #39 *
+INFO  23:47:25,184 - #3 x
+INFO  23:47:25,184 - #12 ]
+INFO  23:47:25,184 - #8 =
+INFO  23:47:25,184 - #3 y
+INFO  23:47:25,184 - #9 ;
+INFO  23:47:25,184 - #5 }
+INFO  23:47:25,185 - #3 int
+INFO  23:47:25,185 - #3 saberi
+INFO  23:47:25,185 - #21 (
+INFO  23:47:25,186 - #3 int
+INFO  23:47:25,186 - #3 i1
+INFO  23:47:25,186 - #10 ,
+INFO  23:47:25,186 - #3 int
+INFO  23:47:25,186 - #3 i2
+INFO  23:47:25,186 - #3 i
+ERROR 23:47:25,186 - 
+Sintaksna greska na liniji 12
+INFO  23:47:25,186 - #22 )
+INFO  23:47:25,186 - #4 {
+INFO  23:47:25,186 - #19 return
+INFO  23:47:25,186 - #3 i1
+ERROR 23:47:25,187 - Uspesan oporavak od greske na liniji 12 u formalnim parametrima do )
+INFO  23:47:25,187 - #38 +
+INFO  23:47:25,189 - #3 i2
+INFO  23:47:25,190 - #9 ;
+INFO  23:47:25,191 - #5 }
+INFO  23:47:25,191 - #5 }
+INFO  23:47:25,193 - Program(
+  Declarations(
+    ConstDeclaration(
+      ConstDeclarationError(
+      ) [ConstDeclarationError]
+    ) [ConstDeclaration]
+    NoDeclarations(
+    ) [NoDeclarations]
+  ) [Declarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDeclarationVoidType(
+        NoMethodParameters(
+        ) [NoMethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementUnmatched(
+              UnmatchedMoreThanOne(
+                UnmachedListEnd(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [UnmachedListEnd]
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+              ) [UnmatchedMoreThanOne]
+            ) [DesignatorStatementUnmatched]
+          ) [StatementDesignator]
+          Statements(
+            StatementDesignator(
+              DesignatorStatementUnmatched(
+                UnmatchedOne(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [UnmatchedOne]
+              ) [DesignatorStatementUnmatched]
+            ) [StatementDesignator]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [MethodDeclarationVoidType]
+    ) [MethodDeclarationList]
+    MethodDeclarationAnyType(
+      TypeName(
+      ) [TypeName]
+      MethodParametersError(
+      ) [MethodParametersError]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementReturnExpr(
+          ExprPositive(
+            Terms(
+              FactorDesignator(
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+              ) [FactorDesignator]
+              MulopEnd(
+              ) [MulopEnd]
+            ) [Terms]
+            AddopList(
+              AddPlus(
+              ) [AddPlus]
+              Terms(
+                FactorDesignator(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [FactorDesignator]
+                MulopEnd(
+                ) [MulopEnd]
+              ) [Terms]
+              AddopEnd(
+              ) [AddopEnd]
+            ) [AddopList]
+          ) [ExprPositive]
+        ) [StatementReturnExpr]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDeclarationAnyType]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  23:47:25,194 - ===================================

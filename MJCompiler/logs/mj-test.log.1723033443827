@@ -1,0 +1,143 @@
+INFO  14:13:25,500 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  14:13:25,582 - #2 program
+INFO  14:13:25,582 - #49 test301
+INFO  14:13:25,582 - #4 {
+INFO  14:13:25,584 - #49 int
+INFO  14:13:25,584 - #49 verify
+INFO  14:13:25,585 - #20 (
+INFO  14:13:25,585 - #49 char
+INFO  14:13:25,585 - #49 x
+INFO  14:13:25,586 - #21 )
+INFO  14:13:25,586 - #4 {
+INFO  14:13:25,586 - #18 return
+INFO  14:13:25,586 - #28 -
+INFO  14:13:25,587 - #48 1
+INFO  14:13:25,587 - #8 ;
+INFO  14:13:25,588 - #5 }
+INFO  14:13:25,589 - #41 void
+INFO  14:13:25,590 - #49 main
+INFO  14:13:25,590 - #20 (
+INFO  14:13:25,590 - #21 )
+INFO  14:13:25,591 - #49 int
+INFO  14:13:25,591 - #49 bodovi
+INFO  14:13:25,592 - #8 ;
+INFO  14:13:25,593 - #4 {
+INFO  14:13:25,593 - #49 verify
+INFO  14:13:25,593 - #20 (
+INFO  14:13:25,593 - #49 bodovi
+INFO  14:13:25,594 - #21 )
+INFO  14:13:25,594 - #8 ;
+INFO  14:13:25,594 - #5 }
+INFO  14:13:25,594 - #5 }
+INFO  14:13:25,619 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDecl(
+        MethodNameAnyType(
+          Type(
+           int
+          ) [Type]
+         verify
+        ) [MethodNameAnyType]
+        MethodParameters(
+          FormParsEnd(
+            FormParsVar(
+              Type(
+               char
+              ) [Type]
+             x
+            ) [FormParsVar]
+          ) [FormParsEnd]
+        ) [MethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        Statements(
+          StatementReturnExpr(
+            ExprNegativ(
+              AddopEnd(
+                Term(
+                  MulopEnd(
+                    FactorNum(
+                     1
+                    ) [FactorNum]
+                  ) [MulopEnd]
+                ) [Term]
+              ) [AddopEnd]
+            ) [ExprNegativ]
+          ) [StatementReturnExpr]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarationList]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 bodovi
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementActPars(
+              DesignatorIdent(
+               verify
+              ) [DesignatorIdent]
+              ActualParsList(
+                ActParsEnd(
+                  ExprPositive(
+                    AddopEnd(
+                      Term(
+                        MulopEnd(
+                          FactorDesignator(
+                            DesignatorIdent(
+                             bodovi
+                            ) [DesignatorIdent]
+                          ) [FactorDesignator]
+                        ) [MulopEnd]
+                      ) [Term]
+                    ) [AddopEnd]
+                  ) [ExprPositive]
+                ) [ActParsEnd]
+              ) [ActualParsList]
+            ) [DesignatorStatementActPars]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:13:25,619 - ===================================
+INFO  14:13:25,620 - Pocetak programa test301.
+INFO  14:13:25,620 - Obradjuje se funkcija verify na liniji 5
+INFO  14:13:25,620 - Deklarisan je parametar funkcije x na liniji 5
+INFO  14:13:25,622 - Dobra povratna vrednost funkcije na liniji 6
+INFO  14:13:25,622 - Obradjuje se funkcija main na liniji 8
+INFO  14:13:25,622 - Deklarisana je promenljiva bodovi na liniji 9

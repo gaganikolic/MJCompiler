@@ -1,0 +1,72 @@
+INFO  16:28:45,812 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  16:28:45,971 - #2 program
+INFO  16:28:45,972 - #53 test
+INFO  16:28:45,972 - #53 int
+INFO  16:28:45,975 - #53 niz
+INFO  16:28:45,977 - #10 [
+INFO  16:28:45,979 - #11 ]
+INFO  16:28:45,980 - #8 ;
+INFO  16:28:45,982 - #4 {
+INFO  16:28:45,982 - #41 void
+INFO  16:28:45,984 - #53 main
+INFO  16:28:45,984 - #20 (
+INFO  16:28:45,984 - #21 )
+INFO  16:28:45,986 - #4 {
+INFO  16:28:45,986 - #19 read
+INFO  16:28:45,986 - #20 (
+INFO  16:28:45,987 - #53 niz
+INFO  16:28:45,987 - #21 )
+INFO  16:28:45,987 - #8 ;
+INFO  16:28:45,987 - #5 }
+INFO  16:28:45,989 - #5 }
+INFO  16:28:46,049 - Program(
+  ProgramName(
+   test
+  ) [ProgramName]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementRead(
+          DesignatorIdent(
+           niz
+          ) [DesignatorIdent]
+        ) [StatementRead]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  16:28:46,050 - ===================================
+INFO  16:28:46,050 - Pocetak programa test.
+INFO  16:28:46,051 - Deklarisana je promenljiva niz na liniji 3
+INFO  16:28:46,051 - Obradjuje se funkcija main na liniji 6

@@ -1,0 +1,161 @@
+INFO  15:25:56,851 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  15:25:56,919 - #2 program
+INFO  15:25:56,919 - #49 test302
+INFO  15:25:56,919 - #49 int
+INFO  15:25:56,921 - #49 i
+INFO  15:25:56,921 - #8 ;
+INFO  15:25:56,922 - #49 bool
+INFO  15:25:56,922 - #49 ibool
+INFO  15:25:56,923 - #8 ;
+INFO  15:25:56,923 - #49 int
+INFO  15:25:56,923 - #49 niz
+INFO  15:25:56,923 - #10 [
+INFO  15:25:56,923 - #11 ]
+INFO  15:25:56,923 - #9 ,
+INFO  15:25:56,924 - #49 niz2
+INFO  15:25:56,924 - #10 [
+INFO  15:25:56,924 - #11 ]
+INFO  15:25:56,925 - #9 ,
+INFO  15:25:56,925 - #49 niz3
+INFO  15:25:56,925 - #10 [
+INFO  15:25:56,925 - #11 ]
+INFO  15:25:56,925 - #8 ;
+INFO  15:25:56,926 - #49 int
+INFO  15:25:56,926 - #49 a
+INFO  15:25:56,926 - #9 ,
+INFO  15:25:56,926 - #49 b
+INFO  15:25:56,926 - #8 ;
+INFO  15:25:56,926 - #49 int
+INFO  15:25:56,926 - #49 nizr
+INFO  15:25:56,926 - #8 ;
+INFO  15:25:56,926 - #4 {
+INFO  15:25:56,926 - #5 }
+INFO  15:25:56,936 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclaration(
+              VarDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarationsEnd(
+                  VarIdent(
+                    VarName(
+                     i
+                    ) [VarName]
+                  ) [VarIdent]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarationList]
+            ) [VarDeclaration]
+          ) [Declarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               bool
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   ibool
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              VarArr(
+                Arr(
+                  VarName(
+                   niz
+                  ) [VarName]
+                ) [Arr]
+              ) [VarArr]
+              VarDeclarations(
+                VarArr(
+                  Arr(
+                    VarName(
+                     niz2
+                    ) [VarName]
+                  ) [Arr]
+                ) [VarArr]
+                VarDeclarationsEnd(
+                  VarArr(
+                    Arr(
+                      VarName(
+                       niz3
+                      ) [VarName]
+                    ) [Arr]
+                  ) [VarArr]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarations]
+            ) [VarDeclarations]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarIdent(
+              VarName(
+               a
+              ) [VarName]
+            ) [VarIdent]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 b
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+            VarName(
+             nizr
+            ) [VarName]
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  15:25:56,937 - ===================================
+INFO  15:25:56,937 - Pocetak programa test302.
+INFO  15:25:56,937 - Deklarisana je promenljiva i na liniji 5
+INFO  15:25:56,937 - Deklarisana je promenljiva ibool na liniji 6
+INFO  15:25:56,937 - Deklarisana je promenljiva niz na liniji 8
+INFO  15:25:56,937 - Deklarisana je promenljiva niz2 na liniji 8
+INFO  15:25:56,937 - Deklarisana je promenljiva niz3 na liniji 8
+INFO  15:25:56,938 - Deklarisana je promenljiva a na liniji 9
+INFO  15:25:56,938 - Deklarisana je promenljiva b na liniji 9
+INFO  15:25:56,938 - Deklarisana je promenljiva nizr na liniji 10
+ERROR 15:25:56,938 - Greska, u programu ne postoji MAIN metoda!
+INFO  15:25:56,938 - ===================================
+ERROR 15:25:56,939 - Parsiranje NIJE uspesno zavrseno!

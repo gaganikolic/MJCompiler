@@ -1,0 +1,72 @@
+INFO  16:32:18,089 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  16:32:18,145 - #2 program
+INFO  16:32:18,145 - #49 test4
+INFO  16:32:18,145 - #6 const
+INFO  16:32:18,146 - #49 int
+INFO  16:32:18,147 - #49 i
+INFO  16:32:18,147 - #7 =
+INFO  16:32:18,147 - #48 5
+INFO  16:32:18,148 - #9 ,
+INFO  16:32:18,148 - #49 j
+INFO  16:32:18,149 - #7 =
+INFO  16:32:18,149 - #48 3
+INFO  16:32:18,149 - #8 ;
+INFO  16:32:18,149 - #49 int
+INFO  16:32:18,150 - #49 k
+INFO  16:32:18,150 - #8 ;
+INFO  16:32:18,150 - #4 {
+INFO  16:32:18,151 - #5 }
+INFO  16:32:18,157 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclarations(
+            ConstDeclarationsEnd(
+              ConstListPart(
+               i
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarationsEnd]
+            ConstListPart(
+             j
+              ConstNum(
+               3
+              ) [ConstNum]
+            ) [ConstListPart]
+          ) [ConstDeclarations]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+           k
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  16:32:18,158 - ===================================
+INFO  16:32:18,160 - Pocetak programa test4.
+INFO  16:32:18,160 - Deklarisana je konstanta i na liniji 3
+INFO  16:32:18,161 - Deklarisana je konstanta j na liniji 3
+INFO  16:32:18,161 - ===================================
+INFO  16:32:18,161 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,95 @@
+INFO  19:38:28,907 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\mojTest.mj
+INFO  19:38:28,964 - #2 program
+INFO  19:38:28,964 - #3 test301
+INFO  19:38:28,964 - #4 {
+INFO  19:38:28,965 - #45 void
+INFO  19:38:28,965 - #3 main
+INFO  19:38:28,966 - #21 (
+INFO  19:38:28,966 - #3 int
+INFO  19:38:28,966 - #3 i
+INFO  19:38:28,967 - #10 ,
+INFO  19:38:28,967 - #3 int
+INFO  19:38:28,967 - #3 c
+INFO  19:38:28,967 - #22 )
+INFO  19:38:28,968 - #4 {
+INFO  19:38:28,968 - #15 if
+INFO  19:38:28,968 - #21 (
+INFO  19:38:28,968 - #3 i
+INFO  19:38:28,968 - #32 ==
+INFO  19:38:28,970 - #42 5
+INFO  19:38:28,971 - #22 )
+INFO  19:38:28,973 - #19 return
+INFO  19:38:28,974 - #9 ;
+INFO  19:38:28,974 - #5 }
+INFO  19:38:28,976 - #5 }
+INFO  19:38:28,977 - Program(
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDeclarationVoidType(
+      MethodParameters(
+        FormParsList(
+          FormParsVar(
+            TypeName(
+            ) [TypeName]
+          ) [FormParsVar]
+          FormParsEnd(
+            FormParsVar(
+              TypeName(
+              ) [TypeName]
+            ) [FormParsVar]
+          ) [FormParsEnd]
+        ) [FormParsList]
+      ) [MethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementIf(
+          ConditionList(
+            CondTermList(
+              CondFactRelop(
+                ExprPositive(
+                  Terms(
+                    FactorDesignator(
+                      DesignatorName(
+                        DesignatorListEnd(
+                        ) [DesignatorListEnd]
+                      ) [DesignatorName]
+                    ) [FactorDesignator]
+                    MulopEnd(
+                    ) [MulopEnd]
+                  ) [Terms]
+                  AddopEnd(
+                  ) [AddopEnd]
+                ) [ExprPositive]
+                RelopEqualTo(
+                ) [RelopEqualTo]
+                ExprPositive(
+                  Terms(
+                    FactorNum(
+                    ) [FactorNum]
+                    MulopEnd(
+                    ) [MulopEnd]
+                  ) [Terms]
+                  AddopEnd(
+                  ) [AddopEnd]
+                ) [ExprPositive]
+              ) [CondFactRelop]
+              NoCondTerm(
+              ) [NoCondTerm]
+            ) [CondTermList]
+            NoCondition(
+            ) [NoCondition]
+          ) [ConditionList]
+          StatementReturn(
+          ) [StatementReturn]
+        ) [StatementIf]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDeclarationVoidType]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  19:38:28,977 - ===================================

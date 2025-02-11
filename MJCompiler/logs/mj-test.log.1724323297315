@@ -1,0 +1,155 @@
+INFO  12:41:10,469 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\testGreske.mj
+INFO  12:41:10,533 - #2 program
+INFO  12:41:10,533 - #53 greske
+INFO  12:41:10,533 - #6 const
+INFO  12:41:10,534 - #53 int
+INFO  12:41:10,534 - #53 nula
+INFO  12:41:10,535 - #7 =
+INFO  12:41:10,535 - #52 0
+INFO  12:41:10,535 - #8 ;
+INFO  12:41:10,535 - #6 const
+INFO  12:41:10,536 - #53 int
+INFO  12:41:10,536 - #53 jedan
+INFO  12:41:10,536 - #7 =
+INFO  12:41:10,536 - #52 1
+INFO  12:41:10,536 - #8 ;
+INFO  12:41:10,536 - #6 const
+INFO  12:41:10,536 - #53 int
+INFO  12:41:10,536 - #53 pet
+INFO  12:41:10,536 - #7 =
+INFO  12:41:10,536 - #52 5
+INFO  12:41:10,536 - #8 ;
+INFO  12:41:10,536 - #6 const
+INFO  12:41:10,537 - #53 int
+INFO  12:41:10,537 - #53 pet
+INFO  12:41:10,537 - #7 =
+INFO  12:41:10,537 - #52 5
+INFO  12:41:10,537 - #8 ;
+INFO  12:41:10,537 - #53 int
+INFO  12:41:10,537 - #53 niz
+INFO  12:41:10,538 - #10 [
+INFO  12:41:10,538 - #11 ]
+INFO  12:41:10,538 - #8 ;
+INFO  12:41:10,539 - #53 char
+INFO  12:41:10,540 - #53 nizch
+INFO  12:41:10,540 - #10 [
+INFO  12:41:10,540 - #11 ]
+INFO  12:41:10,540 - #8 ;
+INFO  12:41:10,540 - #4 {
+INFO  12:41:10,540 - #5 }
+INFO  12:41:10,550 - Program(
+  ProgramName(
+   greske
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDeclaration(
+                ConstDeclarationList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsEnd(
+                    ConstNum(
+                     nula
+                     0
+                    ) [ConstNum]
+                  ) [ConstDeclarationsEnd]
+                ) [ConstDeclarationList]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstNum(
+                   jedan
+                   1
+                  ) [ConstNum]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstNum(
+                 pet
+                 5
+                ) [ConstNum]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstNum(
+               pet
+               5
+              ) [ConstNum]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarArr(
+              Arr(
+                VarName(
+                 niz
+                ) [VarName]
+              ) [Arr]
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               nizch
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  12:41:10,551 - ===================================
+INFO  12:41:10,551 - Pocetak programa greske.
+INFO  12:41:10,551 - Deklarisana je konstanta nula na liniji 5
+INFO  12:41:10,551 - Deklarisana je konstanta jedan na liniji 6
+INFO  12:41:10,551 - Deklarisana je konstanta pet na liniji 7
+ERROR 12:41:10,551 - GRESKA: Vec postoji identifikator pet
+INFO  12:41:10,552 - Deklarisana je konstanta pet na liniji 8
+INFO  12:41:10,552 - Deklarisana je promenljiva niz na liniji 10
+INFO  12:41:10,552 - Deklarisana je promenljiva nizch na liniji 11
+ERROR 12:41:10,552 - GRESKA: U programu ne postoji MAIN metoda!
+ERROR 12:41:10,552 - Parsiranje NIJE uspesno zavrseno!

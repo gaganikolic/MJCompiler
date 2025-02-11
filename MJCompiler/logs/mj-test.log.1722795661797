@@ -1,0 +1,83 @@
+INFO  20:20:44,981 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  20:20:45,073 - #2 program
+INFO  20:20:45,073 - #49 test301
+INFO  20:20:45,074 - #49 int
+INFO  20:20:45,077 - #49 niz
+INFO  20:20:45,078 - #10 [
+INFO  20:20:45,080 - #11 ]
+INFO  20:20:45,080 - #8 ;
+INFO  20:20:45,081 - #49 char
+INFO  20:20:45,081 - #49 nizch
+INFO  20:20:45,081 - #10 [
+INFO  20:20:45,081 - #11 ]
+INFO  20:20:45,082 - #8 ;
+INFO  20:20:45,082 - #4 {
+INFO  20:20:45,082 - #41 void
+INFO  20:20:45,084 - #49 main
+INFO  20:20:45,085 - #20 (
+INFO  20:20:45,085 - #21 )
+INFO  20:20:45,086 - #4 {
+INFO  20:20:45,087 - #5 }
+INFO  20:20:45,088 - #5 }
+INFO  20:20:45,103 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarArr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            VarName(
+             nizch
+            ) [VarName]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  20:20:45,106 - ===================================
+INFO  20:20:45,106 - Pocetak programa test301.
+INFO  20:20:45,106 - Deklarisana je promenljiva niz na liniji 10
+INFO  20:20:45,107 - Deklarisana je promenljiva nizch na liniji 11
+INFO  20:20:45,107 - Obradjuje se funkcija main na liniji 14
+INFO  20:20:45,107 - ===================================
+INFO  20:20:45,108 - Parsiranje uspesno zavrseno!
+INFO  20:20:45,108 - nVars = 2

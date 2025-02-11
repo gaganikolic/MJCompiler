@@ -1,0 +1,81 @@
+INFO  00:25:22,988 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  00:25:23,047 - #2 program
+INFO  00:25:23,047 - #49 test301
+INFO  00:25:23,047 - #4 {
+INFO  00:25:23,049 - #41 void
+INFO  00:25:23,049 - #49 main
+INFO  00:25:23,050 - #20 (
+INFO  00:25:23,050 - #21 )
+INFO  00:25:23,050 - #49 int
+INFO  00:25:23,050 - #49 a
+INFO  00:25:23,051 - #10 [
+INFO  00:25:23,052 - #11 ]
+INFO  00:25:23,052 - #8 ;
+INFO  00:25:23,052 - #4 {
+INFO  00:25:23,053 - #22 print
+INFO  00:25:23,053 - #20 (
+INFO  00:25:23,053 - #48 1
+INFO  00:25:23,053 - #21 )
+INFO  00:25:23,054 - #8 ;
+INFO  00:25:23,054 - #5 }
+INFO  00:25:23,055 - #5 }
+INFO  00:25:23,065 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarArr(
+                VarName(
+                 a
+                ) [VarName]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementPrint(
+          ExprPositive(
+            AddopEnd(
+              Term(
+                MulopEnd(
+                  FactorNum(
+                   1
+                  ) [FactorNum]
+                ) [MulopEnd]
+              ) [Term]
+            ) [AddopEnd]
+          ) [ExprPositive]
+        ) [StatementPrint]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  00:25:23,066 - ===================================
+INFO  00:25:23,066 - Pocetak programa test301.
+INFO  00:25:23,066 - Obradjuje se funkcija main na liniji 6
+INFO  00:25:23,066 - Deklarisana je promenljiva a na liniji 7
+INFO  00:25:23,066 - Obradjena funkcija PRINT na liniji 10
+INFO  00:25:23,066 - ===================================
+INFO  00:25:23,072 - Parsiranje uspesno zavrseno!

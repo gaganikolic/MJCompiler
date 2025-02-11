@@ -1,0 +1,150 @@
+INFO  20:49:35,799 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  20:49:35,865 - #2 program
+INFO  20:49:35,865 - #49 test301
+INFO  20:49:35,865 - #6 const
+INFO  20:49:35,866 - #49 int
+INFO  20:49:35,866 - #49 nula
+INFO  20:49:35,867 - #7 =
+INFO  20:49:35,867 - #48 0
+INFO  20:49:35,867 - #8 ;
+INFO  20:49:35,867 - #6 const
+INFO  20:49:35,867 - #49 int
+INFO  20:49:35,867 - #49 jedan
+INFO  20:49:35,867 - #7 =
+INFO  20:49:35,868 - #48 1
+INFO  20:49:35,868 - #8 ;
+INFO  20:49:35,868 - #6 const
+INFO  20:49:35,868 - #49 int
+INFO  20:49:35,868 - #49 pet
+INFO  20:49:35,869 - #7 =
+INFO  20:49:35,869 - #48 5
+INFO  20:49:35,869 - #8 ;
+INFO  20:49:35,869 - #49 int
+INFO  20:49:35,871 - #49 niz
+INFO  20:49:35,871 - #10 [
+INFO  20:49:35,872 - #11 ]
+INFO  20:49:35,872 - #8 ;
+INFO  20:49:35,872 - #49 char
+INFO  20:49:35,873 - #49 nizch
+INFO  20:49:35,873 - #10 [
+INFO  20:49:35,873 - #11 ]
+INFO  20:49:35,873 - #8 ;
+INFO  20:49:35,873 - #4 {
+INFO  20:49:35,873 - #41 void
+INFO  20:49:35,874 - #49 main
+INFO  20:49:35,874 - #20 (
+INFO  20:49:35,874 - #21 )
+INFO  20:49:35,875 - #4 {
+INFO  20:49:35,875 - #5 }
+INFO  20:49:35,876 - #5 }
+INFO  20:49:35,885 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstNum(
+                   nula
+                   0
+                  ) [ConstNum]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstNum(
+                 jedan
+                 1
+                ) [ConstNum]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstNum(
+               pet
+               5
+              ) [ConstNum]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarArr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            VarName(
+             nizch
+            ) [VarName]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  20:49:35,886 - ===================================
+INFO  20:49:35,886 - Pocetak programa test301.
+INFO  20:49:35,886 - Deklarisana je konstanta nula na liniji 5
+INFO  20:49:35,886 - Deklarisana je konstanta jedan na liniji 6
+INFO  20:49:35,886 - Deklarisana je konstanta pet na liniji 7
+INFO  20:49:35,886 - Deklarisana je promenljiva niz na liniji 9
+INFO  20:49:35,886 - Deklarisana je promenljiva nizch na liniji 10
+INFO  20:49:35,887 - Obradjuje se funkcija main na liniji 13
+INFO  20:49:35,887 - Globalne konstante = 3
+INFO  20:49:35,887 - nVars = 2
+INFO  20:49:35,887 - ===================================
+INFO  20:49:35,887 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,153 @@
+INFO  17:27:12,546 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  17:27:12,607 - #2 program
+INFO  17:27:12,608 - #49 test301
+INFO  17:27:12,608 - #6 const
+INFO  17:27:12,609 - #49 int
+INFO  17:27:12,609 - #49 nula
+INFO  17:27:12,609 - #7 =
+INFO  17:27:12,609 - #48 0
+INFO  17:27:12,609 - #8 ;
+INFO  17:27:12,610 - #6 const
+INFO  17:27:12,610 - #49 int
+INFO  17:27:12,610 - #49 jedan
+INFO  17:27:12,610 - #7 =
+INFO  17:27:12,610 - #48 1
+INFO  17:27:12,610 - #8 ;
+INFO  17:27:12,610 - #6 const
+INFO  17:27:12,611 - #49 int
+INFO  17:27:12,611 - #49 pet
+INFO  17:27:12,611 - #7 =
+INFO  17:27:12,611 - #48 5
+INFO  17:27:12,611 - #8 ;
+INFO  17:27:12,611 - #49 int
+INFO  17:27:12,613 - #49 niz
+INFO  17:27:12,613 - #10 [
+INFO  17:27:12,614 - #11 ]
+INFO  17:27:12,614 - #9 ,
+INFO  17:27:12,614 - #49 niz2
+INFO  17:27:12,614 - #10 [
+INFO  17:27:12,614 - #11 ]
+INFO  17:27:12,614 - #8 ;
+INFO  17:27:12,614 - #49 char
+INFO  17:27:12,615 - #49 nizch
+INFO  17:27:12,615 - #10 [
+INFO  17:27:12,615 - #11 ]
+INFO  17:27:12,615 - #8 ;
+INFO  17:27:12,615 - #49 char
+INFO  17:27:12,615 - #49 c
+INFO  17:27:12,615 - #8 ;
+INFO  17:27:12,615 - #4 {
+INFO  17:27:12,615 - #5 }
+INFO  17:27:12,625 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDeclaration(
+                ConstDeclarationList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsEnd(
+                    ConstNum(
+                     nula
+                     0
+                    ) [ConstNum]
+                  ) [ConstDeclarationsEnd]
+                ) [ConstDeclarationList]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstNum(
+                   jedan
+                   1
+                  ) [ConstNum]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstNum(
+                 pet
+                 5
+                ) [ConstNum]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              VarArr(
+               niz
+              ) [VarArr]
+              VarDeclarationsEnd(
+                VarArr(
+                 niz2
+                ) [VarArr]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarations]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           char
+          ) [Type]
+          VarDeclarationsEnd(
+            VarArr(
+             nizch
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+           c
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  17:27:12,625 - ===================================
+INFO  17:27:12,626 - Pocetak programa test301.
+INFO  17:27:12,626 - Deklarisana je konstanta nula na liniji 5
+INFO  17:27:12,626 - Deklarisana je konstanta jedan na liniji 6
+INFO  17:27:12,626 - Deklarisana je konstanta pet na liniji 7
+INFO  17:27:12,626 - Deklarisan je niz niz na liniji 9
+INFO  17:27:12,626 - Deklarisan je niz niz2 na liniji 9
+INFO  17:27:12,626 - Deklarisan je niz nizch na liniji 10
+INFO  17:27:12,626 - Deklarisana je promenljiva c na liniji 11
+ERROR 17:27:12,626 - Greska, u programu ne postoji MAIN metoda!
+INFO  17:27:12,626 - ===================================
+ERROR 17:27:12,627 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,185 @@
+INFO  12:02:36,932 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  12:02:37,006 - #2 program
+INFO  12:02:37,006 - #53 test
+INFO  12:02:37,006 - #53 int
+INFO  12:02:37,008 - #53 niz
+INFO  12:02:37,008 - #10 [
+INFO  12:02:37,010 - #11 ]
+INFO  12:02:37,010 - #8 ;
+INFO  12:02:37,011 - #53 int
+INFO  12:02:37,012 - #53 mat
+INFO  12:02:37,012 - #10 [
+INFO  12:02:37,012 - #11 ]
+INFO  12:02:37,012 - #10 [
+INFO  12:02:37,013 - #11 ]
+INFO  12:02:37,013 - #8 ;
+INFO  12:02:37,013 - #6 const
+INFO  12:02:37,013 - #53 int
+INFO  12:02:37,013 - #53 i
+INFO  12:02:37,013 - #7 =
+INFO  12:02:37,013 - #52 2
+INFO  12:02:37,014 - #8 ;
+INFO  12:02:37,014 - #4 {
+INFO  12:02:37,015 - #41 void
+INFO  12:02:37,016 - #53 main
+INFO  12:02:37,016 - #20 (
+INFO  12:02:37,016 - #21 )
+INFO  12:02:37,017 - #53 int
+INFO  12:02:37,017 - #53 a
+INFO  12:02:37,017 - #8 ;
+INFO  12:02:37,017 - #53 int
+INFO  12:02:37,017 - #53 b
+INFO  12:02:37,017 - #8 ;
+INFO  12:02:37,017 - #4 {
+INFO  12:02:37,017 - #53 a
+INFO  12:02:37,017 - #7 =
+INFO  12:02:37,018 - #52 2
+INFO  12:02:37,019 - #38 *
+INFO  12:02:37,019 - #38 *
+ERROR 12:02:37,019 - 
+Sintaksna greska na liniji 13
+INFO  12:02:37,019 - #8 ;
+INFO  12:02:37,020 - #22 print
+INFO  12:02:37,020 - #20 (
+INFO  12:02:37,020 - #53 a
+ERROR 12:02:37,021 - Uspesan oporavak od greske na liniji 13 pri konstrukciji iskaza dodele
+INFO  12:02:37,022 - #21 )
+INFO  12:02:37,023 - #8 ;
+INFO  12:02:37,023 - #5 }
+INFO  12:02:37,024 - #5 }
+INFO  12:02:37,038 - Program(
+  ProgramName(
+   test
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarArr(
+                Arr(
+                  VarName(
+                   niz
+                  ) [VarName]
+                ) [Arr]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarMatrix(
+              Arr(
+                VarName(
+                 mat
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    ConstDeclaration(
+      ConstDeclarationList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclarationsEnd(
+          ConstNum(
+           i
+           2
+          ) [ConstNum]
+        ) [ConstDeclarationsEnd]
+      ) [ConstDeclarationList]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   a
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 b
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementError(
+        ) [StatementError]
+        Statements(
+          StatementPrint(
+            ExprPositive(
+              AddopEnd(
+                Term(
+                  MulopEnd(
+                    FactorDesignator(
+                      DesignatorIdent(
+                       a
+                      ) [DesignatorIdent]
+                    ) [FactorDesignator]
+                  ) [MulopEnd]
+                ) [Term]
+              ) [AddopEnd]
+            ) [ExprPositive]
+          ) [StatementPrint]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  12:02:37,043 - ===================================
+INFO  12:02:37,044 - Pocetak programa test.
+INFO  12:02:37,044 - Deklarisana je promenljiva niz na liniji 3
+INFO  12:02:37,044 - Deklarisana je promenljiva mat na liniji 4
+INFO  12:02:37,044 - Deklarisana je konstanta i na liniji 6
+INFO  12:02:37,044 - Obradjuje se funkcija main na liniji 9
+INFO  12:02:37,045 - Deklarisana je promenljiva a na liniji 10
+INFO  12:02:37,045 - Deklarisana je promenljiva b na liniji 11
+INFO  12:02:37,045 - Obradjena funkcija PRINT na liniji 14
+INFO  12:02:37,052 - Parsiranje uspesno zavrseno!

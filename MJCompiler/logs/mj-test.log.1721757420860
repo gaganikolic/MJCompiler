@@ -1,0 +1,76 @@
+INFO  19:56:42,681 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\mojTest.mj
+INFO  19:56:42,742 - #2 program
+INFO  19:56:42,742 - #3 test301
+INFO  19:56:42,742 - #4 {
+INFO  19:56:42,743 - #45 void
+INFO  19:56:42,744 - #3 main
+INFO  19:56:42,744 - #21 (
+INFO  19:56:42,744 - #3 int
+INFO  19:56:42,744 - #3 i
+INFO  19:56:42,745 - #10 ,
+INFO  19:56:42,745 - #3 int
+INFO  19:56:42,745 - #3 c
+INFO  19:56:42,745 - #22 )
+INFO  19:56:42,746 - #4 {
+INFO  19:56:42,746 - #24 for
+INFO  19:56:42,746 - #21 (
+INFO  19:56:42,746 - #9 ;
+INFO  19:56:42,747 - #9 ;
+INFO  19:56:42,747 - #22 )
+INFO  19:56:42,747 - #4 {
+INFO  19:56:42,747 - #5 }
+INFO  19:56:42,748 - #3 int
+INFO  19:56:42,748 - #3 i
+ERROR 19:56:42,749 - 
+Sintaksna greska na liniji 10
+INFO  19:56:42,749 - #8 =
+INFO  19:56:42,749 - #42 5
+INFO  19:56:42,749 - #9 ;
+INFO  19:56:42,749 - #5 }
+INFO  19:56:42,750 - #5 }
+ERROR 19:56:42,750 - Uspesan oporavak od greske na liniji 10 pri konstrukciji iskaza dodele do ;
+INFO  19:56:42,752 - Program(
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDeclarationVoidType(
+      MethodParameters(
+        FormParsList(
+          FormParsVar(
+            TypeName(
+            ) [TypeName]
+          ) [FormParsVar]
+          FormParsEnd(
+            FormParsVar(
+              TypeName(
+              ) [TypeName]
+            ) [FormParsVar]
+          ) [FormParsEnd]
+        ) [FormParsList]
+      ) [MethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementFor(
+          DesignatorStatementEnd(
+          ) [DesignatorStatementEnd]
+          DesignatorStatementEnd(
+          ) [DesignatorStatementEnd]
+          StatementStatementList(
+            NoStatement(
+            ) [NoStatement]
+          ) [StatementStatementList]
+        ) [StatementFor]
+        Statements(
+          StatementError(
+          ) [StatementError]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDeclarationVoidType]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  19:56:42,753 - ===================================

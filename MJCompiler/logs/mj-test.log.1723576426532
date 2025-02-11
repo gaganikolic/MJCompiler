@@ -1,0 +1,99 @@
+INFO  21:11:49,497 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  21:11:49,622 - #2 program
+INFO  21:11:49,622 - #49 test301
+INFO  21:11:49,622 - #49 int
+INFO  21:11:49,625 - #49 mat
+INFO  21:11:49,626 - #10 [
+INFO  21:11:49,627 - #11 ]
+INFO  21:11:49,627 - #10 [
+INFO  21:11:49,628 - #11 ]
+INFO  21:11:49,628 - #8 ;
+INFO  21:11:49,629 - #4 {
+INFO  21:11:49,629 - #41 void
+INFO  21:11:49,630 - #49 main
+INFO  21:11:49,630 - #20 (
+INFO  21:11:49,630 - #21 )
+INFO  21:11:49,631 - #49 int
+INFO  21:11:49,631 - #49 bodovi
+INFO  21:11:49,632 - #8 ;
+INFO  21:11:49,632 - #49 bool
+INFO  21:11:49,632 - #49 bt
+INFO  21:11:49,632 - #8 ;
+INFO  21:11:49,632 - #4 {
+INFO  21:11:49,635 - #5 }
+INFO  21:11:49,635 - #5 }
+INFO  21:11:49,661 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarMatrix(
+            Arr(
+              VarName(
+               mat
+              ) [VarName]
+            ) [Arr]
+          ) [VarMatrix]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   bodovi
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             bool
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 bt
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  21:11:49,661 - ===================================
+INFO  21:11:49,661 - Pocetak programa test301.
+INFO  21:12:24,814 - Deklarisana je promenljiva mat na liniji 6

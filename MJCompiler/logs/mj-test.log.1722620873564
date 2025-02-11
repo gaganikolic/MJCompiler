@@ -1,0 +1,204 @@
+INFO  19:41:13,927 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  19:41:13,979 - #2 program
+INFO  19:41:13,979 - #49 test301
+INFO  19:41:13,979 - #6 const
+INFO  19:41:13,980 - #49 int
+INFO  19:41:13,980 - #49 nula
+INFO  19:41:13,980 - #7 =
+INFO  19:41:13,981 - #48 0
+INFO  19:41:13,981 - #8 ;
+INFO  19:41:13,981 - #6 const
+INFO  19:41:13,982 - #49 int
+INFO  19:41:13,982 - #49 jedan
+INFO  19:41:13,982 - #7 =
+INFO  19:41:13,982 - #48 1
+INFO  19:41:13,982 - #8 ;
+INFO  19:41:13,982 - #6 const
+INFO  19:41:13,982 - #49 int
+INFO  19:41:13,982 - #49 pet
+INFO  19:41:13,983 - #7 =
+INFO  19:41:13,983 - #48 5
+INFO  19:41:13,983 - #8 ;
+INFO  19:41:13,983 - #49 int
+INFO  19:41:13,983 - #49 niz
+INFO  19:41:13,984 - #10 [
+INFO  19:41:13,984 - #11 ]
+INFO  19:41:13,984 - #9 ,
+INFO  19:41:13,984 - #49 niz2
+INFO  19:41:13,984 - #10 [
+INFO  19:41:13,984 - #11 ]
+INFO  19:41:13,984 - #8 ;
+INFO  19:41:13,984 - #49 char
+INFO  19:41:13,985 - #49 nizch
+INFO  19:41:13,985 - #10 [
+INFO  19:41:13,985 - #11 ]
+INFO  19:41:13,985 - #8 ;
+INFO  19:41:13,985 - #49 char
+INFO  19:41:13,985 - #49 c
+INFO  19:41:13,986 - #10 [
+INFO  19:41:13,986 - #11 ]
+INFO  19:41:13,986 - #8 ;
+INFO  19:41:13,986 - #4 {
+INFO  19:41:13,986 - #49 int
+INFO  19:41:13,987 - #49 saberi
+INFO  19:41:13,987 - #20 (
+INFO  19:41:13,988 - #21 )
+INFO  19:41:13,989 - #4 {
+INFO  19:41:13,989 - #18 return
+INFO  19:41:13,989 - #28 -
+INFO  19:41:13,989 - #48 1
+INFO  19:41:13,989 - #8 ;
+INFO  19:41:13,990 - #5 }
+INFO  19:41:13,991 - #5 }
+INFO  19:41:14,002 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDeclaration(
+                ConstDeclarationList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsEnd(
+                    ConstListPart(
+                     nula
+                      ConstNum(
+                       0
+                      ) [ConstNum]
+                    ) [ConstListPart]
+                  ) [ConstDeclarationsEnd]
+                ) [ConstDeclarationList]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstListPart(
+                   jedan
+                    ConstNum(
+                     1
+                    ) [ConstNum]
+                  ) [ConstListPart]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 pet
+                  ConstNum(
+                   5
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              VarArr(
+               niz
+              ) [VarArr]
+              VarDeclarationsEnd(
+                VarArr(
+                 niz2
+                ) [VarArr]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarations]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           char
+          ) [Type]
+          VarDeclarationsEnd(
+            VarArr(
+             nizch
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+           c
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameAnyType(
+        Type(
+         int
+        ) [Type]
+       saberi
+      ) [MethodNameAnyType]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementReturnExpr(
+          ExprNegativ(
+            AddopEnd(
+              Term(
+                MulopEnd(
+                  FactorNum(
+                   1
+                  ) [FactorNum]
+                ) [MulopEnd]
+              ) [Term]
+            ) [AddopEnd]
+          ) [ExprNegativ]
+        ) [StatementReturnExpr]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  19:41:14,004 - ===================================
+INFO  19:41:14,004 - Pocetak programa test301.
+INFO  19:41:14,005 - Deklarisana je konstanta nula na liniji 5
+INFO  19:41:14,005 - Deklarisana je konstanta jedan na liniji 6
+INFO  19:41:14,005 - Deklarisana je konstanta pet na liniji 7
+INFO  19:41:14,005 - Deklarisan je niz niz na liniji 9
+INFO  19:41:14,005 - Deklarisan je niz niz2 na liniji 9
+INFO  19:41:14,005 - Deklarisan je niz nizch na liniji 10
+INFO  19:41:14,005 - Deklarisan je niz c na liniji 11
+INFO  19:41:14,005 - Obradjuje se funkcija saberi na liniji 15
+INFO  19:41:14,005 - Dobra povratna vrednost funkcije na liniji 16
+ERROR 19:41:14,006 - Greska, u programu ne postoji MAIN metoda!
+INFO  19:41:14,006 - ===================================
+ERROR 19:41:14,006 - Parsiranje NIJE uspesno zavrseno!

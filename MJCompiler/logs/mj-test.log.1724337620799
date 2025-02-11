@@ -1,0 +1,74 @@
+INFO  16:39:18,566 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  16:39:18,635 - #2 program
+INFO  16:39:18,635 - #53 test
+INFO  16:39:18,635 - #53 int
+INFO  16:39:18,636 - #53 niz
+INFO  16:39:18,637 - #10 [
+INFO  16:39:18,637 - #11 ]
+INFO  16:39:18,638 - #8 ;
+INFO  16:39:18,638 - #4 {
+INFO  16:39:18,639 - #41 void
+INFO  16:39:18,640 - #53 main
+INFO  16:39:18,640 - #20 (
+INFO  16:39:18,640 - #21 )
+INFO  16:39:18,641 - #4 {
+INFO  16:39:18,641 - #19 read
+INFO  16:39:18,641 - #20 (
+INFO  16:39:18,641 - #53 niz
+INFO  16:39:18,641 - #21 )
+INFO  16:39:18,641 - #8 ;
+INFO  16:39:18,641 - #5 }
+INFO  16:39:18,642 - #5 }
+INFO  16:39:18,653 - Program(
+  ProgramName(
+   test
+  ) [ProgramName]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementRead(
+          DesignatorIdent(
+           niz
+          ) [DesignatorIdent]
+        ) [StatementRead]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  16:39:18,654 - ===================================
+INFO  16:39:18,654 - Pocetak programa test.
+INFO  16:39:18,654 - Deklarisana je promenljiva niz na liniji 3
+INFO  16:39:18,654 - Obradjuje se funkcija main na liniji 6
+INFO  16:39:18,654 - Funkciji READ je prosledjena promenljiva niz na liniji 7
+INFO  16:39:18,659 - Parsiranje uspesno zavrseno!

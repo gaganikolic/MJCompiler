@@ -1,0 +1,55 @@
+program test301 
+
+const int a = 5;
+int b, c;
+const bool t = true, f = false;
+char niz1[];
+int d, e;
+
+{
+	
+	char dohvatPrviKarakter(char niz[])
+		char s; int i, j;
+	{
+		for(i = len(niz) - 1, j = 1; i >= 0; i--, j++){
+			if(i == 0 && j >= 0 || j == 0) {
+				s = niz[i];
+				break;
+			}
+		}
+		
+		return s;
+	}
+	
+	bool provera() 
+		int pom1;
+	{
+		pom1 = -(5 * 2) + 11;
+		
+		if(pom1 > 0) return true;
+		else return false; 	
+	}
+	
+	void main() 
+		int p1, i;
+		const int p2 = 5;
+		char p;
+	{
+		i = 0;
+		if(i == 3) print(i);
+		else if(i == 2) i++;
+		else i = i + 1;
+		print(i);
+		 
+		if(provera()) print('t');
+		
+		niz1 = new char[3];
+		niz1[0] = 'a';
+		niz1[1] = 'b';
+		niz1[2] = 'c';
+		
+		p = dohvatPrviKarakter(niz1);
+		print(p);
+	}
+	
+}

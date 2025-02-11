@@ -1,0 +1,157 @@
+INFO  17:40:13,417 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  17:40:13,475 - #2 program
+INFO  17:40:13,475 - #49 test4
+INFO  17:40:13,475 - #6 const
+INFO  17:40:13,476 - #49 int
+INFO  17:40:13,476 - #49 i
+INFO  17:40:13,477 - #7 =
+INFO  17:40:13,477 - #48 5
+INFO  17:40:13,477 - #9 ,
+INFO  17:40:13,478 - #49 j
+INFO  17:40:13,478 - #7 =
+INFO  17:40:13,478 - #48 3
+INFO  17:40:13,478 - #8 ;
+INFO  17:40:13,479 - #6 const
+INFO  17:40:13,479 - #49 bool
+INFO  17:40:13,479 - #49 c
+INFO  17:40:13,479 - #7 =
+INFO  17:40:13,479 - #51 true
+INFO  17:40:13,480 - #8 ;
+INFO  17:40:13,480 - #49 int
+INFO  17:40:13,480 - #49 k
+INFO  17:40:13,480 - #10 [
+INFO  17:40:13,483 - #11 ]
+INFO  17:40:13,483 - #9 ,
+INFO  17:40:13,483 - #49 l
+INFO  17:40:13,483 - #10 [
+INFO  17:40:13,483 - #11 ]
+INFO  17:40:13,483 - #8 ;
+INFO  17:40:13,483 - #4 {
+INFO  17:40:13,484 - #49 int
+INFO  17:40:13,484 - #49 saberi
+INFO  17:40:13,485 - #20 (
+INFO  17:40:13,485 - #49 int
+INFO  17:40:13,485 - #49 a
+INFO  17:40:13,485 - #9 ,
+INFO  17:40:13,485 - #49 int
+INFO  17:40:13,486 - #49 b
+INFO  17:40:13,486 - #10 [
+INFO  17:40:13,487 - #11 ]
+INFO  17:40:13,487 - #21 )
+INFO  17:40:13,488 - #4 {
+INFO  17:40:13,488 - #5 }
+INFO  17:40:13,489 - #5 }
+INFO  17:40:13,503 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarations(
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 i
+                  ConstNum(
+                   5
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+              ConstListPart(
+               j
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarations]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           bool
+          ) [Type]
+          ConstDeclarationsEnd(
+            ConstListPart(
+             c
+              ConstBool(
+               true
+              ) [ConstBool]
+            ) [ConstListPart]
+          ) [ConstDeclarationsEnd]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarArr(
+           k
+          ) [VarArr]
+          VarDeclarationsEnd(
+            VarArr(
+             l
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameAnyType(
+        Type(
+         int
+        ) [Type]
+       saberi
+      ) [MethodNameAnyType]
+      MethodParameters(
+        FormParsList(
+          FormParsVar(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormParsVar]
+          FormParsEnd(
+            FormParsArr(
+              Type(
+               int
+              ) [Type]
+             b
+            ) [FormParsArr]
+          ) [FormParsEnd]
+        ) [FormParsList]
+      ) [MethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  17:40:13,504 - ===================================
+INFO  17:40:13,504 - Pocetak programa test4.
+INFO  17:40:13,507 - Deklarisana je konstanta i na liniji 3
+INFO  17:40:13,508 - Deklarisana je konstanta j na liniji 3
+INFO  17:40:13,508 - Deklarisana je konstanta c na liniji 4
+INFO  17:40:13,508 - Deklarisan je niz k na liniji 5
+INFO  17:40:13,508 - Deklarisan je niz l na liniji 5
+INFO  17:40:13,509 - Obradjuje se funkcija saberi na liniji 8
+INFO  17:40:13,515 - Deklarisan je parametar funkcije a na liniji 8
+INFO  17:40:13,515 - Deklarisan je parametar funkcije (niz) b na liniji 8
+INFO  17:40:13,515 - ===================================
+INFO  17:40:13,516 - Parsiranje uspesno zavrseno!

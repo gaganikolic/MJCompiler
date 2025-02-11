@@ -1,0 +1,211 @@
+INFO  23:12:40,871 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  23:12:40,924 - #2 program
+INFO  23:12:40,925 - #49 test4
+INFO  23:12:40,925 - #6 const
+INFO  23:12:40,926 - #49 int
+INFO  23:12:40,926 - #49 i
+INFO  23:12:40,926 - #7 =
+INFO  23:12:40,927 - #48 5
+INFO  23:12:40,927 - #9 ,
+INFO  23:12:40,928 - #49 j
+INFO  23:12:40,928 - #7 =
+INFO  23:12:40,928 - #48 3
+INFO  23:12:40,928 - #8 ;
+INFO  23:12:40,928 - #6 const
+INFO  23:12:40,928 - #49 bool
+INFO  23:12:40,928 - #49 c
+INFO  23:12:40,929 - #7 =
+INFO  23:12:40,929 - #51 true
+INFO  23:12:40,929 - #8 ;
+INFO  23:12:40,929 - #49 int
+INFO  23:12:40,929 - #49 k
+INFO  23:12:40,929 - #10 [
+INFO  23:12:40,932 - #11 ]
+INFO  23:12:40,932 - #9 ,
+INFO  23:12:40,932 - #49 l
+INFO  23:12:40,932 - #10 [
+INFO  23:12:40,932 - #11 ]
+INFO  23:12:40,933 - #8 ;
+INFO  23:12:40,933 - #4 {
+INFO  23:12:40,933 - #41 void
+INFO  23:12:40,934 - #49 main
+INFO  23:12:40,934 - #20 (
+INFO  23:12:40,934 - #21 )
+INFO  23:12:40,935 - #49 int
+INFO  23:12:40,935 - #49 bodovi
+INFO  23:12:40,935 - #8 ;
+INFO  23:12:40,935 - #49 bool
+INFO  23:12:40,935 - #49 bt
+INFO  23:12:40,935 - #8 ;
+INFO  23:12:40,935 - #4 {
+INFO  23:12:40,935 - #49 bodovi
+INFO  23:12:40,935 - #7 =
+INFO  23:12:40,937 - #48 0
+INFO  23:12:40,938 - #8 ;
+INFO  23:12:40,940 - #49 bodovi
+INFO  23:12:40,940 - #24 ++
+INFO  23:12:40,940 - #8 ;
+INFO  23:12:40,940 - #5 }
+INFO  23:12:40,941 - #5 }
+INFO  23:12:40,949 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarations(
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 i
+                  ConstNum(
+                   5
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+              ConstListPart(
+               j
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarations]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           bool
+          ) [Type]
+          ConstDeclarationsEnd(
+            ConstListPart(
+             c
+              ConstBool(
+               true
+              ) [ConstBool]
+            ) [ConstListPart]
+          ) [ConstDeclarationsEnd]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarArr(
+           k
+          ) [VarArr]
+          VarDeclarationsEnd(
+            VarArr(
+             l
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                 bodovi
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             bool
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+               bt
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              Designator(
+               bodovi
+                NoDesignatorList(
+                ) [NoDesignatorList]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                Term(
+                  FactorNum(
+                   0
+                  ) [FactorNum]
+                  NoMulop(
+                  ) [NoMulop]
+                ) [Term]
+                NoAddop(
+                ) [NoAddop]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementMatched(
+              DesignatorStatementIncrement(
+                Designator(
+                 bodovi
+                  NoDesignatorList(
+                  ) [NoDesignatorList]
+                ) [Designator]
+              ) [DesignatorStatementIncrement]
+            ) [DesignatorStatementMatched]
+          ) [StatementDesignator]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  23:12:40,950 - ===================================
+INFO  23:12:40,951 - Pocetak programa test4.
+INFO  23:12:40,951 - Deklarisana je konstanta i na liniji 3
+INFO  23:12:40,951 - Deklarisana je konstanta j na liniji 3
+INFO  23:12:40,951 - Deklarisana je konstanta c na liniji 4
+INFO  23:12:40,951 - Deklarisan je niz k na liniji 5
+INFO  23:12:40,951 - Deklarisan je niz l na liniji 5
+INFO  23:12:40,951 - Obradjuje se funkcija main na liniji 8
+INFO  23:12:40,951 - Deklarisana je promenljiva bodovi na liniji 9
+INFO  23:12:40,952 - Deklarisana je promenljiva bt na liniji 10
+INFO  23:12:40,952 - ===================================
+INFO  23:12:40,952 - Parsiranje uspesno zavrseno!

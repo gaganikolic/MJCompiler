@@ -1,0 +1,177 @@
+INFO  15:26:01,282 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test2.mj
+INFO  15:26:01,335 - #2 program
+INFO  15:26:01,335 - #3 test301
+INFO  15:26:01,335 - #7 const
+INFO  15:26:01,336 - #3 int
+INFO  15:26:01,336 - #3 a
+INFO  15:26:01,337 - #8 =
+INFO  15:26:01,337 - #42 10
+INFO  15:26:01,337 - #9 ;
+INFO  15:26:01,338 - #4 {
+INFO  15:26:01,338 - #45 void
+INFO  15:26:01,339 - #3 main
+INFO  15:26:01,339 - #21 (
+INFO  15:26:01,339 - #22 )
+INFO  15:26:01,340 - #4 {
+INFO  15:26:01,340 - #11 [
+INFO  15:26:01,340 - #3 b
+INFO  15:26:01,340 - #10 ,
+INFO  15:26:01,341 - #39 *
+INFO  15:26:01,341 - #3 a
+INFO  15:26:01,341 - #12 ]
+INFO  15:26:01,341 - #8 =
+INFO  15:26:01,341 - #3 c
+INFO  15:26:01,342 - #9 ;
+INFO  15:26:01,342 - #11 [
+INFO  15:26:01,342 - #39 *
+INFO  15:26:01,342 - #3 x
+INFO  15:26:01,342 - #12 ]
+INFO  15:26:01,342 - #8 =
+INFO  15:26:01,343 - #3 y
+INFO  15:26:01,343 - #9 ;
+INFO  15:26:01,343 - #3 l
+INFO  15:26:01,343 - #8 =
+INFO  15:26:01,343 - #29 -
+INFO  15:26:01,344 - #9 ;
+ERROR 15:26:01,344 - 
+Sintaksna greska na liniji 10
+INFO  15:26:01,344 - #5 }
+INFO  15:26:01,344 - #3 int
+INFO  15:26:01,344 - #3 saberi
+ERROR 15:26:01,345 - Uspesan oporavak od greske na liniji 10 pri konstrukciji iskaza dodele do ;
+INFO  15:26:01,346 - #21 (
+INFO  15:26:01,347 - #3 int
+INFO  15:26:01,347 - #3 i1
+INFO  15:26:01,347 - #10 ,
+INFO  15:26:01,347 - #3 int
+INFO  15:26:01,347 - #3 i2
+INFO  15:26:01,347 - #3 i
+ERROR 15:26:01,347 - 
+Sintaksna greska na liniji 13
+INFO  15:26:01,347 - #22 )
+INFO  15:26:01,347 - #4 {
+INFO  15:26:01,347 - #19 return
+INFO  15:26:01,347 - #3 i1
+ERROR 15:26:01,348 - Uspesan oporavak od greske na liniji 13 u formalnim parametrima do )
+INFO  15:26:01,349 - #38 +
+INFO  15:26:01,349 - #3 i2
+INFO  15:26:01,351 - #9 ;
+INFO  15:26:01,352 - #5 }
+INFO  15:26:01,352 - #5 }
+INFO  15:26:01,353 - Program(
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDeclaration(
+      ConstDeclarationList(
+        TypeName(
+        ) [TypeName]
+        ConstDeclarationsEnd(
+          ConstPart(
+            ConstNum(
+            ) [ConstNum]
+          ) [ConstPart]
+        ) [ConstDeclarationsEnd]
+      ) [ConstDeclarationList]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDeclarationVoidType(
+        NoMethodParameters(
+        ) [NoMethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementUnmatched(
+              UnmatchedMoreThanOne(
+                UnmachedListEnd(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [UnmachedListEnd]
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+              ) [UnmatchedMoreThanOne]
+            ) [DesignatorStatementUnmatched]
+          ) [StatementDesignator]
+          Statements(
+            StatementDesignator(
+              DesignatorStatementUnmatched(
+                UnmatchedOne(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [UnmatchedOne]
+              ) [DesignatorStatementUnmatched]
+            ) [StatementDesignator]
+            Statements(
+              StatementError(
+              ) [StatementError]
+              NoStatement(
+              ) [NoStatement]
+            ) [Statements]
+          ) [Statements]
+        ) [Statements]
+      ) [MethodDeclarationVoidType]
+    ) [MethodDeclarationList]
+    MethodDeclarationAnyType(
+      TypeName(
+      ) [TypeName]
+      MethodParametersError(
+      ) [MethodParametersError]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementReturnExpr(
+          ExprPositive(
+            Terms(
+              FactorDesignator(
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+              ) [FactorDesignator]
+              MulopEnd(
+              ) [MulopEnd]
+            ) [Terms]
+            AddopList(
+              AddPlus(
+              ) [AddPlus]
+              Terms(
+                FactorDesignator(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [FactorDesignator]
+                MulopEnd(
+                ) [MulopEnd]
+              ) [Terms]
+              AddopEnd(
+              ) [AddopEnd]
+            ) [AddopList]
+          ) [ExprPositive]
+        ) [StatementReturnExpr]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDeclarationAnyType]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:26:01,354 - ===================================

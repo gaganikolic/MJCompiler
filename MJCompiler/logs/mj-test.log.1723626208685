@@ -1,0 +1,149 @@
+INFO  11:01:44,988 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  11:01:45,068 - #2 program
+INFO  11:01:45,068 - #49 test301
+INFO  11:01:45,068 - #49 int
+INFO  11:01:45,070 - #49 mat
+INFO  11:01:45,071 - #10 [
+INFO  11:01:45,071 - #11 ]
+INFO  11:01:45,071 - #10 [
+INFO  11:01:45,072 - #11 ]
+INFO  11:01:45,072 - #8 ;
+INFO  11:01:45,073 - #49 int
+INFO  11:01:45,073 - #49 niz
+INFO  11:01:45,073 - #10 [
+INFO  11:01:45,073 - #11 ]
+INFO  11:01:45,073 - #8 ;
+INFO  11:01:45,073 - #4 {
+INFO  11:01:45,073 - #41 void
+INFO  11:01:45,074 - #49 main
+INFO  11:01:45,075 - #20 (
+INFO  11:01:45,075 - #21 )
+INFO  11:01:45,076 - #4 {
+INFO  11:01:45,076 - #49 mat
+INFO  11:01:45,076 - #10 [
+INFO  11:01:45,077 - #48 0
+INFO  11:01:45,077 - #11 ]
+INFO  11:01:45,079 - #10 [
+INFO  11:01:45,079 - #48 0
+INFO  11:01:45,079 - #11 ]
+INFO  11:01:45,079 - #7 =
+INFO  11:01:45,079 - #50 a
+INFO  11:01:45,080 - #8 ;
+INFO  11:01:45,080 - #5 }
+INFO  11:01:45,081 - #5 }
+INFO  11:01:45,101 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarMatrix(
+              Arr(
+                VarName(
+                 mat
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorExpr(
+                DesignatorName(
+                 mat
+                ) [DesignatorName]
+                MatrixDecl(
+                  ArrayDecl(
+                    ExprPositive(
+                      AddopEnd(
+                        Term(
+                          MulopEnd(
+                            FactorNum(
+                             0
+                            ) [FactorNum]
+                          ) [MulopEnd]
+                        ) [Term]
+                      ) [AddopEnd]
+                    ) [ExprPositive]
+                  ) [ArrayDecl]
+                  ExprPositive(
+                    AddopEnd(
+                      Term(
+                        MulopEnd(
+                          FactorNum(
+                           0
+                          ) [FactorNum]
+                        ) [MulopEnd]
+                      ) [Term]
+                    ) [AddopEnd]
+                  ) [ExprPositive]
+                ) [MatrixDecl]
+              ) [DesignatorExpr]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorChar(
+                       a
+                      ) [FactorChar]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  11:01:45,103 - ===================================
+INFO  11:01:45,103 - Pocetak programa test301.
+INFO  11:01:45,103 - Deklarisana je promenljiva mat na liniji 6
+INFO  11:01:45,103 - Deklarisana je promenljiva niz na liniji 7
+INFO  11:01:45,104 - Obradjuje se funkcija main na liniji 10
+INFO  11:01:48,486 - Kreiran/promenjen element matrice mat

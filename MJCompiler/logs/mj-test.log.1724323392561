@@ -1,0 +1,250 @@
+INFO  12:42:27,289 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\testGreske.mj
+INFO  12:42:27,363 - #2 program
+INFO  12:42:27,364 - #53 greske
+INFO  12:42:27,364 - #6 const
+INFO  12:42:27,365 - #53 int
+INFO  12:42:27,366 - #53 nula
+INFO  12:42:27,366 - #7 =
+INFO  12:42:27,367 - #52 0
+INFO  12:42:27,367 - #8 ;
+INFO  12:42:27,368 - #6 const
+INFO  12:42:27,368 - #53 int
+INFO  12:42:27,368 - #53 jedan
+INFO  12:42:27,368 - #7 =
+INFO  12:42:27,368 - #52 1
+INFO  12:42:27,368 - #8 ;
+INFO  12:42:27,368 - #6 const
+INFO  12:42:27,369 - #53 int
+INFO  12:42:27,369 - #53 pet
+INFO  12:42:27,369 - #7 =
+INFO  12:42:27,369 - #52 5
+INFO  12:42:27,369 - #8 ;
+INFO  12:42:27,369 - #6 const
+INFO  12:42:27,370 - #53 int
+INFO  12:42:27,370 - #53 pet
+INFO  12:42:27,370 - #7 =
+INFO  12:42:27,370 - #52 5
+INFO  12:42:27,370 - #8 ;
+INFO  12:42:27,370 - #53 int
+INFO  12:42:27,370 - #53 niz
+INFO  12:42:27,370 - #10 [
+INFO  12:42:27,371 - #11 ]
+INFO  12:42:27,371 - #8 ;
+INFO  12:42:27,372 - #53 char
+INFO  12:42:27,373 - #53 nizch
+INFO  12:42:27,373 - #10 [
+INFO  12:42:27,373 - #11 ]
+INFO  12:42:27,373 - #8 ;
+INFO  12:42:27,373 - #4 {
+INFO  12:42:27,373 - #41 void
+INFO  12:42:27,374 - #53 main
+INFO  12:42:27,374 - #20 (
+INFO  12:42:27,375 - #21 )
+INFO  12:42:27,376 - #53 int
+INFO  12:42:27,376 - #53 bodovi
+INFO  12:42:27,376 - #8 ;
+INFO  12:42:27,376 - #53 int
+INFO  12:42:27,377 - #54 a
+ERROR 12:42:27,377 - 
+Sintaksna greska na liniji 17
+INFO  12:42:27,377 - #54 s
+INFO  12:42:27,377 - #54 d
+INFO  12:42:27,377 - #8 ;
+INFO  12:42:27,379 - #53 int
+INFO  12:42:27,379 - #53 nizerror
+INFO  12:42:27,379 - #10 [
+ERROR 12:42:27,380 - Uspesan oporavak od greske na liniji 17 pri definisanju promenjive
+INFO  12:42:27,381 - #8 ;
+ERROR 12:42:27,381 - 
+Sintaksna greska na liniji 18
+INFO  12:42:27,381 - #4 {
+INFO  12:42:27,381 - #53 bodovi
+INFO  12:42:27,381 - #7 =
+ERROR 12:42:27,381 - Uspesan oporavak od greske na liniji 18 pri definisanju promenjive
+INFO  12:42:27,382 - #54 a
+INFO  12:42:27,383 - #8 ;
+INFO  12:42:27,385 - #5 }
+INFO  12:42:27,387 - #5 }
+INFO  12:42:27,400 - Program(
+  ProgramName(
+   greske
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDeclaration(
+                ConstDeclarationList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsEnd(
+                    ConstNum(
+                     nula
+                     0
+                    ) [ConstNum]
+                  ) [ConstDeclarationsEnd]
+                ) [ConstDeclarationList]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstNum(
+                   jedan
+                   1
+                  ) [ConstNum]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstNum(
+                 pet
+                 5
+                ) [ConstNum]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstNum(
+               pet
+               5
+              ) [ConstNum]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarArr(
+              Arr(
+                VarName(
+                 niz
+                ) [VarName]
+              ) [Arr]
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               nizch
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclaration(
+              VarDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarationsEnd(
+                  VarIdent(
+                    VarName(
+                     bodovi
+                    ) [VarName]
+                  ) [VarIdent]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarationList]
+            ) [VarDeclaration]
+          ) [Declarations]
+          VarDeclaration(
+            VarDeclarationError(
+            ) [VarDeclarationError]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationError(
+          ) [VarDeclarationError]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               bodovi
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorChar(
+                       a
+                      ) [FactorChar]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  12:42:27,401 - ===================================
+INFO  12:42:27,401 - Pocetak programa greske.
+INFO  12:42:27,403 - Deklarisana je konstanta nula na liniji 5
+INFO  12:42:27,403 - Deklarisana je konstanta jedan na liniji 6
+INFO  12:42:27,404 - Deklarisana je konstanta pet na liniji 7
+ERROR 12:42:27,404 - GRESKA: Vec postoji identifikator pet
+INFO  12:42:27,404 - Deklarisana je konstanta pet na liniji 8
+INFO  12:42:27,404 - Deklarisana je promenljiva niz na liniji 10
+INFO  12:42:27,404 - Deklarisana je promenljiva nizch na liniji 11
+INFO  12:42:27,404 - Obradjuje se funkcija main na liniji 15
+INFO  12:42:27,405 - Deklarisana je promenljiva bodovi na liniji 16
+ERROR 12:42:27,405 - GRESKA: Designator i expr nisu istog tipa na liniji 20
+ERROR 12:42:27,406 - Parsiranje NIJE uspesno zavrseno!

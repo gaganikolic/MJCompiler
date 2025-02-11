@@ -1,0 +1,59 @@
+INFO  18:21:28,165 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  18:21:29,290 - #2 program
+INFO  18:21:29,290 - #49 test301
+INFO  18:21:29,290 - #4 {
+INFO  18:21:29,309 - #41 void
+INFO  18:21:29,317 - #49 main
+INFO  18:21:29,317 - #20 (
+INFO  18:21:29,318 - #21 )
+INFO  18:21:29,325 - #4 {
+INFO  18:21:29,326 - #22 print
+INFO  18:21:29,326 - #20 (
+INFO  18:21:29,326 - #48 1
+INFO  18:21:29,326 - #21 )
+INFO  18:21:29,339 - #8 ;
+INFO  18:21:29,339 - #5 }
+INFO  18:21:29,348 - #5 }
+INFO  18:21:29,413 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementPrint(
+          ExprPositive(
+            AddopEnd(
+              Term(
+                MulopEnd(
+                  FactorNum(
+                   1
+                  ) [FactorNum]
+                ) [MulopEnd]
+              ) [Term]
+            ) [AddopEnd]
+          ) [ExprPositive]
+        ) [StatementPrint]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  18:21:29,413 - ===================================
+INFO  18:21:29,413 - Pocetak programa test301.
+INFO  18:21:29,413 - Obradjuje se funkcija main na liniji 6
+INFO  18:21:29,413 - Obradjena funkcija PRINT na liniji 9
+INFO  18:21:29,413 - ===================================
+INFO  18:21:29,432 - Parsiranje uspesno zavrseno!

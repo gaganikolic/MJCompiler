@@ -1,0 +1,218 @@
+INFO  12:07:23,502 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  12:07:23,564 - #2 program
+INFO  12:07:23,564 - #53 test
+INFO  12:07:23,564 - #53 int
+INFO  12:07:23,565 - #53 niz
+INFO  12:07:23,566 - #10 [
+INFO  12:07:23,566 - #11 ]
+INFO  12:07:23,566 - #8 ;
+INFO  12:07:23,568 - #53 int
+INFO  12:07:23,569 - #53 mat
+INFO  12:07:23,569 - #10 [
+INFO  12:07:23,569 - #11 ]
+INFO  12:07:23,569 - #10 [
+INFO  12:07:23,569 - #11 ]
+INFO  12:07:23,569 - #8 ;
+INFO  12:07:23,570 - #6 const
+INFO  12:07:23,570 - #53 int
+INFO  12:07:23,570 - #53 i
+INFO  12:07:23,570 - #7 =
+INFO  12:07:23,570 - #52 2
+INFO  12:07:23,570 - #8 ;
+INFO  12:07:23,571 - #4 {
+INFO  12:07:23,572 - #41 void
+INFO  12:07:23,572 - #53 main
+INFO  12:07:23,572 - #20 (
+INFO  12:07:23,573 - #21 )
+INFO  12:07:23,573 - #53 int
+INFO  12:07:23,574 - #53 a
+INFO  12:07:23,574 - #8 ;
+INFO  12:07:23,574 - #53 int
+INFO  12:07:23,574 - #53 b
+INFO  12:07:23,574 - #8 ;
+INFO  12:07:23,574 - #4 {
+INFO  12:07:23,574 - #53 a
+INFO  12:07:23,574 - #7 =
+INFO  12:07:23,574 - #52 3
+INFO  12:07:23,575 - #8 ;
+INFO  12:07:23,577 - #53 b
+INFO  12:07:23,577 - #7 =
+INFO  12:07:23,577 - #53 a
+INFO  12:07:23,577 - #37 +
+INFO  12:07:23,577 - #53 a
+INFO  12:07:23,578 - #38 *
+INFO  12:07:23,579 - #38 *
+ERROR 12:07:23,579 - 
+Sintaksna greska na liniji 14
+INFO  12:07:23,579 - #28 -
+INFO  12:07:23,579 - #52 5
+INFO  12:07:23,579 - #8 ;
+INFO  12:07:23,580 - #22 print
+INFO  12:07:23,580 - #20 (
+INFO  12:07:23,580 - #53 a
+ERROR 12:07:23,580 - Uspesan oporavak od greske na liniji 14 pri konstrukciji iskaza dodele
+INFO  12:07:23,581 - #21 )
+INFO  12:07:23,581 - #8 ;
+INFO  12:07:23,581 - #5 }
+INFO  12:07:23,582 - #5 }
+INFO  12:07:23,596 - Program(
+  ProgramName(
+   test
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarArr(
+                Arr(
+                  VarName(
+                   niz
+                  ) [VarName]
+                ) [Arr]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarMatrix(
+              Arr(
+                VarName(
+                 mat
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    ConstDeclaration(
+      ConstDeclarationList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclarationsEnd(
+          ConstNum(
+           i
+           2
+          ) [ConstNum]
+        ) [ConstDeclarationsEnd]
+      ) [ConstDeclarationList]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   a
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 b
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               a
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNum(
+                       3
+                      ) [FactorNum]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementError(
+          ) [StatementError]
+          Statements(
+            StatementPrint(
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorDesignator(
+                        DesignatorIdent(
+                         a
+                        ) [DesignatorIdent]
+                      ) [FactorDesignator]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [StatementPrint]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  12:07:23,597 - ===================================
+INFO  12:07:23,597 - Pocetak programa test.
+INFO  12:07:23,597 - Deklarisana je promenljiva niz na liniji 3
+INFO  12:07:23,597 - Deklarisana je promenljiva mat na liniji 4
+INFO  12:07:23,597 - Deklarisana je konstanta i na liniji 6
+INFO  12:07:23,597 - Obradjuje se funkcija main na liniji 9
+INFO  12:07:23,598 - Deklarisana je promenljiva a na liniji 10
+INFO  12:07:23,598 - Deklarisana je promenljiva b na liniji 11
+INFO  12:07:23,598 - Designator i expr su odgovarajuceg tipa na liniji 13
+INFO  12:07:23,598 - Obradjena funkcija PRINT na liniji 15
+INFO  12:07:23,607 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,243 @@
+INFO  14:38:00,230 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  14:38:00,282 - #2 program
+INFO  14:38:00,282 - #49 test301
+INFO  14:38:00,282 - #6 const
+INFO  14:38:00,283 - #49 int
+INFO  14:38:00,284 - #49 nula
+INFO  14:38:00,284 - #7 =
+INFO  14:38:00,284 - #48 0
+INFO  14:38:00,284 - #8 ;
+INFO  14:38:00,285 - #6 const
+INFO  14:38:00,285 - #49 int
+INFO  14:38:00,286 - #49 jedan
+INFO  14:38:00,286 - #7 =
+INFO  14:38:00,286 - #48 1
+INFO  14:38:00,286 - #8 ;
+INFO  14:38:00,286 - #6 const
+INFO  14:38:00,286 - #49 int
+INFO  14:38:00,286 - #49 pet
+INFO  14:38:00,286 - #7 =
+INFO  14:38:00,287 - #48 5
+INFO  14:38:00,287 - #8 ;
+INFO  14:38:00,287 - #49 int
+INFO  14:38:00,287 - #49 niz
+INFO  14:38:00,287 - #10 [
+INFO  14:38:00,287 - #11 ]
+INFO  14:38:00,287 - #9 ,
+INFO  14:38:00,287 - #49 niz2
+INFO  14:38:00,287 - #10 [
+INFO  14:38:00,288 - #11 ]
+INFO  14:38:00,288 - #8 ;
+INFO  14:38:00,288 - #49 char
+INFO  14:38:00,288 - #49 nizch
+INFO  14:38:00,288 - #10 [
+INFO  14:38:00,288 - #11 ]
+INFO  14:38:00,288 - #8 ;
+INFO  14:38:00,288 - #4 {
+INFO  14:38:00,288 - #41 void
+INFO  14:38:00,289 - #49 main
+INFO  14:38:00,289 - #20 (
+INFO  14:38:00,290 - #21 )
+INFO  14:38:00,290 - #49 int
+INFO  14:38:00,290 - #49 bodovi
+INFO  14:38:00,290 - #8 ;
+INFO  14:38:00,291 - #49 bool
+INFO  14:38:00,291 - #49 bt
+INFO  14:38:00,291 - #8 ;
+INFO  14:38:00,291 - #4 {
+INFO  14:38:00,291 - #49 bodovi
+INFO  14:38:00,291 - #7 =
+INFO  14:38:00,291 - #48 0
+INFO  14:38:00,292 - #8 ;
+INFO  14:38:00,294 - #49 bodovi
+INFO  14:38:00,294 - #7 =
+INFO  14:38:00,294 - #46 range
+INFO  14:38:00,294 - #20 (
+INFO  14:38:00,294 - #49 jedan
+INFO  14:38:00,295 - #37 +
+INFO  14:38:00,295 - #48 1
+INFO  14:38:00,296 - #9 ,
+ERROR 14:38:00,296 - 
+Sintaksna greska na liniji 19
+INFO  14:38:00,296 - #48 1
+INFO  14:38:00,296 - #21 )
+INFO  14:38:00,296 - #8 ;
+INFO  14:38:00,297 - #5 }
+INFO  14:38:00,297 - #5 }
+ERROR 14:38:00,297 - Uspesan oporavak od greske na liniji 19 pri konstrukciji iskaza dodele do ;
+INFO  14:38:00,309 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstListPart(
+                   nula
+                    ConstNum(
+                     0
+                    ) [ConstNum]
+                  ) [ConstListPart]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 jedan
+                  ConstNum(
+                   1
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstListPart(
+               pet
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarArr(
+             niz
+            ) [VarArr]
+            VarDeclarationsEnd(
+              VarArr(
+               niz2
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+           nizch
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                 bodovi
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             bool
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+               bt
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               bodovi
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    FactorNum(
+                     0
+                    ) [FactorNum]
+                    NoMulop(
+                    ) [NoMulop]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementError(
+          ) [StatementError]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:38:00,310 - ===================================
+INFO  14:38:00,311 - Pocetak programa test301.
+INFO  14:38:00,311 - Deklarisana je konstanta nula na liniji 5
+INFO  14:38:00,311 - Deklarisana je konstanta jedan na liniji 6
+INFO  14:38:00,311 - Deklarisana je konstanta pet na liniji 7
+INFO  14:38:00,311 - Deklarisan je niz niz na liniji 9
+INFO  14:38:00,311 - Deklarisan je niz niz2 na liniji 9
+INFO  14:38:00,311 - Deklarisan je niz nizch na liniji 10
+INFO  14:38:00,311 - Obradjuje se funkcija main na liniji 13
+INFO  14:38:00,311 - Deklarisana je promenljiva bodovi na liniji 14
+INFO  14:38:00,312 - Deklarisana je promenljiva bt na liniji 15
+INFO  14:38:00,312 - Designator i expr su odgovarajuceg tipa na liniji 17
+INFO  14:38:00,312 - ===================================
+INFO  14:38:00,312 - Parsiranje uspesno zavrseno!

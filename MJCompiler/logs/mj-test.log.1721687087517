@@ -1,0 +1,109 @@
+INFO  00:23:56,137 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\mojTest.mj
+INFO  00:23:56,189 - #2 program
+INFO  00:23:56,189 - #3 test301
+INFO  00:23:56,189 - #7 const
+INFO  00:23:56,190 - #3 int
+INFO  00:23:56,190 - #3 b
+INFO  00:23:56,191 - #8 =
+INFO  00:23:56,191 - #42 7
+INFO  00:23:56,191 - #10 ,
+INFO  00:23:56,192 - #3 d
+INFO  00:23:56,192 - #8 =
+INFO  00:23:56,193 - #42 8
+INFO  00:23:56,193 - #10 ,
+INFO  00:23:56,193 - #3 e
+INFO  00:23:56,193 - #8 =
+INFO  00:23:56,193 - #44 true
+INFO  00:23:56,193 - #9 ;
+INFO  00:23:56,194 - #3 int
+INFO  00:23:56,194 - #3 x
+INFO  00:23:56,194 - #10 ,
+INFO  00:23:56,195 - #3 j
+INFO  00:23:56,196 - #9 ;
+INFO  00:23:56,196 - #4 {
+INFO  00:23:56,198 - #45 void
+INFO  00:23:56,199 - #3 main
+INFO  00:23:56,199 - #21 (
+INFO  00:23:56,199 - #3 int
+INFO  00:23:56,199 - #3 i
+INFO  00:23:56,199 - #29 -
+ERROR 00:23:56,199 - 
+Sintaksna greska na liniji 8
+INFO  00:23:56,199 - #22 )
+INFO  00:23:56,199 - #4 {
+INFO  00:23:56,199 - #3 int
+INFO  00:23:56,200 - #3 x
+ERROR 00:23:56,200 - Uspesan oporavak od greske na liniji 8 u formalnim parametrima do )
+ERROR 00:23:56,201 - 
+Sintaksna greska na liniji 9
+INFO  00:23:56,201 - #8 =
+INFO  00:23:56,201 - #42 5
+INFO  00:23:56,201 - #9 ;
+INFO  00:23:56,201 - #5 }
+INFO  00:23:56,201 - #5 }
+ERROR 00:23:56,201 - Uspesan oporavak od greske na liniji 9 pri konstrukciji iskaza dodele do ;
+INFO  00:23:56,203 - ProgramDerived1(
+  DeclListDerived1(
+    DeclListDerived1(
+      DeclListDerived2(
+      ) [DeclListDerived2]
+      DeclDerived1(
+        ConstDeclDerived1(
+          TypeDerived2(
+          ) [TypeDerived2]
+          ConstListDerived1(
+            ConstListDerived1(
+              ConstListDerived2(
+                ConstListPartDerived1(
+                  ConstDerived1(
+                  ) [ConstDerived1]
+                ) [ConstListPartDerived1]
+              ) [ConstListDerived2]
+              ConstListPartDerived1(
+                ConstDerived1(
+                ) [ConstDerived1]
+              ) [ConstListPartDerived1]
+            ) [ConstListDerived1]
+            ConstListPartDerived1(
+              ConstDerived3(
+              ) [ConstDerived3]
+            ) [ConstListPartDerived1]
+          ) [ConstListDerived1]
+        ) [ConstDeclDerived1]
+      ) [DeclDerived1]
+    ) [DeclListDerived1]
+    DeclDerived2(
+      VarDeclDerived1(
+        TypeDerived2(
+        ) [TypeDerived2]
+        VarListDerived1(
+          VarDerived1(
+          ) [VarDerived1]
+          VarListDerived2(
+            VarDerived1(
+            ) [VarDerived1]
+          ) [VarListDerived2]
+        ) [VarListDerived1]
+      ) [VarDeclDerived1]
+    ) [DeclDerived2]
+  ) [DeclListDerived1]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclDerived2(
+      MethodParsDerived3(
+      ) [MethodParsDerived3]
+      DeclListDerived2(
+      ) [DeclListDerived2]
+      StatementListDerived1(
+        StatementDerived13(
+        ) [StatementDerived13]
+        StatementListDerived2(
+        ) [StatementListDerived2]
+      ) [StatementListDerived1]
+    ) [MethodDeclDerived2]
+  ) [MethodDeclListDerived1]
+) [ProgramDerived1]
+INFO  00:23:56,204 - ===================================
+INFO  00:23:56,206 -  Deklarisanih varDecl promenljivih ima = 0
+INFO  00:23:56,206 -  Deklarisanih varDeclArr promenljivih ima = 0

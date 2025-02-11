@@ -1,0 +1,203 @@
+INFO  13:30:06,623 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  13:30:06,679 - #2 program
+INFO  13:30:06,679 - #49 test302
+INFO  13:30:06,679 - #6 const
+INFO  13:30:06,681 - #49 int
+INFO  13:30:06,681 - #49 jedan
+INFO  13:30:06,681 - #7 =
+INFO  13:30:06,681 - #48 1
+INFO  13:30:06,681 - #8 ;
+INFO  13:30:06,682 - #49 int
+INFO  13:30:06,682 - #49 mat
+INFO  13:30:06,682 - #10 [
+INFO  13:30:06,683 - #11 ]
+INFO  13:30:06,683 - #10 [
+INFO  13:30:06,683 - #11 ]
+INFO  13:30:06,684 - #9 ,
+INFO  13:30:06,684 - #49 mat1
+INFO  13:30:06,684 - #10 [
+INFO  13:30:06,684 - #11 ]
+INFO  13:30:06,684 - #10 [
+INFO  13:30:06,684 - #11 ]
+INFO  13:30:06,684 - #8 ;
+INFO  13:30:06,687 - #49 int
+INFO  13:30:06,687 - #49 niz
+INFO  13:30:06,687 - #10 [
+INFO  13:30:06,687 - #11 ]
+INFO  13:30:06,687 - #9 ,
+INFO  13:30:06,687 - #49 niz1
+INFO  13:30:06,687 - #10 [
+INFO  13:30:06,687 - #11 ]
+INFO  13:30:06,687 - #8 ;
+INFO  13:30:06,688 - #49 int
+INFO  13:30:06,688 - #49 a
+INFO  13:30:06,688 - #8 ;
+INFO  13:30:06,688 - #4 {
+INFO  13:30:06,688 - #41 void
+INFO  13:30:06,689 - #49 main
+INFO  13:30:06,689 - #20 (
+INFO  13:30:06,689 - #21 )
+INFO  13:30:06,690 - #4 {
+INFO  13:30:06,690 - #22 print
+INFO  13:30:06,691 - #20 (
+INFO  13:30:06,691 - #49 niz
+INFO  13:30:06,691 - #10 [
+INFO  13:30:06,691 - #48 0
+INFO  13:30:06,691 - #11 ]
+INFO  13:30:06,692 - #21 )
+INFO  13:30:06,692 - #8 ;
+INFO  13:30:06,693 - #5 }
+INFO  13:30:06,693 - #5 }
+INFO  13:30:06,704 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstNum(
+                 jedan
+                 1
+                ) [ConstNum]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              VarMatrix(
+                Arr(
+                  VarName(
+                   mat
+                  ) [VarName]
+                ) [Arr]
+              ) [VarMatrix]
+              VarDeclarationsEnd(
+                VarMatrix(
+                  Arr(
+                    VarName(
+                     mat1
+                    ) [VarName]
+                  ) [Arr]
+                ) [VarMatrix]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarations]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarArr(
+              Arr(
+                VarName(
+                 niz
+                ) [VarName]
+              ) [Arr]
+            ) [VarArr]
+            VarDeclarationsEnd(
+              VarArr(
+                Arr(
+                  VarName(
+                   niz1
+                  ) [VarName]
+                ) [Arr]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+            VarName(
+             a
+            ) [VarName]
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementPrint(
+          ExprPositive(
+            AddopEnd(
+              Term(
+                MulopEnd(
+                  FactorDesignator(
+                    DesignatorExpr(
+                      DesignatorName(
+                       niz
+                      ) [DesignatorName]
+                      ArrayDecl(
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorNum(
+                                 0
+                                ) [FactorNum]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [ArrayDecl]
+                    ) [DesignatorExpr]
+                  ) [FactorDesignator]
+                ) [MulopEnd]
+              ) [Term]
+            ) [AddopEnd]
+          ) [ExprPositive]
+        ) [StatementPrint]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:30:06,705 - ===================================
+INFO  13:30:06,705 - Pocetak programa test302.
+INFO  13:30:06,705 - Deklarisana je konstanta jedan na liniji 5
+INFO  13:30:06,706 - Deklarisana je promenljiva mat na liniji 7
+INFO  13:30:06,706 - Deklarisana je promenljiva mat1 na liniji 7
+INFO  13:30:06,706 - Deklarisana je promenljiva niz na liniji 8
+INFO  13:30:06,706 - Deklarisana je promenljiva niz1 na liniji 8
+INFO  13:30:06,706 - Deklarisana je promenljiva a na liniji 9
+INFO  13:30:06,706 - Obradjuje se funkcija main na liniji 13
+ERROR 13:30:06,706 - Greska na liniji 20. Ime niz nije deklarisano kao matrica! 
+INFO  13:30:06,706 - Kreiran/promenjen element niza niz
+INFO  13:30:06,706 - Obradjena funkcija PRINT na liniji 20
+INFO  13:30:06,706 - ===================================
+ERROR 13:30:06,707 - Parsiranje NIJE uspesno zavrseno!

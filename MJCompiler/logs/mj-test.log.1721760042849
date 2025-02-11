@@ -1,0 +1,179 @@
+INFO  20:40:18,451 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test1.mj
+INFO  20:40:18,538 - #2 program
+INFO  20:40:18,539 - #3 test301
+INFO  20:40:18,539 - #7 const
+INFO  20:40:18,540 - #3 int
+INFO  20:40:18,540 - #3 a
+INFO  20:40:18,542 - #8 =
+INFO  20:40:18,542 - #42 5
+INFO  20:40:18,542 - #9 ;
+INFO  20:40:18,544 - #3 int
+INFO  20:40:18,545 - #3 b
+INFO  20:40:18,545 - #10 ,
+INFO  20:40:18,546 - #3 c
+INFO  20:40:18,547 - #9 ;
+INFO  20:40:18,547 - #7 const
+INFO  20:40:18,547 - #3 bool
+INFO  20:40:18,548 - #3 t
+INFO  20:40:18,548 - #8 =
+INFO  20:40:18,548 - #44 true
+INFO  20:40:18,548 - #10 ,
+INFO  20:40:18,550 - #3 f
+INFO  20:40:18,550 - #8 =
+INFO  20:40:18,550 - #44 false
+INFO  20:40:18,553 - #9 ;
+INFO  20:40:18,553 - #3 int
+INFO  20:40:18,553 - #3 niz
+INFO  20:40:18,553 - #11 [
+INFO  20:40:18,553 - #12 ]
+INFO  20:40:18,553 - #9 ;
+INFO  20:40:18,555 - #3 int
+INFO  20:40:18,555 - #3 d
+INFO  20:40:18,555 - #10 ,
+INFO  20:40:18,555 - #3 e
+INFO  20:40:18,556 - #10 ,
+INFO  20:40:18,556 - #3 f
+INFO  20:40:18,556 - #9 ;
+INFO  20:40:18,556 - #4 {
+INFO  20:40:18,556 - #45 void
+INFO  20:40:18,558 - #3 main
+INFO  20:40:18,558 - #21 (
+INFO  20:40:18,558 - #3 int
+INFO  20:40:18,558 - #3 i
+INFO  20:40:18,559 - #10 ,
+INFO  20:40:18,559 - #3 int
+INFO  20:40:18,559 - #3 c
+INFO  20:40:18,560 - #22 )
+INFO  20:40:18,560 - #4 {
+INFO  20:40:18,560 - #24 for
+INFO  20:40:18,561 - #21 (
+INFO  20:40:18,561 - #9 ;
+INFO  20:40:18,562 - #9 ;
+INFO  20:40:18,563 - #22 )
+INFO  20:40:18,563 - #4 {
+INFO  20:40:18,563 - #5 }
+INFO  20:40:18,565 - #5 }
+INFO  20:40:18,565 - #5 }
+INFO  20:40:18,568 - Program(
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                TypeName(
+                ) [TypeName]
+                ConstDeclarationsEnd(
+                  ConstPart(
+                    ConstNum(
+                    ) [ConstNum]
+                  ) [ConstPart]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          VarDeclaration(
+            VarDeclarationList(
+              TypeName(
+              ) [TypeName]
+              VarDeclarations(
+                VarIdent(
+                ) [VarIdent]
+                VarDeclarationsEnd(
+                  VarIdent(
+                  ) [VarIdent]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarations]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            TypeName(
+            ) [TypeName]
+            ConstDeclarations(
+              ConstDeclarationsEnd(
+                ConstPart(
+                  ConstBool(
+                  ) [ConstBool]
+                ) [ConstPart]
+              ) [ConstDeclarationsEnd]
+              ConstPart(
+                ConstBool(
+                ) [ConstBool]
+              ) [ConstPart]
+            ) [ConstDeclarations]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          TypeName(
+          ) [TypeName]
+          VarDeclarationsEnd(
+            VarArr(
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        TypeName(
+        ) [TypeName]
+        VarDeclarations(
+          VarIdent(
+          ) [VarIdent]
+          VarDeclarations(
+            VarIdent(
+            ) [VarIdent]
+            VarDeclarationsEnd(
+              VarIdent(
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDeclarationVoidType(
+      MethodParameters(
+        FormParsList(
+          FormParsVar(
+            TypeName(
+            ) [TypeName]
+          ) [FormParsVar]
+          FormParsEnd(
+            FormParsVar(
+              TypeName(
+              ) [TypeName]
+            ) [FormParsVar]
+          ) [FormParsEnd]
+        ) [FormParsList]
+      ) [MethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementFor(
+          DesignatorStatementEnd(
+          ) [DesignatorStatementEnd]
+          DesignatorStatementEnd(
+          ) [DesignatorStatementEnd]
+          StatementStatementList(
+            NoStatement(
+            ) [NoStatement]
+          ) [StatementStatementList]
+        ) [StatementFor]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDeclarationVoidType]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  20:40:18,569 - ===================================

@@ -1,0 +1,158 @@
+INFO  14:20:13,690 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  14:20:14,873 - #2 program
+INFO  14:20:14,873 - #53 test301
+INFO  14:20:14,873 - #53 int
+INFO  14:20:14,890 - #53 mat
+INFO  14:20:14,899 - #10 [
+INFO  14:20:14,907 - #11 ]
+INFO  14:20:14,907 - #10 [
+INFO  14:20:14,919 - #11 ]
+INFO  14:20:14,919 - #9 ,
+INFO  14:20:14,919 - #53 niz
+INFO  14:20:14,919 - #10 [
+INFO  14:20:14,919 - #11 ]
+INFO  14:20:14,919 - #8 ;
+INFO  14:20:14,920 - #53 char
+INFO  14:20:14,920 - #53 matc
+INFO  14:20:14,920 - #10 [
+INFO  14:20:14,920 - #11 ]
+INFO  14:20:14,920 - #10 [
+INFO  14:20:14,920 - #11 ]
+INFO  14:20:14,920 - #9 ,
+INFO  14:20:14,920 - #53 nizc
+INFO  14:20:14,921 - #10 [
+INFO  14:20:14,921 - #11 ]
+INFO  14:20:14,921 - #8 ;
+INFO  14:20:14,921 - #53 int
+INFO  14:20:14,921 - #53 bodovi
+INFO  14:20:14,922 - #8 ;
+INFO  14:20:14,922 - #4 {
+INFO  14:20:14,922 - #41 void
+INFO  14:20:14,932 - #53 main
+INFO  14:20:14,932 - #20 (
+INFO  14:20:14,932 - #21 )
+INFO  14:20:14,942 - #53 int
+INFO  14:20:14,942 - #53 bodovi
+INFO  14:20:14,942 - #8 ;
+INFO  14:20:14,942 - #4 {
+INFO  14:20:14,943 - #5 }
+INFO  14:20:14,952 - #5 }
+INFO  14:20:15,022 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              VarMatrix(
+                Arr(
+                  VarName(
+                   mat
+                  ) [VarName]
+                ) [Arr]
+              ) [VarMatrix]
+              VarDeclarationsEnd(
+                VarArr(
+                  Arr(
+                    VarName(
+                     niz
+                    ) [VarName]
+                  ) [Arr]
+                ) [VarArr]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarations]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           char
+          ) [Type]
+          VarDeclarations(
+            VarMatrix(
+              Arr(
+                VarName(
+                 matc
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+            VarDeclarationsEnd(
+              VarArr(
+                Arr(
+                  VarName(
+                   nizc
+                  ) [VarName]
+                ) [Arr]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+            VarName(
+             bodovi
+            ) [VarName]
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 bodovi
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:20:15,023 - ===================================
+INFO  14:20:15,023 - Pocetak programa test301.
+INFO  14:20:15,024 - Deklarisana je promenljiva mat na liniji 5
+INFO  14:20:15,025 - Deklarisana je promenljiva niz na liniji 5
+INFO  14:20:15,026 - Deklarisana je promenljiva matc na liniji 6
+INFO  14:20:15,026 - Deklarisana je promenljiva nizc na liniji 6
+INFO  14:20:15,026 - Deklarisana je promenljiva bodovi na liniji 7
+INFO  14:20:15,026 - Obradjuje se funkcija main na liniji 11
+INFO  14:20:15,027 - Deklarisana je promenljiva bodovi na liniji 12
+INFO  14:20:15,027 - ===================================
+INFO  14:20:15,083 - Parsiranje uspesno zavrseno!

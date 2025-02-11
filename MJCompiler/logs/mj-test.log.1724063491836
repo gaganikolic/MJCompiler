@@ -1,0 +1,73 @@
+INFO  12:31:00,774 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  12:31:00,855 - #2 program
+INFO  12:31:00,856 - #53 test301
+INFO  12:31:00,856 - #4 {
+INFO  12:31:00,857 - #41 void
+INFO  12:31:00,858 - #53 main
+INFO  12:31:00,858 - #20 (
+INFO  12:31:00,858 - #21 )
+INFO  12:31:00,859 - #53 int
+INFO  12:31:00,859 - #53 bodovi
+INFO  12:31:00,860 - #8 ;
+INFO  12:31:00,861 - #4 {
+INFO  12:31:00,863 - #53 bodovi
+INFO  12:31:00,863 - #7 =
+INFO  12:31:00,863 - #54 e
+INFO  12:31:00,863 - #54 r
+ERROR 12:31:00,864 - 
+Sintaksna greska na liniji 13
+INFO  12:31:00,864 - #54 r
+INFO  12:31:00,864 - #54 p
+INFO  12:31:00,864 - #54 r
+INFO  12:31:00,865 - #8 ;
+INFO  12:31:00,868 - #5 }
+INFO  12:31:00,868 - #5 }
+ERROR 12:31:00,868 - Uspesan oporavak od greske na liniji 13 pri konstrukciji iskaza dodele
+INFO  12:31:00,878 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 bodovi
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementError(
+        ) [StatementError]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  12:31:00,879 - ===================================
+INFO  12:31:00,879 - Pocetak programa test301.
+INFO  12:31:00,879 - Obradjuje se funkcija main na liniji 8
+INFO  12:31:00,880 - Deklarisana je promenljiva bodovi na liniji 9
+INFO  12:31:00,880 - ===================================
+INFO  12:31:00,886 - Parsiranje uspesno zavrseno!

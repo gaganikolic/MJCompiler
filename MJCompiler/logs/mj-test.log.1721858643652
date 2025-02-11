@@ -1,0 +1,192 @@
+INFO  23:47:59,121 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test2.mj
+INFO  23:47:59,193 - #2 program
+INFO  23:47:59,193 - #3 test301
+INFO  23:47:59,194 - #7 const
+INFO  23:47:59,194 - #3 int
+INFO  23:47:59,194 - #3 a
+INFO  23:47:59,196 - #8 =
+INFO  23:47:59,196 - #42 10
+INFO  23:47:59,196 - #29 -
+ERROR 23:47:59,196 - 
+Sintaksna greska na liniji 3
+INFO  23:47:59,197 - #9 ;
+INFO  23:47:59,197 - #4 {
+INFO  23:47:59,197 - #45 void
+INFO  23:47:59,198 - #3 main
+ERROR 23:47:59,198 - Uspesan oporavak od greske na liniji 3 pri definisanju konstante
+INFO  23:47:59,202 - #21 (
+INFO  23:47:59,202 - #22 )
+INFO  23:47:59,203 - #4 {
+INFO  23:47:59,204 - #11 [
+INFO  23:47:59,204 - #3 b
+INFO  23:47:59,204 - #10 ,
+INFO  23:47:59,206 - #39 *
+INFO  23:47:59,206 - #3 a
+INFO  23:47:59,206 - #12 ]
+INFO  23:47:59,206 - #8 =
+INFO  23:47:59,206 - #3 c
+INFO  23:47:59,206 - #9 ;
+INFO  23:47:59,207 - #11 [
+INFO  23:47:59,207 - #39 *
+INFO  23:47:59,207 - #3 x
+INFO  23:47:59,207 - #12 ]
+INFO  23:47:59,207 - #8 =
+INFO  23:47:59,207 - #3 y
+INFO  23:47:59,207 - #9 ;
+INFO  23:47:59,208 - #5 }
+INFO  23:47:59,208 - #3 int
+INFO  23:47:59,209 - #3 saberi
+INFO  23:47:59,209 - #21 (
+INFO  23:47:59,209 - #3 int
+INFO  23:47:59,210 - #3 i1
+INFO  23:47:59,210 - #10 ,
+INFO  23:47:59,210 - #3 int
+INFO  23:47:59,210 - #3 i2
+INFO  23:47:59,210 - #3 i
+ERROR 23:47:59,210 - 
+Sintaksna greska na liniji 12
+INFO  23:47:59,210 - #22 )
+INFO  23:47:59,210 - #4 {
+INFO  23:47:59,210 - #15 if
+INFO  23:47:59,211 - #21 (
+ERROR 23:47:59,211 - Uspesan oporavak od greske na liniji 12 u formalnim parametrima do )
+INFO  23:47:59,212 - #3 i1
+INFO  23:47:59,212 - #36 <
+INFO  23:47:59,214 - #22 )
+ERROR 23:47:59,214 - 
+Sintaksna greska na liniji 13
+INFO  23:47:59,214 - #19 return
+INFO  23:47:59,214 - #29 -
+INFO  23:47:59,214 - #42 1
+ERROR 23:47:59,214 - Uspesan oporavak od greske na liniji 13 pri definisanju if uslova
+INFO  23:47:59,215 - #9 ;
+INFO  23:47:59,216 - #19 return
+INFO  23:47:59,216 - #3 i1
+INFO  23:47:59,217 - #38 +
+INFO  23:47:59,217 - #3 i2
+INFO  23:47:59,219 - #9 ;
+INFO  23:47:59,219 - #5 }
+INFO  23:47:59,219 - #5 }
+INFO  23:47:59,221 - Program(
+  Declarations(
+    ConstDeclaration(
+      ConstDeclarationError(
+      ) [ConstDeclarationError]
+    ) [ConstDeclaration]
+    NoDeclarations(
+    ) [NoDeclarations]
+  ) [Declarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDeclarationVoidType(
+        NoMethodParameters(
+        ) [NoMethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementUnmatched(
+              UnmatchedMoreThanOne(
+                UnmachedListEnd(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [UnmachedListEnd]
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+              ) [UnmatchedMoreThanOne]
+            ) [DesignatorStatementUnmatched]
+          ) [StatementDesignator]
+          Statements(
+            StatementDesignator(
+              DesignatorStatementUnmatched(
+                UnmatchedOne(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [UnmatchedOne]
+              ) [DesignatorStatementUnmatched]
+            ) [StatementDesignator]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [MethodDeclarationVoidType]
+    ) [MethodDeclarationList]
+    MethodDeclarationAnyType(
+      TypeName(
+      ) [TypeName]
+      MethodParametersError(
+      ) [MethodParametersError]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementIf(
+          ConditionError(
+          ) [ConditionError]
+          StatementReturnExpr(
+            ExprNegativ(
+              Terms(
+                FactorNum(
+                ) [FactorNum]
+                MulopEnd(
+                ) [MulopEnd]
+              ) [Terms]
+              AddopEnd(
+              ) [AddopEnd]
+            ) [ExprNegativ]
+          ) [StatementReturnExpr]
+        ) [StatementIf]
+        Statements(
+          StatementReturnExpr(
+            ExprPositive(
+              Terms(
+                FactorDesignator(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [FactorDesignator]
+                MulopEnd(
+                ) [MulopEnd]
+              ) [Terms]
+              AddopList(
+                AddPlus(
+                ) [AddPlus]
+                Terms(
+                  FactorDesignator(
+                    DesignatorName(
+                      DesignatorListEnd(
+                      ) [DesignatorListEnd]
+                    ) [DesignatorName]
+                  ) [FactorDesignator]
+                  MulopEnd(
+                  ) [MulopEnd]
+                ) [Terms]
+                AddopEnd(
+                ) [AddopEnd]
+              ) [AddopList]
+            ) [ExprPositive]
+          ) [StatementReturnExpr]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDeclarationAnyType]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  23:47:59,222 - ===================================

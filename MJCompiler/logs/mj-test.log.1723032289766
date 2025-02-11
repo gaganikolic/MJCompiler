@@ -1,0 +1,151 @@
+INFO  14:04:44,836 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  14:04:44,896 - #2 program
+INFO  14:04:44,896 - #49 test301
+INFO  14:04:44,896 - #4 {
+INFO  14:04:44,898 - #49 int
+INFO  14:04:44,898 - #49 verify
+INFO  14:04:44,899 - #20 (
+INFO  14:04:44,899 - #49 int
+INFO  14:04:44,899 - #49 x
+INFO  14:04:44,899 - #10 [
+INFO  14:04:44,899 - #11 ]
+INFO  14:04:44,899 - #21 )
+INFO  14:04:44,900 - #4 {
+INFO  14:04:44,900 - #18 return
+INFO  14:04:44,900 - #28 -
+INFO  14:04:44,900 - #48 1
+INFO  14:04:44,900 - #8 ;
+INFO  14:04:44,901 - #5 }
+INFO  14:04:44,902 - #41 void
+INFO  14:04:44,903 - #49 main
+INFO  14:04:44,903 - #20 (
+INFO  14:04:44,903 - #21 )
+INFO  14:04:44,904 - #49 int
+INFO  14:04:44,905 - #49 bodovi
+INFO  14:04:44,905 - #10 [
+INFO  14:04:44,906 - #11 ]
+INFO  14:04:44,906 - #8 ;
+INFO  14:04:44,906 - #4 {
+INFO  14:04:44,906 - #49 verify
+INFO  14:04:44,906 - #20 (
+INFO  14:04:44,907 - #49 bodovi
+INFO  14:04:44,907 - #21 )
+INFO  14:04:44,907 - #8 ;
+INFO  14:04:44,907 - #5 }
+INFO  14:04:44,907 - #5 }
+INFO  14:04:44,916 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDecl(
+        MethodNameAnyType(
+          Type(
+           int
+          ) [Type]
+         verify
+        ) [MethodNameAnyType]
+        MethodParameters(
+          FormParsEnd(
+            FormParsArr(
+              Type(
+               int
+              ) [Type]
+             x
+            ) [FormParsArr]
+          ) [FormParsEnd]
+        ) [MethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        Statements(
+          StatementReturnExpr(
+            ExprNegativ(
+              AddopEnd(
+                Term(
+                  MulopEnd(
+                    FactorNum(
+                     1
+                    ) [FactorNum]
+                  ) [MulopEnd]
+                ) [Term]
+              ) [AddopEnd]
+            ) [ExprNegativ]
+          ) [StatementReturnExpr]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarationList]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarArr(
+                VarName(
+                 bodovi
+                ) [VarName]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementActPars(
+              DesignatorIdent(
+               verify
+              ) [DesignatorIdent]
+              ActualParsList(
+                ActParsEnd(
+                  ExprPositive(
+                    AddopEnd(
+                      Term(
+                        MulopEnd(
+                          FactorDesignator(
+                            DesignatorIdent(
+                             bodovi
+                            ) [DesignatorIdent]
+                          ) [FactorDesignator]
+                        ) [MulopEnd]
+                      ) [Term]
+                    ) [AddopEnd]
+                  ) [ExprPositive]
+                ) [ActParsEnd]
+              ) [ActualParsList]
+            ) [DesignatorStatementActPars]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:04:44,917 - ===================================
+INFO  14:04:44,917 - Pocetak programa test301.
+INFO  14:04:44,917 - Obradjuje se funkcija verify na liniji 5
+INFO  14:04:44,917 - Deklarisan je parametar funkcije (niz) x na liniji 5
+INFO  14:04:44,918 - Dobra povratna vrednost funkcije na liniji 6
+INFO  14:04:44,918 - Obradjuje se funkcija main na liniji 8
+INFO  14:04:44,918 - Deklarisana je promenljiva bodovi na liniji 9
+ERROR 14:04:44,918 - Greska na liniji 12: RAZLICITIIIIII TIPOVIIIIIIII!
+INFO  14:04:44,918 - Pronadjen poziv funkcije verify na liniji 12
+INFO  14:04:44,919 - ===================================
+ERROR 14:04:44,919 - Parsiranje NIJE uspesno zavrseno!

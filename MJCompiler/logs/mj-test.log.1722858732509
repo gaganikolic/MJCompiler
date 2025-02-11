@@ -1,0 +1,226 @@
+INFO  13:49:02,848 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  13:49:02,905 - #2 program
+INFO  13:49:02,905 - #49 test301
+INFO  13:49:02,905 - #6 const
+INFO  13:49:02,906 - #49 int
+INFO  13:49:02,907 - #49 nula
+INFO  13:49:02,907 - #7 =
+INFO  13:49:02,907 - #48 0
+INFO  13:49:02,907 - #8 ;
+INFO  13:49:02,908 - #6 const
+INFO  13:49:02,908 - #49 int
+INFO  13:49:02,908 - #49 jedan
+INFO  13:49:02,908 - #7 =
+INFO  13:49:02,908 - #48 1
+INFO  13:49:02,908 - #8 ;
+INFO  13:49:02,908 - #6 const
+INFO  13:49:02,909 - #49 int
+INFO  13:49:02,909 - #49 pet
+INFO  13:49:02,909 - #7 =
+INFO  13:49:02,909 - #48 5
+INFO  13:49:02,909 - #8 ;
+INFO  13:49:02,909 - #49 int
+INFO  13:49:02,911 - #49 niz
+INFO  13:49:02,911 - #10 [
+INFO  13:49:02,912 - #11 ]
+INFO  13:49:02,912 - #8 ;
+INFO  13:49:02,913 - #49 char
+INFO  13:49:02,913 - #49 nizch
+INFO  13:49:02,914 - #10 [
+INFO  13:49:02,914 - #11 ]
+INFO  13:49:02,914 - #8 ;
+INFO  13:49:02,914 - #4 {
+INFO  13:49:02,914 - #41 void
+INFO  13:49:02,915 - #49 verify
+INFO  13:49:02,915 - #20 (
+INFO  13:49:02,915 - #21 )
+INFO  13:49:02,916 - #4 {
+INFO  13:49:02,916 - #5 }
+INFO  13:49:02,917 - #41 void
+INFO  13:49:02,918 - #49 main
+INFO  13:49:02,918 - #20 (
+INFO  13:49:02,918 - #21 )
+INFO  13:49:02,918 - #49 bool
+INFO  13:49:02,918 - #49 bodovi
+INFO  13:49:02,919 - #8 ;
+INFO  13:49:02,919 - #4 {
+INFO  13:49:02,919 - #49 bodovi
+INFO  13:49:02,919 - #7 =
+INFO  13:49:02,919 - #49 verify
+INFO  13:49:02,920 - #20 (
+INFO  13:49:02,920 - #21 )
+INFO  13:49:02,920 - #8 ;
+INFO  13:49:02,922 - #5 }
+INFO  13:49:02,922 - #5 }
+INFO  13:49:02,931 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstNum(
+                   nula
+                   0
+                  ) [ConstNum]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstNum(
+                 jedan
+                 1
+                ) [ConstNum]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstNum(
+               pet
+               5
+              ) [ConstNum]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarArr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            VarName(
+             nizch
+            ) [VarName]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDecl(
+        MethodNameVoid(
+         verify
+        ) [MethodNameVoid]
+        NoMethodParameters(
+        ) [NoMethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        NoStatement(
+        ) [NoStatement]
+      ) [MethodDecl]
+    ) [MethodDeclarationList]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             bool
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 bodovi
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               bodovi
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorDesignatorActPars(
+                        DesignatorIdent(
+                         verify
+                        ) [DesignatorIdent]
+                        NoActPars(
+                        ) [NoActPars]
+                      ) [FactorDesignatorActPars]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:49:02,932 - ===================================
+INFO  13:49:02,932 - Pocetak programa test301.
+INFO  13:49:02,932 - Deklarisana je konstanta nula na liniji 5
+INFO  13:49:02,932 - Deklarisana je konstanta jedan na liniji 6
+INFO  13:49:02,932 - Deklarisana je konstanta pet na liniji 7
+INFO  13:49:02,933 - Deklarisana je promenljiva niz na liniji 9
+INFO  13:49:02,933 - Deklarisana je promenljiva nizch na liniji 10
+INFO  13:49:02,933 - Obradjuje se funkcija verify na liniji 13
+INFO  13:49:02,933 - Obradjuje se funkcija main na liniji 15
+INFO  13:49:02,933 - Deklarisana je promenljiva bodovi na liniji 16
+ERROR 13:49:02,933 - Greska, funkcija sa povratnom vrednoscu VOID se ne moze koristiti u izrazima dodele na liniji 19
+ERROR 13:49:02,933 - Greska na liniji 19 designator i expr nisu istog tipa
+INFO  13:49:02,934 - Globalne konstante = 3
+INFO  13:49:02,934 - nVars = 2
+INFO  13:49:02,934 - ===================================
+ERROR 13:49:02,934 - Parsiranje NIJE uspesno zavrseno!

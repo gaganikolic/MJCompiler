@@ -1,0 +1,170 @@
+INFO  23:36:47,361 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test2.mj
+INFO  23:36:47,437 - #2 program
+INFO  23:36:47,437 - #3 test301
+INFO  23:36:47,437 - #7 const
+INFO  23:36:47,437 - #3 int
+INFO  23:36:47,437 - #3 a
+INFO  23:36:47,439 - #8 =
+INFO  23:36:47,439 - #42 10
+INFO  23:36:47,439 - #29 -
+ERROR 23:36:47,439 - 
+Sintaksna greska na liniji 3
+INFO  23:36:47,439 - #9 ;
+INFO  23:36:47,439 - #4 {
+INFO  23:36:47,440 - #45 void
+INFO  23:36:47,440 - #3 main
+ERROR 23:36:47,441 - Uspesan oporavak od greske na liniji 3 pri definisanju konstante
+INFO  23:36:47,443 - #21 (
+INFO  23:36:47,444 - #22 )
+INFO  23:36:47,444 - #4 {
+INFO  23:36:47,445 - #11 [
+INFO  23:36:47,445 - #3 b
+INFO  23:36:47,445 - #10 ,
+INFO  23:36:47,447 - #39 *
+INFO  23:36:47,447 - #3 a
+INFO  23:36:47,447 - #12 ]
+INFO  23:36:47,447 - #8 =
+INFO  23:36:47,447 - #3 c
+INFO  23:36:47,447 - #9 ;
+INFO  23:36:47,448 - #11 [
+INFO  23:36:47,448 - #39 *
+INFO  23:36:47,448 - #3 x
+INFO  23:36:47,448 - #12 ]
+INFO  23:36:47,448 - #8 =
+INFO  23:36:47,448 - #3 y
+INFO  23:36:47,448 - #9 ;
+INFO  23:36:47,448 - #5 }
+INFO  23:36:47,449 - #3 int
+INFO  23:36:47,450 - #3 saberi
+INFO  23:36:47,450 - #21 (
+INFO  23:36:47,450 - #3 int
+INFO  23:36:47,450 - #3 i1
+INFO  23:36:47,450 - #10 ,
+INFO  23:36:47,450 - #3 int
+INFO  23:36:47,450 - #3 i2
+INFO  23:36:47,451 - #22 )
+INFO  23:36:47,451 - #4 {
+INFO  23:36:47,451 - #19 return
+INFO  23:36:47,451 - #3 i1
+INFO  23:36:47,451 - #38 +
+INFO  23:36:47,452 - #3 i2
+INFO  23:36:47,454 - #9 ;
+INFO  23:36:47,455 - #5 }
+INFO  23:36:47,455 - #5 }
+INFO  23:36:47,456 - ProgramOk(
+  Declarations(
+    ConstDeclaration(
+      ConstDeclarationError(
+      ) [ConstDeclarationError]
+    ) [ConstDeclaration]
+    NoDeclarations(
+    ) [NoDeclarations]
+  ) [Declarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDeclarationVoidType(
+        NoMethodParameters(
+        ) [NoMethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementUnmatched(
+              UnmatchedMoreThanOne(
+                UnmachedListEnd(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [UnmachedListEnd]
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+              ) [UnmatchedMoreThanOne]
+            ) [DesignatorStatementUnmatched]
+          ) [StatementDesignator]
+          Statements(
+            StatementDesignator(
+              DesignatorStatementUnmatched(
+                UnmatchedOne(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [UnmatchedOne]
+              ) [DesignatorStatementUnmatched]
+            ) [StatementDesignator]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [MethodDeclarationVoidType]
+    ) [MethodDeclarationList]
+    MethodDeclarationAnyType(
+      TypeName(
+      ) [TypeName]
+      MethodParameters(
+        FormParsList(
+          FormParsVar(
+            TypeName(
+            ) [TypeName]
+          ) [FormParsVar]
+          FormParsEnd(
+            FormParsVar(
+              TypeName(
+              ) [TypeName]
+            ) [FormParsVar]
+          ) [FormParsEnd]
+        ) [FormParsList]
+      ) [MethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementReturnExpr(
+          ExprPositive(
+            Terms(
+              FactorDesignator(
+                DesignatorName(
+                  DesignatorListEnd(
+                  ) [DesignatorListEnd]
+                ) [DesignatorName]
+              ) [FactorDesignator]
+              MulopEnd(
+              ) [MulopEnd]
+            ) [Terms]
+            AddopList(
+              AddPlus(
+              ) [AddPlus]
+              Terms(
+                FactorDesignator(
+                  DesignatorName(
+                    DesignatorListEnd(
+                    ) [DesignatorListEnd]
+                  ) [DesignatorName]
+                ) [FactorDesignator]
+                MulopEnd(
+                ) [MulopEnd]
+              ) [Terms]
+              AddopEnd(
+              ) [AddopEnd]
+            ) [AddopList]
+          ) [ExprPositive]
+        ) [StatementReturnExpr]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDeclarationAnyType]
+  ) [MethodDeclarationList]
+) [ProgramOk]
+INFO  23:36:47,457 - ===================================

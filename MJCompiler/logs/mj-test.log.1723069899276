@@ -1,0 +1,172 @@
+INFO  00:30:39,074 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  00:30:39,150 - #2 program
+INFO  00:30:39,150 - #49 test301
+INFO  00:30:39,150 - #4 {
+INFO  00:30:39,152 - #41 void
+INFO  00:30:39,152 - #49 main
+INFO  00:30:39,153 - #20 (
+INFO  00:30:39,153 - #21 )
+INFO  00:30:39,154 - #49 int
+INFO  00:30:39,154 - #49 a
+INFO  00:30:39,155 - #10 [
+INFO  00:30:39,156 - #11 ]
+INFO  00:30:39,156 - #8 ;
+INFO  00:30:39,156 - #4 {
+INFO  00:30:39,156 - #49 a
+INFO  00:30:39,157 - #7 =
+INFO  00:30:39,157 - #29 new
+INFO  00:30:39,158 - #49 int
+INFO  00:30:39,158 - #10 [
+INFO  00:30:39,158 - #48 2
+INFO  00:30:39,158 - #11 ]
+INFO  00:30:39,159 - #8 ;
+INFO  00:30:39,160 - #49 a
+INFO  00:30:39,160 - #10 [
+INFO  00:30:39,161 - #48 0
+INFO  00:30:39,161 - #11 ]
+INFO  00:30:39,161 - #7 =
+INFO  00:30:39,162 - #48 1
+INFO  00:30:39,162 - #8 ;
+INFO  00:30:39,162 - #22 print
+INFO  00:30:39,162 - #20 (
+INFO  00:30:39,162 - #48 1
+INFO  00:30:39,162 - #21 )
+INFO  00:30:39,162 - #8 ;
+INFO  00:30:39,162 - #5 }
+INFO  00:30:39,163 - #5 }
+INFO  00:30:39,177 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarArr(
+                VarName(
+                 a
+                ) [VarName]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               a
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNew(
+                        Type(
+                         int
+                        ) [Type]
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorNum(
+                                 2
+                                ) [FactorNum]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [FactorNew]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementMatched(
+              DesignatorStatementAssignop(
+                DesignatorExpr(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  ExprPositive(
+                    AddopEnd(
+                      Term(
+                        MulopEnd(
+                          FactorNum(
+                           0
+                          ) [FactorNum]
+                        ) [MulopEnd]
+                      ) [Term]
+                    ) [AddopEnd]
+                  ) [ExprPositive]
+                ) [DesignatorExpr]
+                Assignop(
+                ) [Assignop]
+                ExprPositive(
+                  AddopEnd(
+                    Term(
+                      MulopEnd(
+                        FactorNum(
+                         1
+                        ) [FactorNum]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopEnd]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssignop]
+            ) [DesignatorStatementMatched]
+          ) [StatementDesignator]
+          Statements(
+            StatementPrint(
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNum(
+                       1
+                      ) [FactorNum]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [StatementPrint]
+            NoStatement(
+            ) [NoStatement]
+          ) [Statements]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  00:30:39,182 - ===================================
+INFO  00:30:39,184 - Pocetak programa test301.
+INFO  00:30:39,184 - Obradjuje se funkcija main na liniji 6
+INFO  00:30:39,184 - Deklarisana je promenljiva a na liniji 7
+INFO  00:30:39,185 - Designator i expr su odgovarajuceg tipa na liniji 9
+INFO  00:30:39,185 - Kreiran/promenjen element niza a
+INFO  00:30:39,185 - Designator i expr su odgovarajuceg tipa na liniji 10
+INFO  00:30:39,185 - Obradjena funkcija PRINT na liniji 11
+INFO  00:30:39,185 - ===================================

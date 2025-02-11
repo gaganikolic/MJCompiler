@@ -1,0 +1,146 @@
+INFO  23:42:23,570 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  23:42:23,627 - #2 program
+INFO  23:42:23,627 - #49 test301
+INFO  23:42:23,628 - #4 {
+INFO  23:42:23,630 - #41 void
+INFO  23:42:23,630 - #49 main
+INFO  23:42:23,631 - #20 (
+INFO  23:42:23,631 - #21 )
+INFO  23:42:23,632 - #49 int
+INFO  23:42:23,632 - #49 a
+INFO  23:42:23,633 - #10 [
+INFO  23:42:23,634 - #11 ]
+INFO  23:42:23,634 - #8 ;
+INFO  23:42:23,635 - #4 {
+INFO  23:42:23,635 - #49 a
+INFO  23:42:23,636 - #10 [
+INFO  23:42:23,637 - #48 0
+INFO  23:42:23,637 - #11 ]
+INFO  23:42:23,639 - #7 =
+INFO  23:42:23,639 - #48 1
+INFO  23:42:23,641 - #8 ;
+INFO  23:42:23,642 - #22 print
+INFO  23:42:23,645 - #20 (
+INFO  23:42:23,645 - #49 a
+INFO  23:42:23,645 - #10 [
+INFO  23:42:23,645 - #48 0
+INFO  23:42:23,645 - #11 ]
+INFO  23:42:23,645 - #21 )
+INFO  23:42:23,645 - #8 ;
+INFO  23:42:23,646 - #5 }
+INFO  23:42:23,647 - #5 }
+INFO  23:42:23,661 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarArr(
+                VarName(
+                 a
+                ) [VarName]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorExpr(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                ExprPositive(
+                  AddopEnd(
+                    Term(
+                      MulopEnd(
+                        FactorNum(
+                         0
+                        ) [FactorNum]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopEnd]
+                ) [ExprPositive]
+              ) [DesignatorExpr]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNum(
+                       1
+                      ) [FactorNum]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementPrint(
+            ExprPositive(
+              AddopEnd(
+                Term(
+                  MulopEnd(
+                    FactorDesignator(
+                      DesignatorExpr(
+                        DesignatorName(
+                         a
+                        ) [DesignatorName]
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorNum(
+                                 0
+                                ) [FactorNum]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [DesignatorExpr]
+                    ) [FactorDesignator]
+                  ) [MulopEnd]
+                ) [Term]
+              ) [AddopEnd]
+            ) [ExprPositive]
+          ) [StatementPrint]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  23:42:23,662 - ===================================
+INFO  23:42:23,662 - Pocetak programa test301.
+INFO  23:42:23,663 - Obradjuje se funkcija main na liniji 6
+INFO  23:42:23,663 - Deklarisana je promenljiva a na liniji 7
+INFO  23:42:23,663 - Kreiran/promenjen element niza a
+INFO  23:42:23,664 - Designator i expr su odgovarajuceg tipa na liniji 9
+INFO  23:42:23,664 - Kreiran/promenjen element niza a
+INFO  23:42:23,664 - Obradjena funkcija PRINT na liniji 10
+INFO  23:42:23,664 - ===================================
+INFO  23:42:23,679 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,208 @@
+INFO  18:39:39,159 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  18:39:39,229 - #2 program
+INFO  18:39:39,229 - #49 test301
+INFO  18:39:39,229 - #6 const
+INFO  18:39:39,230 - #49 int
+INFO  18:39:39,230 - #49 nula
+INFO  18:39:39,231 - #7 =
+INFO  18:39:39,232 - #48 0
+INFO  18:39:39,232 - #8 ;
+INFO  18:39:39,233 - #6 const
+INFO  18:39:39,234 - #49 int
+INFO  18:39:39,234 - #49 jedan
+INFO  18:39:39,234 - #7 =
+INFO  18:39:39,234 - #48 1
+INFO  18:39:39,234 - #8 ;
+INFO  18:39:39,235 - #6 const
+INFO  18:39:39,235 - #49 int
+INFO  18:39:39,235 - #49 pet
+INFO  18:39:39,235 - #7 =
+INFO  18:39:39,235 - #48 5
+INFO  18:39:39,235 - #8 ;
+INFO  18:39:39,235 - #49 int
+INFO  18:39:39,236 - #49 niz
+INFO  18:39:39,236 - #10 [
+INFO  18:39:39,237 - #11 ]
+INFO  18:39:39,237 - #9 ,
+INFO  18:39:39,237 - #49 niz2
+INFO  18:39:39,237 - #10 [
+INFO  18:39:39,237 - #11 ]
+INFO  18:39:39,237 - #8 ;
+INFO  18:39:39,238 - #49 char
+INFO  18:39:39,238 - #49 nizch
+INFO  18:39:39,238 - #10 [
+INFO  18:39:39,238 - #11 ]
+INFO  18:39:39,239 - #8 ;
+INFO  18:39:39,239 - #4 {
+INFO  18:39:39,239 - #41 void
+INFO  18:39:39,240 - #49 main
+INFO  18:39:39,240 - #20 (
+INFO  18:39:39,240 - #21 )
+INFO  18:39:39,241 - #49 int
+INFO  18:39:39,241 - #49 bodovi
+INFO  18:39:39,241 - #8 ;
+INFO  18:39:39,241 - #49 bool
+INFO  18:39:39,242 - #49 bt
+INFO  18:39:39,242 - #8 ;
+INFO  18:39:39,242 - #4 {
+INFO  18:39:39,242 - #49 niz6
+INFO  18:39:39,243 - #10 [
+INFO  18:39:39,244 - #11 ]
+ERROR 18:39:39,244 - 
+Sintaksna greska na liniji 17
+INFO  18:39:39,244 - #24 ++
+INFO  18:39:39,244 - #8 ;
+INFO  18:39:39,244 - #5 }
+INFO  18:39:39,246 - #5 }
+ERROR 18:39:39,246 - Uspesan oporavak od greske na liniji 17 pri konstrukciji iskaza dodele do ;
+INFO  18:39:39,280 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstListPart(
+                   nula
+                    ConstNum(
+                     0
+                    ) [ConstNum]
+                  ) [ConstListPart]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 jedan
+                  ConstNum(
+                   1
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstListPart(
+               pet
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarArr(
+             niz
+            ) [VarArr]
+            VarDeclarationsEnd(
+              VarArr(
+               niz2
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+           nizch
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                 bodovi
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             bool
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+               bt
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementError(
+        ) [StatementError]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  18:39:39,284 - ===================================
+INFO  18:39:43,631 - Pocetak programa test301.
+INFO  18:39:43,631 - Deklarisana je konstanta nula na liniji 5
+INFO  18:39:43,632 - Deklarisana je konstanta jedan na liniji 6
+INFO  18:39:43,632 - Deklarisana je konstanta pet na liniji 7
+INFO  18:39:43,632 - Deklarisan je niz niz na liniji 9
+INFO  18:39:43,632 - Deklarisan je niz niz2 na liniji 9
+INFO  18:39:43,633 - Deklarisan je niz nizch na liniji 10
+INFO  18:39:43,633 - Obradjuje se funkcija main na liniji 13
+INFO  18:39:43,633 - Deklarisana je promenljiva bodovi na liniji 14
+INFO  18:39:43,633 - Deklarisana je promenljiva bt na liniji 15
+INFO  18:39:43,633 - ===================================
+INFO  18:39:43,634 - Parsiranje uspesno zavrseno!

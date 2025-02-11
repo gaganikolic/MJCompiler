@@ -1,0 +1,224 @@
+INFO  15:57:46,476 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  15:57:46,540 - #2 program
+INFO  15:57:46,540 - #49 test302
+INFO  15:57:46,540 - #49 int
+INFO  15:57:46,541 - #49 i
+INFO  15:57:46,542 - #8 ;
+INFO  15:57:46,542 - #49 bool
+INFO  15:57:46,543 - #49 ibool
+INFO  15:57:46,543 - #8 ;
+INFO  15:57:46,543 - #49 int
+INFO  15:57:46,543 - #49 niz
+INFO  15:57:46,543 - #10 [
+INFO  15:57:46,543 - #11 ]
+INFO  15:57:46,544 - #9 ,
+INFO  15:57:46,544 - #49 niz2
+INFO  15:57:46,545 - #10 [
+INFO  15:57:46,545 - #11 ]
+INFO  15:57:46,545 - #9 ,
+INFO  15:57:46,545 - #49 niz3
+INFO  15:57:46,545 - #10 [
+INFO  15:57:46,545 - #11 ]
+INFO  15:57:46,545 - #8 ;
+INFO  15:57:46,547 - #49 int
+INFO  15:57:46,548 - #49 a
+INFO  15:57:46,548 - #9 ,
+INFO  15:57:46,548 - #49 b
+INFO  15:57:46,548 - #8 ;
+INFO  15:57:46,548 - #49 int
+INFO  15:57:46,548 - #49 nizr
+INFO  15:57:46,548 - #8 ;
+INFO  15:57:46,548 - #4 {
+INFO  15:57:46,548 - #41 void
+INFO  15:57:46,549 - #49 main
+INFO  15:57:46,549 - #20 (
+INFO  15:57:46,549 - #21 )
+INFO  15:57:46,550 - #4 {
+INFO  15:57:46,550 - #22 print
+INFO  15:57:46,550 - #20 (
+INFO  15:57:46,550 - #49 a
+INFO  15:57:46,550 - #10 [
+INFO  15:57:46,551 - #48 0
+INFO  15:57:46,551 - #11 ]
+INFO  15:57:46,552 - #21 )
+INFO  15:57:46,552 - #8 ;
+INFO  15:57:46,553 - #5 }
+INFO  15:57:46,554 - #5 }
+INFO  15:57:46,565 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclaration(
+              VarDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarationsEnd(
+                  VarIdent(
+                    VarName(
+                     i
+                    ) [VarName]
+                  ) [VarIdent]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarationList]
+            ) [VarDeclaration]
+          ) [Declarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               bool
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   ibool
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              VarArr(
+                Arr(
+                  VarName(
+                   niz
+                  ) [VarName]
+                ) [Arr]
+              ) [VarArr]
+              VarDeclarations(
+                VarArr(
+                  Arr(
+                    VarName(
+                     niz2
+                    ) [VarName]
+                  ) [Arr]
+                ) [VarArr]
+                VarDeclarationsEnd(
+                  VarArr(
+                    Arr(
+                      VarName(
+                       niz3
+                      ) [VarName]
+                    ) [Arr]
+                  ) [VarArr]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarations]
+            ) [VarDeclarations]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarIdent(
+              VarName(
+               a
+              ) [VarName]
+            ) [VarIdent]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 b
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+            VarName(
+             nizr
+            ) [VarName]
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementPrint(
+          ExprPositive(
+            AddopEnd(
+              Term(
+                MulopEnd(
+                  FactorDesignator(
+                    DesignatorExpr(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                      ArrayDecl(
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorNum(
+                                 0
+                                ) [FactorNum]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [ArrayDecl]
+                    ) [DesignatorExpr]
+                  ) [FactorDesignator]
+                ) [MulopEnd]
+              ) [Term]
+            ) [AddopEnd]
+          ) [ExprPositive]
+        ) [StatementPrint]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:57:46,566 - ===================================
+INFO  15:57:46,566 - Pocetak programa test302.
+INFO  15:57:46,566 - Deklarisana je promenljiva i na liniji 5
+INFO  15:57:46,566 - Deklarisana je promenljiva ibool na liniji 6
+INFO  15:57:46,566 - Deklarisana je promenljiva niz na liniji 8
+INFO  15:57:46,566 - Deklarisana je promenljiva niz2 na liniji 8
+INFO  15:57:46,567 - Deklarisana je promenljiva niz3 na liniji 8
+INFO  15:57:46,567 - Deklarisana je promenljiva a na liniji 9
+INFO  15:57:46,567 - Deklarisana je promenljiva b na liniji 9
+INFO  15:57:46,567 - Deklarisana je promenljiva nizr na liniji 10
+INFO  15:57:46,567 - Obradjuje se funkcija main na liniji 14
+ERROR 15:57:46,567 - GRESKA: Ime a nije deklarisano kao niz na liniji 15
+INFO  15:57:46,567 - Kreiran/promenjen element niza a
+ERROR 15:57:46,567 - Greska na liniji 15, neodgovarajuci operand instrukcije PRINT
+INFO  15:57:46,567 - Obradjena funkcija PRINT na liniji 15
+INFO  15:57:46,568 - ===================================
+ERROR 15:57:46,568 - Parsiranje NIJE uspesno zavrseno!

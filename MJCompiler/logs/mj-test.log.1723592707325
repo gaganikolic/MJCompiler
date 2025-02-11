@@ -1,0 +1,144 @@
+INFO  01:44:48,843 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  01:44:48,906 - #2 program
+INFO  01:44:48,906 - #49 test301
+INFO  01:44:48,906 - #49 int
+INFO  01:44:48,908 - #49 mat
+INFO  01:44:48,909 - #10 [
+INFO  01:44:48,910 - #11 ]
+INFO  01:44:48,910 - #10 [
+INFO  01:44:48,911 - #11 ]
+INFO  01:44:48,911 - #8 ;
+INFO  01:44:48,912 - #49 char
+INFO  01:44:48,912 - #49 nizch
+INFO  01:44:48,913 - #10 [
+INFO  01:44:48,913 - #11 ]
+INFO  01:44:48,913 - #8 ;
+INFO  01:44:48,913 - #4 {
+INFO  01:44:48,913 - #41 void
+INFO  01:44:48,914 - #49 main
+INFO  01:44:48,914 - #20 (
+INFO  01:44:48,914 - #21 )
+INFO  01:44:48,915 - #49 int
+INFO  01:44:48,916 - #49 bodovi
+INFO  01:44:48,916 - #8 ;
+INFO  01:44:48,916 - #49 bool
+INFO  01:44:48,917 - #49 bt
+INFO  01:44:48,917 - #8 ;
+INFO  01:44:48,917 - #4 {
+INFO  01:44:48,917 - #29 new
+ERROR 01:44:48,917 - 
+Sintaksna greska na liniji 14
+INFO  01:44:48,917 - #49 int
+INFO  01:44:48,917 - #10 [
+INFO  01:44:48,917 - #48 2
+INFO  01:44:48,918 - #11 ]
+INFO  01:44:48,920 - #10 [
+INFO  01:44:48,920 - #48 2
+INFO  01:44:48,920 - #11 ]
+INFO  01:44:48,921 - #8 ;
+INFO  01:44:48,921 - #5 }
+INFO  01:44:48,921 - #5 }
+ERROR 01:44:48,921 - Uspesan oporavak od greske na liniji 13 pri konstrukciji iskaza dodele
+INFO  01:44:48,937 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarMatrix(
+              Arr(
+                VarName(
+                 mat
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               nizch
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                  VarName(
+                   bodovi
+                  ) [VarName]
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             bool
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+                VarName(
+                 bt
+                ) [VarName]
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementError(
+        ) [StatementError]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  01:44:48,938 - ===================================
+INFO  01:44:48,938 - Pocetak programa test301.
+INFO  01:44:48,939 - Deklarisana je promenljiva mat na liniji 6
+INFO  01:44:48,939 - Deklarisana je promenljiva nizch na liniji 7
+INFO  01:44:48,939 - Obradjuje se funkcija main na liniji 10
+INFO  01:44:48,940 - Deklarisana je promenljiva bodovi na liniji 11
+INFO  01:44:48,940 - Deklarisana je promenljiva bt na liniji 12
+INFO  01:44:48,940 - ===================================
+INFO  01:44:48,950 - Parsiranje uspesno zavrseno!

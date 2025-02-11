@@ -1,0 +1,74 @@
+INFO  16:55:52,447 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  16:55:52,507 - #2 program
+INFO  16:55:52,507 - #49 test4
+INFO  16:55:52,507 - #6 const
+INFO  16:55:52,508 - #49 int
+INFO  16:55:52,508 - #49 i
+INFO  16:55:52,509 - #7 =
+INFO  16:55:52,509 - #48 5
+INFO  16:55:52,509 - #9 ,
+INFO  16:55:52,510 - #49 j
+INFO  16:55:52,510 - #7 =
+INFO  16:55:52,510 - #48 3
+INFO  16:55:52,510 - #8 ;
+INFO  16:55:52,510 - #49 int
+INFO  16:55:52,511 - #49 k
+INFO  16:55:52,511 - #9 ,
+INFO  16:55:52,511 - #49 k
+INFO  16:55:52,511 - #8 ;
+INFO  16:55:52,511 - #4 {
+INFO  16:55:52,512 - #5 }
+INFO  16:55:52,519 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclarations(
+            ConstDeclarationsEnd(
+              ConstListPart(
+               i
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarationsEnd]
+            ConstListPart(
+             j
+              ConstNum(
+               3
+              ) [ConstNum]
+            ) [ConstListPart]
+          ) [ConstDeclarations]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarIdent(
+           k
+          ) [VarIdent]
+          VarDeclarationsEnd(
+            VarIdent(
+             k
+            ) [VarIdent]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  16:55:52,523 - ===================================

@@ -1,0 +1,90 @@
+INFO  16:41:07,373 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  16:41:07,436 - #2 program
+INFO  16:41:07,436 - #49 test4
+INFO  16:41:07,437 - #6 const
+INFO  16:41:07,438 - #49 int
+INFO  16:41:07,438 - #49 i
+INFO  16:41:07,439 - #7 =
+INFO  16:41:07,439 - #48 5
+INFO  16:41:07,439 - #9 ,
+INFO  16:41:07,440 - #49 j
+INFO  16:41:07,441 - #7 =
+INFO  16:41:07,441 - #48 3
+INFO  16:41:07,441 - #8 ;
+INFO  16:41:07,441 - #49 int
+INFO  16:41:07,442 - #49 k
+INFO  16:41:07,442 - #8 ;
+INFO  16:41:07,442 - #49 int
+INFO  16:41:07,443 - #49 k
+INFO  16:41:07,443 - #8 ;
+INFO  16:41:07,443 - #4 {
+INFO  16:41:07,443 - #5 }
+INFO  16:41:07,452 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarations(
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 i
+                  ConstNum(
+                   5
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+              ConstListPart(
+               j
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarations]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarIdent(
+             k
+            ) [VarIdent]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+           k
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  16:41:07,454 - ===================================
+INFO  16:41:07,456 - Pocetak programa test4.
+INFO  16:41:07,456 - Deklarisana je konstanta i na liniji 3
+INFO  16:41:07,456 - Deklarisana je konstanta j na liniji 3
+ERROR 16:41:07,456 - Vec postoji identifikator k na liniji 5
+INFO  16:41:07,456 - ===================================
+ERROR 16:41:07,457 - Parsiranje NIJE uspesno zavrseno!

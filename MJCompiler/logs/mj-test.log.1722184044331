@@ -1,0 +1,81 @@
+INFO  18:27:04,968 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  18:27:05,055 - #2 program
+INFO  18:27:05,056 - #49 test4
+INFO  18:27:05,056 - #6 const
+INFO  18:27:05,057 - #49 int
+INFO  18:27:05,057 - #49 i
+INFO  18:27:05,058 - #7 =
+INFO  18:27:05,058 - #48 5
+INFO  18:27:05,058 - #9 ,
+INFO  18:27:05,059 - #49 j
+INFO  18:27:05,059 - #7 =
+INFO  18:27:05,059 - #48 3
+INFO  18:27:05,059 - #8 ;
+INFO  18:27:05,060 - #49 int
+INFO  18:27:05,060 - #49 k
+INFO  18:27:05,061 - #9 ,
+INFO  18:27:05,061 - #49 k
+INFO  18:27:05,061 - #8 ;
+INFO  18:27:05,061 - #4 {
+INFO  18:27:05,062 - #5 }
+INFO  18:27:05,069 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclarations(
+            ConstDeclarationsEnd(
+              ConstListPart(
+               i
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarationsEnd]
+            ConstListPart(
+             j
+              ConstNum(
+               3
+              ) [ConstNum]
+            ) [ConstListPart]
+          ) [ConstDeclarations]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarIdent(
+           k
+          ) [VarIdent]
+          VarDeclarationsEnd(
+            VarIdent(
+             k
+            ) [VarIdent]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  18:27:05,069 - ===================================
+INFO  18:27:05,072 - Pocetak programa test4.
+INFO  18:27:05,072 - Deklarisana je konstanta i na liniji 3
+INFO  18:27:05,072 - Deklarisana je konstanta j na liniji 3
+INFO  18:27:05,072 - Deklarisana je promenljiva k na liniji 4
+ERROR 18:27:05,072 - Vec postoji identifikator k
+INFO  18:27:05,073 - ===================================
+ERROR 18:27:05,074 - Parsiranje NIJE uspesno zavrseno!

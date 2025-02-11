@@ -1,0 +1,176 @@
+INFO  20:58:22,243 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  20:58:22,295 - #2 program
+INFO  20:58:22,295 - #49 test4
+INFO  20:58:22,295 - #6 const
+INFO  20:58:22,296 - #49 int
+INFO  20:58:22,297 - #49 i
+INFO  20:58:22,297 - #7 =
+INFO  20:58:22,297 - #48 5
+INFO  20:58:22,297 - #9 ,
+INFO  20:58:22,298 - #49 j
+INFO  20:58:22,298 - #7 =
+INFO  20:58:22,298 - #48 3
+INFO  20:58:22,299 - #8 ;
+INFO  20:58:22,299 - #6 const
+INFO  20:58:22,299 - #49 bool
+INFO  20:58:22,299 - #49 c
+INFO  20:58:22,299 - #7 =
+INFO  20:58:22,299 - #51 true
+INFO  20:58:22,299 - #8 ;
+INFO  20:58:22,300 - #49 int
+INFO  20:58:22,300 - #49 k
+INFO  20:58:22,300 - #10 [
+INFO  20:58:22,300 - #11 ]
+INFO  20:58:22,300 - #9 ,
+INFO  20:58:22,301 - #49 l
+INFO  20:58:22,301 - #10 [
+INFO  20:58:22,301 - #11 ]
+INFO  20:58:22,301 - #8 ;
+INFO  20:58:22,301 - #4 {
+INFO  20:58:22,301 - #49 int
+INFO  20:58:22,302 - #49 saberi
+INFO  20:58:22,302 - #20 (
+INFO  20:58:22,303 - #49 int
+INFO  20:58:22,303 - #49 a
+INFO  20:58:22,303 - #9 ,
+INFO  20:58:22,303 - #49 int
+INFO  20:58:22,303 - #49 b
+INFO  20:58:22,303 - #10 [
+INFO  20:58:22,303 - #11 ]
+INFO  20:58:22,303 - #21 )
+INFO  20:58:22,304 - #4 {
+INFO  20:58:22,304 - #18 return
+INFO  20:58:22,304 - #48 5
+INFO  20:58:22,304 - #8 ;
+INFO  20:58:22,306 - #5 }
+INFO  20:58:22,307 - #5 }
+INFO  20:58:22,315 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarations(
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 i
+                  ConstNum(
+                   5
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+              ConstListPart(
+               j
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarations]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           bool
+          ) [Type]
+          ConstDeclarationsEnd(
+            ConstListPart(
+             c
+              ConstBool(
+               true
+              ) [ConstBool]
+            ) [ConstListPart]
+          ) [ConstDeclarationsEnd]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarArr(
+           k
+          ) [VarArr]
+          VarDeclarationsEnd(
+            VarArr(
+             l
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameAnyType(
+        Type(
+         int
+        ) [Type]
+       saberi
+      ) [MethodNameAnyType]
+      MethodParameters(
+        FormParsList(
+          FormParsVar(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormParsVar]
+          FormParsEnd(
+            FormParsArr(
+              Type(
+               int
+              ) [Type]
+             b
+            ) [FormParsArr]
+          ) [FormParsEnd]
+        ) [FormParsList]
+      ) [MethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementReturnExpr(
+          ExprPositive(
+            Term(
+              FactorNum(
+               5
+              ) [FactorNum]
+              NoMulop(
+              ) [NoMulop]
+            ) [Term]
+            NoAddop(
+            ) [NoAddop]
+          ) [ExprPositive]
+        ) [StatementReturnExpr]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  20:58:22,316 - ===================================
+INFO  20:58:22,316 - Pocetak programa test4.
+INFO  20:58:22,316 - Deklarisana je konstanta i na liniji 3
+INFO  20:58:22,316 - Deklarisana je konstanta j na liniji 3
+INFO  20:58:22,317 - Deklarisana je konstanta c na liniji 4
+INFO  20:58:22,317 - Deklarisan je niz k na liniji 5
+INFO  20:58:22,317 - Deklarisan je niz l na liniji 5
+INFO  20:58:22,317 - Obradjuje se funkcija saberi na liniji 8
+INFO  20:58:22,317 - Deklarisan je parametar funkcije a na liniji 8
+INFO  20:58:22,317 - Deklarisan je parametar funkcije (niz) b na liniji 8
+ERROR 20:58:22,317 - Greska na liniji 9 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije saberi
+INFO  20:58:22,317 - ===================================
+ERROR 20:58:22,318 - Parsiranje NIJE uspesno zavrseno!

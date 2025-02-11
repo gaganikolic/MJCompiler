@@ -1,0 +1,65 @@
+INFO  01:18:24,242 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  01:18:24,294 - #2 program
+INFO  01:18:24,294 - #49 test4
+INFO  01:18:24,294 - #6 const
+INFO  01:18:24,295 - #49 int
+INFO  01:18:24,295 - #49 i
+INFO  01:18:24,296 - #7 =
+INFO  01:18:24,296 - #48 5
+INFO  01:18:24,296 - #8 ;
+INFO  01:18:24,297 - #6 const
+INFO  01:18:24,297 - #49 str
+INFO  01:18:24,298 - #49 j
+INFO  01:18:24,298 - #7 =
+INFO  01:18:24,298 - #50 a
+INFO  01:18:24,298 - #8 ;
+INFO  01:18:24,298 - #4 {
+INFO  01:18:24,298 - #5 }
+INFO  01:18:24,304 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclarationsEnd(
+            ConstListPart(
+             i
+              ConstNum(
+               5
+              ) [ConstNum]
+            ) [ConstListPart]
+          ) [ConstDeclarationsEnd]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    ConstDeclaration(
+      ConstDeclarationList(
+        Type(
+         str
+        ) [Type]
+        ConstDeclarationsEnd(
+          ConstListPart(
+           j
+            ConstChar(
+             a
+            ) [ConstChar]
+          ) [ConstListPart]
+        ) [ConstDeclarationsEnd]
+      ) [ConstDeclarationList]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  01:18:24,306 - ===================================
+INFO  01:18:24,308 - Pocetak programa test4.
+ERROR 01:18:24,308 - Nije pronadjen tip str u tabeli simbola! 
+INFO  01:18:24,308 - ===================================
+ERROR 01:18:24,308 - Parsiranje NIJE uspesno zavrseno!

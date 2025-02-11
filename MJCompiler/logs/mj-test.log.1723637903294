@@ -1,0 +1,204 @@
+INFO  14:17:40,394 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  14:17:40,527 - #2 program
+INFO  14:17:40,527 - #49 test302
+INFO  14:17:40,528 - #6 const
+INFO  14:17:40,530 - #49 int
+INFO  14:17:40,531 - #49 jedan
+INFO  14:17:40,532 - #7 =
+INFO  14:17:40,532 - #48 1
+INFO  14:17:40,532 - #8 ;
+INFO  14:17:40,533 - #49 int
+INFO  14:17:40,533 - #49 mat
+INFO  14:17:40,533 - #10 [
+INFO  14:17:40,535 - #11 ]
+INFO  14:17:40,535 - #10 [
+INFO  14:17:40,536 - #11 ]
+INFO  14:17:40,536 - #8 ;
+INFO  14:17:40,536 - #49 int
+INFO  14:17:40,537 - #49 niz
+INFO  14:17:40,537 - #10 [
+INFO  14:17:40,537 - #11 ]
+INFO  14:17:40,537 - #8 ;
+INFO  14:17:40,537 - #4 {
+INFO  14:17:40,541 - #41 void
+INFO  14:17:40,542 - #49 main
+INFO  14:17:40,542 - #20 (
+INFO  14:17:40,542 - #21 )
+INFO  14:17:40,544 - #4 {
+INFO  14:17:40,544 - #49 niz
+INFO  14:17:40,544 - #7 =
+INFO  14:17:40,544 - #29 new
+INFO  14:17:40,545 - #49 int
+INFO  14:17:40,546 - #10 [
+INFO  14:17:40,546 - #48 2
+INFO  14:17:40,546 - #11 ]
+INFO  14:17:40,548 - #8 ;
+INFO  14:17:40,548 - #49 niz
+INFO  14:17:40,548 - #10 [
+INFO  14:17:40,550 - #48 0
+INFO  14:17:40,550 - #11 ]
+INFO  14:17:40,550 - #7 =
+INFO  14:17:40,551 - #48 1
+INFO  14:17:40,551 - #8 ;
+INFO  14:17:40,551 - #5 }
+INFO  14:17:40,552 - #5 }
+INFO  14:17:40,587 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstNum(
+               jedan
+               1
+              ) [ConstNum]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsEnd(
+            VarMatrix(
+              Arr(
+                VarName(
+                 mat
+                ) [VarName]
+              ) [Arr]
+            ) [VarMatrix]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               niz
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNew(
+                        Type(
+                         int
+                        ) [Type]
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorNum(
+                                 2
+                                ) [FactorNum]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [FactorNew]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementMatched(
+              DesignatorStatementAssignop(
+                DesignatorExpr(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  ArrayDecl(
+                    ExprPositive(
+                      AddopEnd(
+                        Term(
+                          MulopEnd(
+                            FactorNum(
+                             0
+                            ) [FactorNum]
+                          ) [MulopEnd]
+                        ) [Term]
+                      ) [AddopEnd]
+                    ) [ExprPositive]
+                  ) [ArrayDecl]
+                ) [DesignatorExpr]
+                Assignop(
+                ) [Assignop]
+                ExprPositive(
+                  AddopEnd(
+                    Term(
+                      MulopEnd(
+                        FactorNum(
+                         1
+                        ) [FactorNum]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopEnd]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssignop]
+            ) [DesignatorStatementMatched]
+          ) [StatementDesignator]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:17:40,591 - ===================================
+INFO  14:17:40,591 - Pocetak programa test302.
+INFO  14:17:40,592 - Deklarisana je konstanta jedan na liniji 5
+INFO  14:17:40,592 - Deklarisana je promenljiva mat na liniji 7
+INFO  14:17:40,593 - Deklarisana je promenljiva niz na liniji 8
+INFO  14:17:40,593 - Obradjuje se funkcija main na liniji 12
+INFO  14:17:40,593 - Designator i expr su odgovarajuceg tipa na liniji 17
+INFO  14:17:40,594 - Kreiran/promenjen element niza niz
+INFO  14:17:40,595 - Designator i expr su odgovarajuceg tipa na liniji 18
+INFO  14:17:40,595 - ===================================
+INFO  14:17:56,525 - Parsiranje uspesno zavrseno!

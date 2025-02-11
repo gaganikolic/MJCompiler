@@ -1,0 +1,189 @@
+INFO  22:52:49,330 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  22:52:49,421 - #2 program
+INFO  22:52:49,421 - #49 test4
+INFO  22:52:49,422 - #6 const
+INFO  22:52:49,424 - #49 int
+INFO  22:52:49,424 - #49 i
+INFO  22:52:49,425 - #7 =
+INFO  22:52:49,425 - #48 5
+INFO  22:52:49,425 - #9 ,
+INFO  22:52:49,427 - #49 j
+INFO  22:52:49,427 - #7 =
+INFO  22:52:49,427 - #48 3
+INFO  22:52:49,427 - #8 ;
+INFO  22:52:49,427 - #6 const
+INFO  22:52:49,428 - #49 bool
+INFO  22:52:49,428 - #49 c
+INFO  22:52:49,428 - #7 =
+INFO  22:52:49,428 - #51 true
+INFO  22:52:49,429 - #8 ;
+INFO  22:52:49,429 - #49 int
+INFO  22:52:49,429 - #49 k
+INFO  22:52:49,429 - #10 [
+INFO  22:52:49,432 - #11 ]
+INFO  22:52:49,432 - #9 ,
+INFO  22:52:49,432 - #49 l
+INFO  22:52:49,432 - #10 [
+INFO  22:52:49,432 - #11 ]
+INFO  22:52:49,432 - #8 ;
+INFO  22:52:49,433 - #4 {
+INFO  22:52:49,433 - #49 int
+INFO  22:52:49,435 - #49 saberi
+INFO  22:52:49,435 - #20 (
+INFO  22:52:49,436 - #49 int
+INFO  22:52:49,436 - #49 a
+INFO  22:52:49,436 - #9 ,
+INFO  22:52:49,436 - #49 int
+INFO  22:52:49,437 - #49 b
+INFO  22:52:49,437 - #10 [
+INFO  22:52:49,439 - #11 ]
+INFO  22:52:49,440 - #21 )
+INFO  22:52:49,440 - #4 {
+INFO  22:52:49,441 - #22 print
+INFO  22:52:49,442 - #20 (
+INFO  22:52:49,443 - #50 a
+INFO  22:52:49,443 - #50 a
+ERROR 22:52:49,443 - 
+Sintaksna greska na liniji 9
+INFO  22:52:49,444 - #50 a
+INFO  22:52:49,444 - #21 )
+INFO  22:52:49,444 - #8 ;
+INFO  22:52:49,446 - #18 return
+INFO  22:52:49,446 - #48 3
+INFO  22:52:49,446 - #8 ;
+ERROR 22:52:49,447 - Uspesan oporavak od greske na liniji 9 pri konstrukciji iskaza dodele do ;
+INFO  22:52:49,451 - #5 }
+INFO  22:52:49,452 - #5 }
+INFO  22:52:49,465 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarations(
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 i
+                  ConstNum(
+                   5
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+              ConstListPart(
+               j
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarations]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           bool
+          ) [Type]
+          ConstDeclarationsEnd(
+            ConstListPart(
+             c
+              ConstBool(
+               true
+              ) [ConstBool]
+            ) [ConstListPart]
+          ) [ConstDeclarationsEnd]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarArr(
+           k
+          ) [VarArr]
+          VarDeclarationsEnd(
+            VarArr(
+             l
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameAnyType(
+        Type(
+         int
+        ) [Type]
+       saberi
+      ) [MethodNameAnyType]
+      MethodParameters(
+        FormParsList(
+          FormParsVar(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormParsVar]
+          FormParsEnd(
+            FormParsArr(
+              Type(
+               int
+              ) [Type]
+             b
+            ) [FormParsArr]
+          ) [FormParsEnd]
+        ) [FormParsList]
+      ) [MethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementError(
+        ) [StatementError]
+        Statements(
+          StatementReturnExpr(
+            ExprPositive(
+              Term(
+                FactorNum(
+                 3
+                ) [FactorNum]
+                NoMulop(
+                ) [NoMulop]
+              ) [Term]
+              NoAddop(
+              ) [NoAddop]
+            ) [ExprPositive]
+          ) [StatementReturnExpr]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  22:52:49,466 - ===================================
+INFO  22:52:49,466 - Pocetak programa test4.
+INFO  22:52:49,466 - Deklarisana je konstanta i na liniji 3
+INFO  22:52:49,466 - Deklarisana je konstanta j na liniji 3
+INFO  22:52:49,467 - Deklarisana je konstanta c na liniji 4
+INFO  22:52:49,467 - Deklarisan je niz k na liniji 5
+INFO  22:52:49,467 - Deklarisan je niz l na liniji 5
+INFO  22:52:49,467 - Obradjuje se funkcija saberi na liniji 8
+INFO  22:52:49,467 - Deklarisan je parametar funkcije a na liniji 8
+INFO  22:52:49,467 - Deklarisan je parametar funkcije (niz) b na liniji 8
+INFO  22:52:49,468 - ===================================
+INFO  22:52:49,468 - Parsiranje uspesno zavrseno!

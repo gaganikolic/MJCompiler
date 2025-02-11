@@ -1,0 +1,246 @@
+INFO  16:45:57,412 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  16:45:57,468 - #2 program
+INFO  16:45:57,469 - #53 test
+INFO  16:45:57,469 - #53 int
+INFO  16:45:57,470 - #53 niz
+INFO  16:45:57,470 - #10 [
+INFO  16:45:57,471 - #11 ]
+INFO  16:45:57,471 - #8 ;
+INFO  16:45:57,472 - #4 {
+INFO  16:45:57,472 - #41 void
+INFO  16:45:57,473 - #53 main
+INFO  16:45:57,473 - #20 (
+INFO  16:45:57,473 - #21 )
+INFO  16:45:57,474 - #4 {
+INFO  16:45:57,474 - #53 niz
+INFO  16:45:57,474 - #7 =
+INFO  16:45:57,474 - #29 new
+INFO  16:45:57,475 - #53 int
+INFO  16:45:57,475 - #10 [
+INFO  16:45:57,475 - #52 3
+INFO  16:45:57,475 - #11 ]
+INFO  16:45:57,476 - #8 ;
+INFO  16:45:57,477 - #19 read
+INFO  16:45:57,477 - #20 (
+INFO  16:45:57,477 - #53 niz
+INFO  16:45:57,477 - #21 )
+INFO  16:45:57,477 - #8 ;
+INFO  16:45:57,477 - #22 print
+INFO  16:45:57,478 - #20 (
+INFO  16:45:57,478 - #53 niz
+INFO  16:45:57,478 - #10 [
+INFO  16:45:57,479 - #52 0
+INFO  16:45:57,479 - #11 ]
+INFO  16:45:57,479 - #21 )
+INFO  16:45:57,479 - #8 ;
+INFO  16:45:57,479 - #22 print
+INFO  16:45:57,479 - #20 (
+INFO  16:45:57,480 - #53 niz
+INFO  16:45:57,480 - #10 [
+INFO  16:45:57,480 - #52 1
+INFO  16:45:57,480 - #11 ]
+INFO  16:45:57,480 - #21 )
+INFO  16:45:57,480 - #8 ;
+INFO  16:45:57,480 - #22 print
+INFO  16:45:57,480 - #20 (
+INFO  16:45:57,480 - #53 niz
+INFO  16:45:57,480 - #10 [
+INFO  16:45:57,481 - #52 2
+INFO  16:45:57,481 - #11 ]
+INFO  16:45:57,481 - #21 )
+INFO  16:45:57,481 - #8 ;
+INFO  16:45:57,481 - #5 }
+INFO  16:45:57,482 - #5 }
+INFO  16:45:57,492 - Program(
+  ProgramName(
+   test
+  ) [ProgramName]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               niz
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNew(
+                        Type(
+                         int
+                        ) [Type]
+                        ExprPositive(
+                          AddopEnd(
+                            Term(
+                              MulopEnd(
+                                FactorNum(
+                                 3
+                                ) [FactorNum]
+                              ) [MulopEnd]
+                            ) [Term]
+                          ) [AddopEnd]
+                        ) [ExprPositive]
+                      ) [FactorNew]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementRead(
+            DesignatorIdent(
+             niz
+            ) [DesignatorIdent]
+          ) [StatementRead]
+          Statements(
+            StatementPrint(
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorDesignator(
+                        DesignatorExpr(
+                          DesignatorName(
+                           niz
+                          ) [DesignatorName]
+                          ArrayDecl(
+                            ExprPositive(
+                              AddopEnd(
+                                Term(
+                                  MulopEnd(
+                                    FactorNum(
+                                     0
+                                    ) [FactorNum]
+                                  ) [MulopEnd]
+                                ) [Term]
+                              ) [AddopEnd]
+                            ) [ExprPositive]
+                          ) [ArrayDecl]
+                        ) [DesignatorExpr]
+                      ) [FactorDesignator]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [StatementPrint]
+            Statements(
+              StatementPrint(
+                ExprPositive(
+                  AddopEnd(
+                    Term(
+                      MulopEnd(
+                        FactorDesignator(
+                          DesignatorExpr(
+                            DesignatorName(
+                             niz
+                            ) [DesignatorName]
+                            ArrayDecl(
+                              ExprPositive(
+                                AddopEnd(
+                                  Term(
+                                    MulopEnd(
+                                      FactorNum(
+                                       1
+                                      ) [FactorNum]
+                                    ) [MulopEnd]
+                                  ) [Term]
+                                ) [AddopEnd]
+                              ) [ExprPositive]
+                            ) [ArrayDecl]
+                          ) [DesignatorExpr]
+                        ) [FactorDesignator]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopEnd]
+                ) [ExprPositive]
+              ) [StatementPrint]
+              Statements(
+                StatementPrint(
+                  ExprPositive(
+                    AddopEnd(
+                      Term(
+                        MulopEnd(
+                          FactorDesignator(
+                            DesignatorExpr(
+                              DesignatorName(
+                               niz
+                              ) [DesignatorName]
+                              ArrayDecl(
+                                ExprPositive(
+                                  AddopEnd(
+                                    Term(
+                                      MulopEnd(
+                                        FactorNum(
+                                         2
+                                        ) [FactorNum]
+                                      ) [MulopEnd]
+                                    ) [Term]
+                                  ) [AddopEnd]
+                                ) [ExprPositive]
+                              ) [ArrayDecl]
+                            ) [DesignatorExpr]
+                          ) [FactorDesignator]
+                        ) [MulopEnd]
+                      ) [Term]
+                    ) [AddopEnd]
+                  ) [ExprPositive]
+                ) [StatementPrint]
+                NoStatement(
+                ) [NoStatement]
+              ) [Statements]
+            ) [Statements]
+          ) [Statements]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  16:45:57,494 - ===================================
+INFO  16:45:57,494 - Pocetak programa test.
+INFO  16:45:57,495 - Deklarisana je promenljiva niz na liniji 3
+INFO  16:45:57,495 - Obradjuje se funkcija main na liniji 6
+INFO  16:45:57,495 - Designator i expr su odgovarajuceg tipa na liniji 7
+INFO  16:45:57,496 - Funkciji READ je prosledjena promenljiva niz na liniji 8
+INFO  16:45:57,496 - Kreiran/promenjen element niza niz
+INFO  16:45:57,496 - Obradjena funkcija PRINT na liniji 9
+INFO  16:45:57,496 - Kreiran/promenjen element niza niz
+INFO  16:45:57,496 - Obradjena funkcija PRINT na liniji 10
+INFO  16:45:57,496 - Kreiran/promenjen element niza niz
+INFO  16:45:57,496 - Obradjena funkcija PRINT na liniji 11
+INFO  16:45:57,504 - Parsiranje uspesno zavrseno!

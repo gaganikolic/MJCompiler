@@ -1,0 +1,144 @@
+INFO  17:28:45,031 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  17:28:45,141 - #2 program
+INFO  17:28:45,141 - #49 test302
+INFO  17:28:45,141 - #6 const
+INFO  17:28:45,143 - #49 int
+INFO  17:28:45,143 - #49 jedan
+INFO  17:28:45,144 - #7 =
+INFO  17:28:45,145 - #48 1
+INFO  17:28:45,145 - #8 ;
+INFO  17:28:45,145 - #49 int
+INFO  17:28:45,146 - #49 mat
+INFO  17:28:45,146 - #10 [
+INFO  17:28:45,147 - #11 ]
+INFO  17:28:45,147 - #10 [
+INFO  17:28:45,148 - #11 ]
+INFO  17:28:45,148 - #8 ;
+INFO  17:28:45,149 - #49 int
+INFO  17:28:45,149 - #49 niz
+INFO  17:28:45,149 - #10 [
+INFO  17:28:45,149 - #11 ]
+INFO  17:28:45,149 - #9 ,
+INFO  17:28:45,150 - #49 niz1
+INFO  17:28:45,150 - #10 [
+INFO  17:28:45,150 - #11 ]
+INFO  17:28:45,150 - #8 ;
+INFO  17:28:45,151 - #49 int
+INFO  17:28:45,151 - #49 a
+INFO  17:28:45,151 - #8 ;
+INFO  17:28:45,151 - #4 {
+INFO  17:28:45,151 - #41 void
+INFO  17:28:45,153 - #49 main
+INFO  17:28:45,153 - #20 (
+INFO  17:28:45,153 - #21 )
+INFO  17:28:45,154 - #4 {
+INFO  17:28:45,154 - #5 }
+INFO  17:28:45,155 - #5 }
+INFO  17:28:45,177 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstNum(
+                 jedan
+                 1
+                ) [ConstNum]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsEnd(
+              VarMatrix(
+                Arr(
+                  VarName(
+                   mat
+                  ) [VarName]
+                ) [Arr]
+              ) [VarMatrix]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarArr(
+              Arr(
+                VarName(
+                 niz
+                ) [VarName]
+              ) [Arr]
+            ) [VarArr]
+            VarDeclarationsEnd(
+              VarArr(
+                Arr(
+                  VarName(
+                   niz1
+                  ) [VarName]
+                ) [Arr]
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+            VarName(
+             a
+            ) [VarName]
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  17:28:45,178 - ===================================
+INFO  17:28:45,178 - Pocetak programa test302.
+INFO  17:28:45,178 - Deklarisana je konstanta jedan na liniji 5
+INFO  17:28:45,178 - Deklarisana je promenljiva mat na liniji 7
+INFO  17:28:45,179 - Deklarisana je promenljiva niz na liniji 8
+INFO  17:28:45,179 - Deklarisana je promenljiva niz1 na liniji 8
+INFO  17:28:45,179 - Deklarisana je promenljiva a na liniji 9
+INFO  17:28:45,179 - Obradjuje se funkcija main na liniji 13
+INFO  17:28:45,179 - ===================================
+INFO  17:28:45,200 - Parsiranje uspesno zavrseno!

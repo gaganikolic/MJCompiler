@@ -1,0 +1,229 @@
+INFO  12:09:57,564 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  12:09:57,624 - #2 program
+INFO  12:09:57,624 - #49 test301
+INFO  12:09:57,624 - #6 const
+INFO  12:09:57,626 - #49 int
+INFO  12:09:57,626 - #49 nula
+INFO  12:09:57,626 - #7 =
+INFO  12:09:57,627 - #48 0
+INFO  12:09:57,627 - #8 ;
+INFO  12:09:57,627 - #6 const
+INFO  12:09:57,627 - #49 int
+INFO  12:09:57,627 - #49 jedan
+INFO  12:09:57,627 - #7 =
+INFO  12:09:57,628 - #48 1
+INFO  12:09:57,628 - #8 ;
+INFO  12:09:57,628 - #6 const
+INFO  12:09:57,628 - #49 int
+INFO  12:09:57,628 - #49 pet
+INFO  12:09:57,628 - #7 =
+INFO  12:09:57,628 - #48 5
+INFO  12:09:57,628 - #8 ;
+INFO  12:09:57,628 - #4 {
+INFO  12:09:57,629 - #49 int
+INFO  12:09:57,630 - #49 saberi
+INFO  12:09:57,630 - #20 (
+INFO  12:09:57,630 - #49 int
+INFO  12:09:57,630 - #49 a
+INFO  12:09:57,630 - #21 )
+INFO  12:09:57,631 - #4 {
+INFO  12:09:57,631 - #18 return
+INFO  12:09:57,631 - #48 1
+INFO  12:09:57,631 - #8 ;
+INFO  12:09:57,632 - #5 }
+INFO  12:09:57,633 - #41 void
+INFO  12:09:57,634 - #49 main
+INFO  12:09:57,634 - #20 (
+INFO  12:09:57,634 - #21 )
+INFO  12:09:57,635 - #49 int
+INFO  12:09:57,635 - #49 i
+INFO  12:09:57,635 - #9 ,
+INFO  12:09:57,636 - #49 y
+INFO  12:09:57,636 - #9 ,
+INFO  12:09:57,636 - #49 z
+INFO  12:09:57,636 - #8 ;
+INFO  12:09:57,636 - #4 {
+INFO  12:09:57,637 - #49 saberi
+INFO  12:09:57,637 - #20 (
+INFO  12:09:57,637 - #48 1
+INFO  12:09:57,637 - #21 )
+INFO  12:09:57,637 - #8 ;
+INFO  12:09:57,637 - #5 }
+INFO  12:09:57,638 - #5 }
+INFO  12:09:57,646 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstNum(
+               nula
+               0
+              ) [ConstNum]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclarationsEnd(
+            ConstNum(
+             jedan
+             1
+            ) [ConstNum]
+          ) [ConstDeclarationsEnd]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    ConstDeclaration(
+      ConstDeclarationList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclarationsEnd(
+          ConstNum(
+           pet
+           5
+          ) [ConstNum]
+        ) [ConstDeclarationsEnd]
+      ) [ConstDeclarationList]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDecl(
+        MethodNameAnyType(
+          Type(
+           int
+          ) [Type]
+         saberi
+        ) [MethodNameAnyType]
+        MethodParameters(
+          FormParsEnd(
+            FormParsVar(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormParsVar]
+          ) [FormParsEnd]
+        ) [MethodParameters]
+        NoDeclarations(
+        ) [NoDeclarations]
+        Statements(
+          StatementReturnExpr(
+            ExprPositive(
+              AddopEnd(
+                Term(
+                  MulopEnd(
+                    FactorNum(
+                     1
+                    ) [FactorNum]
+                  ) [MulopEnd]
+                ) [Term]
+              ) [AddopEnd]
+            ) [ExprPositive]
+          ) [StatementReturnExpr]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarationList]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              VarIdent(
+                VarName(
+                 i
+                ) [VarName]
+              ) [VarIdent]
+              VarDeclarations(
+                VarIdent(
+                  VarName(
+                   y
+                  ) [VarName]
+                ) [VarIdent]
+                VarDeclarationsEnd(
+                  VarIdent(
+                    VarName(
+                     z
+                    ) [VarName]
+                  ) [VarIdent]
+                ) [VarDeclarationsEnd]
+              ) [VarDeclarations]
+            ) [VarDeclarations]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementActPars(
+              DesignatorIdent(
+               saberi
+              ) [DesignatorIdent]
+              ActualParsList(
+                ActParsEnd(
+                  ExprPositive(
+                    AddopEnd(
+                      Term(
+                        MulopEnd(
+                          FactorNum(
+                           1
+                          ) [FactorNum]
+                        ) [MulopEnd]
+                      ) [Term]
+                    ) [AddopEnd]
+                  ) [ExprPositive]
+                ) [ActParsEnd]
+              ) [ActualParsList]
+            ) [DesignatorStatementActPars]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  12:09:57,647 - ===================================
+INFO  12:09:57,647 - Pocetak programa test301.
+INFO  12:09:57,648 - Deklarisana je konstanta nula na liniji 5
+INFO  12:09:57,648 - Deklarisana je konstanta jedan na liniji 6
+INFO  12:09:57,648 - Deklarisana je konstanta pet na liniji 7
+INFO  12:09:57,648 - Obradjuje se funkcija saberi na liniji 12
+INFO  12:09:57,648 - Deklarisan je parametar funkcije a na liniji 12
+INFO  12:09:57,648 - Dobra povratna vrednost funkcije na liniji 13
+INFO  12:09:57,648 - Obradjuje se funkcija main na liniji 16
+INFO  12:09:57,648 - Deklarisana je promenljiva i na liniji 17
+INFO  12:09:57,649 - Deklarisana je promenljiva y na liniji 17
+INFO  12:09:57,649 - Deklarisana je promenljiva z na liniji 17
+INFO  12:09:57,649 - Pronadjen poziv funkcije saberi na liniji 19
+INFO  12:09:57,649 - ===================================
+INFO  12:09:57,654 - Parsiranje uspesno zavrseno!

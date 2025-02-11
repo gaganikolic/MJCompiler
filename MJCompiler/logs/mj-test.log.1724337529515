@@ -1,0 +1,73 @@
+INFO  16:31:00,353 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  16:31:00,470 - #2 program
+INFO  16:31:00,470 - #53 test
+INFO  16:31:00,470 - #53 int
+INFO  16:31:00,472 - #53 niz
+INFO  16:31:00,473 - #10 [
+INFO  16:31:00,475 - #11 ]
+INFO  16:31:00,475 - #8 ;
+INFO  16:31:00,476 - #4 {
+INFO  16:31:00,477 - #41 void
+INFO  16:31:00,478 - #53 main
+INFO  16:31:00,479 - #20 (
+INFO  16:31:00,479 - #21 )
+INFO  16:31:00,480 - #4 {
+INFO  16:31:00,480 - #19 read
+INFO  16:31:00,480 - #20 (
+INFO  16:31:00,480 - #53 niz
+INFO  16:31:00,480 - #21 )
+INFO  16:31:00,481 - #8 ;
+INFO  16:31:00,481 - #5 }
+INFO  16:31:00,482 - #5 }
+INFO  16:31:00,511 - Program(
+  ProgramName(
+   test
+  ) [ProgramName]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+            Arr(
+              VarName(
+               niz
+              ) [VarName]
+            ) [Arr]
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Statements(
+        StatementRead(
+          DesignatorIdent(
+           niz
+          ) [DesignatorIdent]
+        ) [StatementRead]
+        NoStatement(
+        ) [NoStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  16:31:00,513 - ===================================
+INFO  16:31:00,513 - Pocetak programa test.
+INFO  16:31:00,513 - Deklarisana je promenljiva niz na liniji 3
+INFO  16:31:00,513 - Obradjuje se funkcija main na liniji 6
+INFO  16:31:03,795 - Funkciji READ je prosledjena promenljiva niz na liniji 7

@@ -1,0 +1,85 @@
+INFO  18:37:15,828 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  18:37:15,880 - #2 program
+INFO  18:37:15,881 - #49 test4
+INFO  18:37:15,881 - #6 const
+INFO  18:37:15,882 - #49 int
+INFO  18:37:15,882 - #49 i
+INFO  18:37:15,883 - #7 =
+INFO  18:37:15,883 - #48 5
+INFO  18:37:15,883 - #9 ,
+INFO  18:37:15,884 - #49 j
+INFO  18:37:15,884 - #7 =
+INFO  18:37:15,885 - #48 3
+INFO  18:37:15,885 - #8 ;
+INFO  18:37:15,885 - #49 int
+INFO  18:37:15,885 - #49 k
+INFO  18:37:15,886 - #10 [
+INFO  18:37:15,886 - #11 ]
+INFO  18:37:15,886 - #9 ,
+INFO  18:37:15,886 - #49 l
+INFO  18:37:15,886 - #10 [
+INFO  18:37:15,886 - #11 ]
+INFO  18:37:15,886 - #8 ;
+INFO  18:37:15,887 - #4 {
+INFO  18:37:15,887 - #5 }
+INFO  18:37:15,894 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclarations(
+            ConstDeclarationsEnd(
+              ConstListPart(
+               i
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarationsEnd]
+            ConstListPart(
+             j
+              ConstNum(
+               3
+              ) [ConstNum]
+            ) [ConstListPart]
+          ) [ConstDeclarations]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarArr(
+           k
+          ) [VarArr]
+          VarDeclarationsEnd(
+            VarArr(
+             l
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  18:37:15,894 - ===================================
+INFO  18:37:15,896 - Pocetak programa test4.
+INFO  18:37:15,896 - Deklarisana je konstanta i na liniji 3
+INFO  18:37:15,897 - Deklarisana je konstanta j na liniji 3
+INFO  18:37:15,897 - Deklarisan je niz k na liniji 4
+INFO  18:37:15,897 - Deklarisan je niz l na liniji 4
+INFO  18:37:15,897 - ===================================
+INFO  18:37:15,897 - Parsiranje uspesno zavrseno!

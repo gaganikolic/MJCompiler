@@ -1,0 +1,142 @@
+INFO  17:21:41,811 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  17:21:41,873 - #2 program
+INFO  17:21:41,873 - #49 test4
+INFO  17:21:41,873 - #6 const
+INFO  17:21:41,875 - #49 int
+INFO  17:21:41,875 - #49 i
+INFO  17:21:41,876 - #7 =
+INFO  17:21:41,876 - #48 5
+INFO  17:21:41,876 - #9 ,
+INFO  17:21:41,877 - #49 j
+INFO  17:21:41,877 - #7 =
+INFO  17:21:41,878 - #48 3
+INFO  17:21:41,878 - #8 ;
+INFO  17:21:41,878 - #6 const
+INFO  17:21:41,879 - #49 bool
+INFO  17:21:41,879 - #49 c
+INFO  17:21:41,879 - #7 =
+INFO  17:21:41,880 - #51 true
+INFO  17:21:41,880 - #8 ;
+INFO  17:21:41,880 - #49 int
+INFO  17:21:41,880 - #49 k
+INFO  17:21:41,880 - #10 [
+INFO  17:21:41,881 - #11 ]
+INFO  17:21:41,881 - #9 ,
+INFO  17:21:41,881 - #49 l
+INFO  17:21:41,881 - #10 [
+INFO  17:21:41,881 - #11 ]
+INFO  17:21:41,881 - #8 ;
+INFO  17:21:41,882 - #4 {
+INFO  17:21:41,882 - #49 int
+INFO  17:21:41,883 - #49 saberi
+INFO  17:21:41,883 - #20 (
+INFO  17:21:41,883 - #49 int
+INFO  17:21:41,883 - #49 a
+INFO  17:21:41,883 - #21 )
+INFO  17:21:41,883 - #4 {
+INFO  17:21:41,884 - #5 }
+INFO  17:21:41,884 - #5 }
+INFO  17:21:41,897 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarations(
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 i
+                  ConstNum(
+                   5
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+              ConstListPart(
+               j
+                ConstNum(
+                 3
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarations]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           bool
+          ) [Type]
+          ConstDeclarationsEnd(
+            ConstListPart(
+             c
+              ConstBool(
+               true
+              ) [ConstBool]
+            ) [ConstListPart]
+          ) [ConstDeclarationsEnd]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarArr(
+           k
+          ) [VarArr]
+          VarDeclarationsEnd(
+            VarArr(
+             l
+            ) [VarArr]
+          ) [VarDeclarationsEnd]
+        ) [VarDeclarations]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameAnyType(
+        Type(
+         int
+        ) [Type]
+       saberi
+      ) [MethodNameAnyType]
+      MethodParameters(
+        FormParsEnd(
+          FormParsVar(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormParsVar]
+        ) [FormParsEnd]
+      ) [MethodParameters]
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  17:21:41,897 - ===================================
+INFO  17:21:41,898 - Pocetak programa test4.
+INFO  17:21:41,898 - Deklarisana je konstanta i na liniji 3
+INFO  17:21:41,898 - Deklarisana je konstanta j na liniji 3
+INFO  17:21:41,898 - Deklarisana je konstanta c na liniji 4
+INFO  17:21:41,899 - Deklarisan je niz k na liniji 5
+INFO  17:21:41,899 - Deklarisan je niz l na liniji 5
+INFO  17:21:41,899 - Obradjuje se funkcija saberi na liniji 8
+INFO  17:21:41,900 - ===================================
+INFO  17:21:41,900 - Parsiranje uspesno zavrseno!

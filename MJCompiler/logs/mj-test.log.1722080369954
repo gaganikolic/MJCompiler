@@ -1,0 +1,71 @@
+INFO  13:39:23,635 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test4.mj
+INFO  13:39:23,692 - #2 program
+INFO  13:39:23,692 - #49 test4
+INFO  13:39:23,693 - #6 const
+INFO  13:39:23,694 - #49 int
+INFO  13:39:23,694 - #49 i
+INFO  13:39:23,695 - #7 =
+INFO  13:39:23,695 - #48 5
+INFO  13:39:23,695 - #9 ,
+INFO  13:39:23,696 - #49 j
+INFO  13:39:23,696 - #7 =
+INFO  13:39:23,696 - #48 3
+INFO  13:39:23,696 - #8 ;
+INFO  13:39:23,696 - #49 int
+INFO  13:39:23,696 - #49 i
+INFO  13:39:23,696 - #8 ;
+INFO  13:39:23,697 - #4 {
+INFO  13:39:23,697 - #5 }
+INFO  13:39:23,704 - Program(
+  ProgramName(
+   test4
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDeclaration(
+        ConstDeclarationList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclarations(
+            ConstDeclarationsEnd(
+              ConstListPart(
+               i
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarationsEnd]
+            ConstListPart(
+             j
+              ConstNum(
+               3
+              ) [ConstNum]
+            ) [ConstListPart]
+          ) [ConstDeclarations]
+        ) [ConstDeclarationList]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsEnd(
+          VarIdent(
+           i
+          ) [VarIdent]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  13:39:23,704 - ===================================
+INFO  13:39:23,707 - Pocetak programa test4.
+ERROR 13:39:23,707 - Vec postoji identifikator i na liniji 4
+INFO  13:39:23,707 - ===================================
+ERROR 13:39:23,707 - Parsiranje NIJE uspesno zavrseno!

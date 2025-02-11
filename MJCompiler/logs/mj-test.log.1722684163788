@@ -1,0 +1,295 @@
+INFO  13:21:22,518 - Compiling source file: C:\Users\lenovo\Desktop\pp1 projekat\projekat\workspace\MJCompiler\test\test3021.mj
+INFO  13:21:22,581 - #2 program
+INFO  13:21:22,581 - #49 test301
+INFO  13:21:22,581 - #6 const
+INFO  13:21:22,582 - #49 int
+INFO  13:21:22,583 - #49 nula
+INFO  13:21:22,583 - #7 =
+INFO  13:21:22,583 - #48 0
+INFO  13:21:22,584 - #8 ;
+INFO  13:21:22,584 - #6 const
+INFO  13:21:22,585 - #49 int
+INFO  13:21:22,585 - #49 jedan
+INFO  13:21:22,585 - #7 =
+INFO  13:21:22,585 - #48 1
+INFO  13:21:22,585 - #8 ;
+INFO  13:21:22,585 - #6 const
+INFO  13:21:22,585 - #49 int
+INFO  13:21:22,586 - #49 pet
+INFO  13:21:22,586 - #7 =
+INFO  13:21:22,586 - #48 5
+INFO  13:21:22,586 - #8 ;
+INFO  13:21:22,586 - #49 int
+INFO  13:21:22,589 - #49 niz
+INFO  13:21:22,589 - #10 [
+INFO  13:21:22,589 - #11 ]
+INFO  13:21:22,590 - #9 ,
+INFO  13:21:22,590 - #49 niz2
+INFO  13:21:22,590 - #10 [
+INFO  13:21:22,590 - #11 ]
+INFO  13:21:22,590 - #8 ;
+INFO  13:21:22,590 - #49 char
+INFO  13:21:22,591 - #49 nizch
+INFO  13:21:22,591 - #10 [
+INFO  13:21:22,591 - #11 ]
+INFO  13:21:22,591 - #8 ;
+INFO  13:21:22,591 - #4 {
+INFO  13:21:22,591 - #41 void
+INFO  13:21:22,592 - #49 main
+INFO  13:21:22,592 - #20 (
+INFO  13:21:22,593 - #21 )
+INFO  13:21:22,594 - #49 int
+INFO  13:21:22,594 - #49 bodovi
+INFO  13:21:22,594 - #8 ;
+INFO  13:21:22,594 - #49 bool
+INFO  13:21:22,595 - #49 bt
+INFO  13:21:22,595 - #8 ;
+INFO  13:21:22,595 - #4 {
+INFO  13:21:22,595 - #49 bodovi
+INFO  13:21:22,595 - #7 =
+INFO  13:21:22,596 - #48 0
+INFO  13:21:22,597 - #8 ;
+INFO  13:21:22,598 - #49 bodovi
+INFO  13:21:22,598 - #7 =
+INFO  13:21:22,598 - #49 bodovi
+INFO  13:21:22,598 - #37 +
+INFO  13:21:22,599 - #20 (
+INFO  13:21:22,600 - #49 pet
+INFO  13:21:22,600 - #38 *
+INFO  13:21:22,601 - #49 jedan
+INFO  13:21:22,602 - #21 )
+INFO  13:21:22,603 - #8 ;
+INFO  13:21:22,603 - #5 }
+INFO  13:21:22,604 - #5 }
+INFO  13:21:22,617 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDeclaration(
+              ConstDeclarationList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsEnd(
+                  ConstListPart(
+                   nula
+                    ConstNum(
+                     0
+                    ) [ConstNum]
+                  ) [ConstListPart]
+                ) [ConstDeclarationsEnd]
+              ) [ConstDeclarationList]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclarationList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsEnd(
+                ConstListPart(
+                 jedan
+                  ConstNum(
+                   1
+                  ) [ConstNum]
+                ) [ConstListPart]
+              ) [ConstDeclarationsEnd]
+            ) [ConstDeclarationList]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDeclarationList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsEnd(
+              ConstListPart(
+               pet
+                ConstNum(
+                 5
+                ) [ConstNum]
+              ) [ConstListPart]
+            ) [ConstDeclarationsEnd]
+          ) [ConstDeclarationList]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarDeclarationList(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarArr(
+             niz
+            ) [VarArr]
+            VarDeclarationsEnd(
+              VarArr(
+               niz2
+              ) [VarArr]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarations]
+        ) [VarDeclarationList]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclarationList(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsEnd(
+          VarArr(
+           nizch
+          ) [VarArr]
+        ) [VarDeclarationsEnd]
+      ) [VarDeclarationList]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarationList(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodNameVoid(
+       main
+      ) [MethodNameVoid]
+      NoMethodParameters(
+      ) [NoMethodParameters]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            VarDeclarationList(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsEnd(
+                VarIdent(
+                 bodovi
+                ) [VarIdent]
+              ) [VarDeclarationsEnd]
+            ) [VarDeclarationList]
+          ) [VarDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclarationList(
+            Type(
+             bool
+            ) [Type]
+            VarDeclarationsEnd(
+              VarIdent(
+               bt
+              ) [VarIdent]
+            ) [VarDeclarationsEnd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [Declarations]
+      Statements(
+        StatementDesignator(
+          DesignatorStatementMatched(
+            DesignatorStatementAssignop(
+              DesignatorIdent(
+               bodovi
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExprPositive(
+                AddopEnd(
+                  Term(
+                    MulopEnd(
+                      FactorNum(
+                       0
+                      ) [FactorNum]
+                    ) [MulopEnd]
+                  ) [Term]
+                ) [AddopEnd]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssignop]
+          ) [DesignatorStatementMatched]
+        ) [StatementDesignator]
+        Statements(
+          StatementDesignator(
+            DesignatorStatementMatched(
+              DesignatorStatementAssignop(
+                DesignatorIdent(
+                 bodovi
+                ) [DesignatorIdent]
+                Assignop(
+                ) [Assignop]
+                ExprPositive(
+                  AddopList(
+                    AddopEnd(
+                      Term(
+                        MulopEnd(
+                          FactorDesignator(
+                            DesignatorIdent(
+                             bodovi
+                            ) [DesignatorIdent]
+                          ) [FactorDesignator]
+                        ) [MulopEnd]
+                      ) [Term]
+                    ) [AddopEnd]
+                    Plus(
+                    ) [Plus]
+                    Term(
+                      MulopEnd(
+                        FactorExpr(
+                          ExprPositive(
+                            AddopEnd(
+                              Term(
+                                MulopList(
+                                  MulopEnd(
+                                    FactorDesignator(
+                                      DesignatorIdent(
+                                       pet
+                                      ) [DesignatorIdent]
+                                    ) [FactorDesignator]
+                                  ) [MulopEnd]
+                                  Star(
+                                  ) [Star]
+                                  FactorDesignator(
+                                    DesignatorIdent(
+                                     jedan
+                                    ) [DesignatorIdent]
+                                  ) [FactorDesignator]
+                                ) [MulopList]
+                              ) [Term]
+                            ) [AddopEnd]
+                          ) [ExprPositive]
+                        ) [FactorExpr]
+                      ) [MulopEnd]
+                    ) [Term]
+                  ) [AddopList]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssignop]
+            ) [DesignatorStatementMatched]
+          ) [StatementDesignator]
+          NoStatement(
+          ) [NoStatement]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:21:22,618 - ===================================
+INFO  13:21:22,618 - Pocetak programa test301.
+INFO  13:21:22,619 - Deklarisana je konstanta nula na liniji 5
+INFO  13:21:22,619 - Deklarisana je konstanta jedan na liniji 6
+INFO  13:21:22,619 - Deklarisana je konstanta pet na liniji 7
+INFO  13:21:22,619 - Deklarisan je niz niz na liniji 9
+INFO  13:21:22,619 - Deklarisan je niz niz2 na liniji 9
+INFO  13:21:22,619 - Deklarisan je niz nizch na liniji 10
+INFO  13:21:22,619 - Obradjuje se funkcija main na liniji 13
+INFO  13:21:22,620 - Deklarisana je promenljiva bodovi na liniji 14
+INFO  13:21:22,620 - Deklarisana je promenljiva bt na liniji 15
+INFO  13:21:22,621 - Designator i expr su odgovarajuceg tipa na liniji 17
+ERROR 13:21:22,621 - Greska u sabiranju, tipovi operanada su razliciti  na liniji 20
+ERROR 13:21:22,621 - Greska na liniji 20 designator i expr nisu istog tipa
+INFO  13:21:22,621 - ===================================
+ERROR 13:21:22,622 - Parsiranje NIJE uspesno zavrseno!
